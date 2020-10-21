@@ -1,0 +1,27 @@
+.textarea {
+  border: 1px solid #ccc;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  line-height: 20px;
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "Write something here...";
+  color: gray;
+}
+
+.textarea[contenteditable]:focus {
+  outline: 0;
+}
