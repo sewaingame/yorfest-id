@@ -159,9 +159,9 @@
       $response["data"] = null;
       $verifiedkey = uniqid();
 
-      $sql = '
-      UPDATE participant SET verified=1,verifiedtime=now() WHERE  verified=0 AND verifiedkey="'.$data['verifiedkey'].'"
-      ';
+      $sql = 'UPDATE participant SET verified=1,verifiedtime=now() WHERE  verified=0 AND verifiedkey="'.$data['verifiedkey'].'"';
+
+      $response["sql"] = $sql;
 
       if ($con->query($sql) === TRUE)
       {
@@ -251,7 +251,12 @@
 
           $response['data'] = $data;
           $sql2 = 'UPDATE participant SET api_key="'.$apikey.'", last_update=now() WHERE id="'. $row['id'] .'"';
-          $result2 = $con->query($sql2);
+          if($result2 = $con->query($sql2)){}
+          else
+          {
+              $response["error"] = true;
+              $response["message"] = $con->error;
+          }
 
           if($data["verified"] == 0)
           {

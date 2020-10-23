@@ -22,7 +22,7 @@ var userlistfilter = "";
 
 function loadPage(link)
 {
-    var ids = ["button_livewall","button_profile","button_chat"];
+    var ids = ["button_livewall","button_profile","button_chat","button_notification"];
 
     for (var i = 0; i < ids.length; i++) {
       if(ids[i] == link.id) {
