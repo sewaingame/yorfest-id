@@ -62,8 +62,7 @@
                      <div class="tab-pane fade active show" id="default-block" role="tabpanel">
                         <div class="chat-start">
                            <span class="iq-start-icon text-primary"><i class="ri-message-3-line"></i></span>
-                           <button id="chat-start" class="btn bg-white mt-3">Start
-                           Conversation!</button>
+                           <button id="chat-start" class="btn bg-white mt-3" style="color:grey;">Start Conversation!</button>
                         </div>
                      </div>
                      <div id="chat_box" style="display:none;">

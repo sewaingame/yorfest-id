@@ -63,42 +63,8 @@
 <body>
 
    <div class="body-inner right-column-fixed">
-     <header id="header" class="header header-classic" style="background:#ffffff; z-index:1000; position:fixed; width:100%; box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);">
-        <div class="container">
-           <nav class="navbar navbar-expand-lg navbar-light">
-              <!-- logo-->
-              <a class="navbar-brand" href="home.html">
-                 <img src="../images/logos/logo.png" alt="">
-              </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"><i class="icon icon-menu"></i></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                       <a href="../home.php" >Home</a>
-                      </li>
-                      <li class="nav-item <?php if($_GET["p"] == 2) echo "active"; ?>">
-                         <a href="networking/?p=2" >Networking </a>
-                        </li>
-                    <li class="nav-item">
-                       <a href="../conference.php"> Conference </a>
-                    </li>
-                    <li class="nav-item">
-                       <a href="#" class="" >Ehxibition</a>
-                    </li>
-          <li class="nav-item">
-                       <a href="../contact.php">Contact</a>
-                    </li>
-                    <li class="header-ticket nav-item">
-                       <a class="ticket-btn btn" href="pricing.html"> Register</a>
-                    </li>
-                 </ul>
-              </div>
-           </nav>
-        </div><!-- container end-->
-     </header>
+
+     <?php include "header.php"; ?>
 
      <div class="wrapper">
         <!-- Sidebar  -->
@@ -108,23 +74,18 @@
                  <ul id="iq-sidebar-toggle" class="iq-menu">
 
                    <li style="cursor:pointer;">
-                     <div class="iq-menu-bt ml-2">
-                       <div class="wrapper-menu text-left">
-                          <div class="main-circle"><i class="ri-menu-line"></i></div>
-                       </div>
-                      </div>
                    </li>
-                    <li class="active" onclick="loadPage(this);" style="cursor:pointer;" id="button_livewall">
-                       <a class="iq-waves-effect"><i class="las la-newspaper"></i><span>Live Wall</span></a>
+                    <li class="active" style="cursor:pointer;" id="button_livewall">
+                       <a class="iq-waves-effect" href="?p=2&c=0"><i class="las la-newspaper"></i><span>Live Wall</span></a>
                     </li>
-                    <li class="" onclick="loadPage(this);" onclick="loadPage(this);" style="cursor:pointer;" id="button_profile">
-                       <a class="iq-waves-effect"><i class="las la-user"></i><span>Profile</span></a>
+                    <li class="" onclick="loadPage(this);" style="cursor:pointer;" id="button_profile">
+                       <a class="iq-waves-effect" href="?p=2&c=1"><i class="las la-user"></i><span>Profile</span></a>
                     </li>
-                    <li class="" onclick="loadPage(this);" onclick="loadPage(this);" style="cursor:pointer;" id="button_chat">
-                       <a class="iq-waves-effect"><i class="lab la-rocketchat"></i><span>Chat</span></a>
+                    <li class="" onclick="loadPage(this);" style="cursor:pointer;" id="button_chat">
+                       <a class="iq-waves-effect" href="?p=2&c=2"><i class="lab la-rocketchat"></i><span>Chat</span></a>
                     </li>
-                    <li class="" onclick="loadPage(this);" onclick="loadPage(this);" style="cursor:pointer;" id="button_notification">
-                       <a class="iq-waves-effect"><i class="lar la-bell"></i><span>Notification</span></a>
+                    <li class="" onclick="loadPage(this);" style="cursor:pointer;" id="button_notification">
+                       <a class="iq-waves-effect" href="?p=2&c=3"><i class="lar la-bell"></i><span>Notification</span></a>
                     </li>
                  </ul>
               </nav>

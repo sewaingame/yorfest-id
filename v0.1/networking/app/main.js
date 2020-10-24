@@ -1,7 +1,10 @@
 var nextChatToOpen = "";
 
 $( document ).ready(function() {
-  loadPageData("button_livewall");
+
+  const params = new URLSearchParams(window.location.search);
+
+  loadPageData(params.get("c"));
 
   var userdata = JSON.parse(decrypt(sessionStorage.getItem("user_data")));
   photourl = userdata.data.photourl;
@@ -24,14 +27,17 @@ function loadPage(link)
 {
     var ids = ["button_livewall","button_profile","button_chat","button_notification"];
 
-    for (var i = 0; i < ids.length; i++) {
-      if(ids[i] == link.id) {
+    for (var i = 0; i < ids.length; i++)
+    {
+      if(i == link)
+      {
         if(!$("#" + ids[i]).hasClass("active")){
            $("#" + ids[i]).addClass("active");
-           loadPageData(ids[i]);
+           loadPageData(i);
         }
       }
-      else {
+      else
+      {
         if($("#" + ids[i]).hasClass("active")){
            $("#" + ids[i]).removeClass("active");
         }
@@ -42,14 +48,24 @@ function loadPage(link)
 function loadPageData(pageid){
   $("#loader").hide();
 
-  if(pageid == "button_livewall")
+  if(pageid == "0")
   {
     $("#content").load("livewall.php");
   }
-  else if(pageid == "button_chat")
+  else if(pageid == "1")
+  {
+    $("#content").load("profile.php");
+  }
+  else if(pageid == "2")
   {
     $("#content").load("chat.php");
   }
+  else if(pageid == "3")
+  {
+    $("#content").load("notification.php");
+  }
+
+  loadPage(pageid);
 }
 
 $("#searchUserList").change(function()

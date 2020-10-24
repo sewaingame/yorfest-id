@@ -17,9 +17,9 @@
                 <!-- <textarea class="form-control rounded" name="name" rows="1" cols="80" placeholder="Write something here..." style="border:none;"></textarea> -->
                 <!-- <input id="Input" type="text" class="form-control rounded" placeholder="Write something here..." style="border:none;"> -->
                 <span class="textarea" role="textbox" contenteditable id="postmessage"></span>
-                <button type="submit" class="btn btn-primary d-block mt-3 mb-3 circle" style="right:0; position:relative;" id="newpost" onclick="postMessage()">+</button>
              </div>
              <hr>
+              <button type="submit" class="btn btn-primary d-block mt-3 mb-3 circle" id="newpost" onclick="postMessage()">Send</button>
           </div>
        </div>
     </div>

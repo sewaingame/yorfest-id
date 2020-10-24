@@ -15,8 +15,8 @@
                   <a href="home.php?p=1" >Home</a>
                  </li>
                <li class="nav-item <?php if($_GET["p"] == 2) echo "active"; ?>">
-                  <a href="networking/?p=2" >Networking </a>
-                 </li>
+                  <a href="networking/?p=2&c=0" >Networking </a>
+               </li>
                <li class="nav-item <?php if($_GET["p"] == 3) echo "active"; ?>">
                   <a href="conference.php?p=3"> Conference </a>
 
