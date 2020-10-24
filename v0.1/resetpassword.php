@@ -38,7 +38,7 @@
    </head>
    <body>
       <section class="hero-area hero-speakers">
-         <div class="banner-item overlay" style="background-image:url(images/hero_area/banner7.jpg)">
+         <div class="banner-item overlay" style="background-image:url(images/bg/yorfest_bg.jpg)">
             <div class="container">
                <div class="row">
 

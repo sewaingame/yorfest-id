@@ -38,11 +38,13 @@
    </head>
    <body>
       <section class="hero-area hero-speakers">
-         <div class="banner-item overlay" style="background-image:url(images/hero_area/banner7.jpg)">
+         <div class="banner-item overlay" style="background-image:url(images/bg/yorfest_bg.jpg)">
             <div class="container">
                <div class="row">
                   <div class="col-lg-7">
-                     <div class="banner-content-wrap">
+                    <div class="hero-form-content2">
+                          <img class="" src="images/logo_login2.png" alt="">
+
                      </div>
                      <!-- Banner content wrap end -->
                   </div>

@@ -1,3 +1,9 @@
+
+<?php
+  include "checksession.php";
+?>
+
+
 <header id="header" class="header header-classic">
    <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
@@ -28,7 +34,19 @@
                   <a href="contact.php?p=5">Contact</a>
                </li>
                <li class="header-ticket nav-item">
-                  <a class="ticket-btn btn" href="pricing.html"> Register</a>
+                  <a class="ticket-btn btn" href="logout.php">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <?php
+                      $name = explode(" ", $_SESSION["name"]);
+                      for ($i=0; $i < count($name); $i++)
+                      {
+                        if($i==0)
+                          echo $name[$i];
+                        else
+                          echo ' ' . $name[$i][0];
+                      }
+                    ?>
+                  </a>
                </li>
             </ul>
          </div>

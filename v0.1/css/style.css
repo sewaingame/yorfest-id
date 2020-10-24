@@ -1634,6 +1634,8 @@ img.pull-right {
 	padding-bottom: 20px;
 	position: relative;
 	overflow: hidden;
+  background-size: cover;
+  background-position: center;
 }
 
 .ts-speaker {
