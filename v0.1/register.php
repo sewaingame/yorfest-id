@@ -46,7 +46,7 @@
                         <div class="col-12">
                            <h2>Register</h2>
                         </div>
-                        <div class="col-6 row">
+                        <div class="col-lg-6 row">
                           <div class="col-12 text-left">
                              <label for="name" style="color:#B8B8B8; font-size:12px;">Name</label>
                              <input class="form-control form-control-email" name="name" id="f-name"  type="name" required="">
@@ -59,6 +59,16 @@
                              <label id="v-email-2" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Email is already used.</label>
                           </div>
                           <div class="col-12 text-left">
+                             <label for="password" style="color:#B8B8B8; font-size:12px;">Password</label>
+                             <input class="form-control form-control-password" name="password" id="f-password" type="password">
+                             <label id="v-password" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Password is not valid. Minimum 4 character</label>
+                          </div>
+                          <div class="col-12 text-left">
+                             <label for="cpassword" style="color:#B8B8B8; font-size:12px;">Confirm Password</label>
+                             <input class="form-control form-control-password" name="cpassword" id="f-cpassword" type="password">
+                             <label id="v-cpassword" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Password didn't match</label>
+                          </div>
+                          <div class="col-12 text-left">
                              <label for="phone" style="color:#B8B8B8; font-size:12px;">Phone</label>
                              <input class="form-control form-control-email" name="phone" id="f-phone"  type="phone" required="">
                              <label id="v-phone" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Phone is not valid. Minimum 10 digit. Ex: 08xxxxxxxxxx</label>
@@ -68,8 +78,6 @@
                              <input class="form-control form-control-email" name="birth" id="f-birth"  type="date" required="">
                              <label id="v-birth" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Please select your birth date</label>
                           </div>
-                        </div>
-                        <div class="col-6 row">
                           <div class="col-12 text-left">
                              <label for="company" style="color:#B8B8B8; font-size:12px;">Institution/Company/Organization</label>
                              <input class="form-control form-control-email" name="company" id="f-company"  type="text" required="">
@@ -89,20 +97,37 @@
                               <label id="v-interest" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Minimum 4 character</label>
                               <label id="v-interest-2" for="name" style="color:#FF6C6C; font-size:12px; display:none;">You must select one of the option.</label>
                           </div>
+                        </div>
+                        <div class="col-lg-6 row">
                           <div class="col-12 text-left">
-                             <label for="password" style="color:#B8B8B8; font-size:12px;">Password</label>
-                             <input class="form-control form-control-password" name="password" id="f-password" type="password">
-                             <label id="v-password" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Password is not valid. Minimum 4 character</label>
+                             <label for="conference" style="color:#B8B8B8; font-size:12px;">Join Conferece As</label>
+                             <select class="form-control form-control-email" id="f-conference">
+                                <option value="-1">Select One</option>
+                                <option value="0">Participant</option>
+                                <option value="1">Visitor</option>
+                              </select>
+                              <label id="v-conference" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Minimum 4 character</label>
+                              <label id="v-conference-2" for="name" style="color:#FF6C6C; font-size:12px; display:none;">You must select one of the option.</label>
                           </div>
                           <div class="col-12 text-left">
-                             <label for="cpassword" style="color:#B8B8B8; font-size:12px;">Confirm Password</label>
-                             <input class="form-control form-control-password" name="cpassword" id="f-cpassword" type="password">
-                             <label id="v-cpassword" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Password didn't match</label>
+                             <label for="profilepicture" style="color:#B8B8B8; font-size:12px;">Profile Picture (Optional)</label>
+                             <br>
+                             <img src="images/user.png" alt="" style="width:30%; position:relative;">
+                             <br><br>
+                             <input class="form-control form-control-email" name="company" id="f-profilepicture"  type="file" required="" accept="image/x-png,image/gif,image/jpeg">
+                          </div>
+                          <div class="col-12 text-left">
+                             <label for="bussinesscard" style="color:#B8B8B8; font-size:12px;">Bussiness Card (Optional)</label>
+                             <br>
+                             <img src="images/user.png" alt="" style="width:30%; position:relative;">
+                             <br><br>
+                             <input class="form-control form-control-email" name="company" id="f-bussinesscard"  type="file" required="" accept="image/x-png,image/gif,image/jpeg">
+                          </div>
+                          <div class="col-12 mt-4">
+                             <button class="btn" id="register"> Register</button>
                           </div>
                         </div>
-                        <div class="col-12 mt-4">
-                           <button class="btn" id="register"> Register</button>
-                        </div>
+
                         <div class="col-12 mt-3">
                            <a href="login.php" style="color:#4E4E4E; font-size:12px; text-align: center;">Already have an account? Sign In</a>
                         </div>

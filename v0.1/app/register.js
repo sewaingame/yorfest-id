@@ -3,6 +3,7 @@ var valid_email = false;
 var valid_phone = false;
 var valid_birth = false;
 var valid_company = false;
+var valid_conference = false;
 var valid_interest = false;
 var valid_interest_other = true;
 var valid_password = false;
@@ -17,6 +18,7 @@ $("#register").click(function ()
   var birth = $('#f-birth').val();
   var company = $('#f-company').val();
   var interest = $('#f-interest option:selected').val();
+  var conference = $('#f-conference').val();
   var interest_other = $('#f-interest-other').val();
   var password = $('#f-password').val();
   var cpassword = $('#f-cpassword').val();
@@ -83,6 +85,7 @@ $("#register").click(function ()
     var birth = $('#f-birth').val();
     var company = $('#f-company').val();
     var interest = $('#f-interest option:selected').html();
+    var conference = $('#f-conference option:selected').val();
     var interest_other = $('#f-interest-other').val();
     var password = $('#f-password').val();
     var cpassword = $('#f-cpassword').val();
@@ -160,6 +163,10 @@ $("#f-company").change(function(){
 $("#f-password").change(function(){
   valid_password = checkMinChar(4, "#f-password", "#v-password");
   checkConfirmPassword();
+});
+
+$("#f-conference").change(function(){
+  valid_conference = $('#f-conference').val() > -1;
 });
 
 $("#f-cpassword").change(function()

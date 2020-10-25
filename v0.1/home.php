@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -52,14 +55,82 @@
 <body>
    <div class="body-inner">
       <!-- Header start -->
-      <?php include 'header.php'; ?>
+      <header id="header" class="header header-classic">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+               <!-- logo-->
+               <a class="navbar-brand" href="home.php?p=1">
+                  <img src="images/logos/logo.png" alt="">
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="icon icon-menu"></i></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item <?php if($_GET["p"] == 1) echo "active"; ?>">
+                        <a href="home.php?p=1" >Home</a>
+                       </li>
+                     <li class="nav-item <?php if($_GET["p"] == 2) echo "active"; ?>">
+                        <a href="networking/?p=2&c=0" >Networking </a>
+                     </li>
+                     <li class="nav-item <?php if($_GET["p"] == 3) echo "active"; ?>">
+                        <a href="conference.php?p=3"> Conference </a>
+
+                     </li>
+                     <li class="nav-item <?php if($_GET["p"] == 4) echo "active"; ?>">
+                        <a href="#" class="" >Ehxibition</a>
+                     </li>
+                    <li class="nav-item <?php if($_GET["p"] == 5) echo "active"; ?>">
+                        <a href="contact.php?p=5">Contact</a>
+                     </li>
+                     <?php
+                      if(isset($_SESSION["api_key"]))
+                      {
+                        echo
+                        '
+                        <li class="nav-item dropdown header-ticket nav-item">
+               						<a href="#" class="ticket-btn btn" data-toggle="dropdown">';
+
+                               $name = explode(" ", $_SESSION["name"]);
+                               for ($i=0; $i < count($name); $i++)
+                               {
+                                 if($i==0)
+                                   echo $name[$i];
+                                 else
+                                   echo ' ' . $name[$i][0];
+                               }
+                        echo '
+                              <i class="fa fa-angle-down"></i>
+                           </a>
+                           <ul class="dropdown-menu" role="menu">
+                             <li><a href="networking/?p=2&c=1" class="icon icon-user">Profile</a></li>
+             						    <li><a href="logout.php" class="icon icon-exit">Logout</a></li>
+                           </ul>
+                         </li>
+                        ';
+                      }
+                      else
+                      {
+                        echo
+                        '
+                        <li class="nav-item dropdown header-ticket nav-item">
+                           <a href="register.php" class="ticket-btn btn"> Register</a>
+                        </li>
+                        ';
+                      }
+                     ?>
+               </div>
+            </nav>
+         </div><!-- container end-->
+      </header>
       <!--/ Header end -->
 
       <!-- banner start-->
       <section class="hero-area hero-speakers">
          <div class="banner-item overlay" style="background-image:url(./images/banner/banner_lobby4.png)">
 		   <div class="container">
-              
+
                   <div class="col-lg-7">
                      <div class="banner-content-wrap">
                         <p class="banner-info wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">28 - 29 Oktober, Jakarta</p>
@@ -72,9 +143,9 @@
                      </div>
                      <!-- Banner content wrap end -->
                   </div><!-- col end-->
-				  
-					
-           
+
+
+
             </div>
             <!-- Container end -->
          </div>
@@ -151,7 +222,7 @@
          </div>
       </section>
       <!-- ts intro end-->
-	  
+
 	  <section id="ts-experiences" class="ts-experiences">
          <div class="container-fluid">
             <div class="row">
@@ -165,7 +236,7 @@
                      <div class="ts-exp-content">
                         <h2 class="column-title">
                            <span>Get Experience</span>
-                           Shift your perspective 
+                           Shift your perspective
                         </h2>
                         <p>
                            Fitur ini menjadi media komunikasi antara pembicara, peserta dan peminat untuk bertemu & berkenalan dengan sesama pegiat organik. Bangun jaringan anda dengan  bergabung di Organic Networking Space.
@@ -178,13 +249,13 @@
             </div><!-- row end-->
          </div><!-- container fluid end-->
       </section>
-	  
-	  
-	  
+
+
+
 	  <!-- ts intro end-->
-	  
-	  
-	 
+
+
+
 
       <!-- ts speaker start-->
       <section id="ts-speakers" class="ts-speakers" style="background-image:url(./images/speakers/speaker_bg.png">
@@ -946,7 +1017,7 @@
                      <a href=""><img src="images/sponsors/sponsor-1.png" alt=""></a>
                      <a href=""><img src="images/sponsors/sponsor-2.png" alt=""></a>
                      <a href=""><img src="images/sponsors/sponsor-3.png" alt=""></a>
-                     
+
                   </div><!-- sponsors logo end-->
                </div><!-- col end-->
             </div><!-- row end-->

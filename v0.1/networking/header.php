@@ -1,5 +1,5 @@
 <?php
-  include "../checksession.php";
+  include "checksession.php";
 ?>
 
 <header id="header" class="header header-classic" style="background:#ffffff; z-index:1000; position:fixed; width:100%; box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);">

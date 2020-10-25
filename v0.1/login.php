@@ -43,7 +43,8 @@
                <div class="row">
                   <div class="col-lg-7">
                     <div class="hero-form-content2">
-                          <img class="" src="images/logo_login2.png" alt="">
+                        <a href="home.php"><img class="" src="images/logo_login2.png" alt=""></a>
+
 
                      </div>
                      <!-- Banner content wrap end -->

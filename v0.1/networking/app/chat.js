@@ -6,8 +6,8 @@ var resendMessage = false;
 var minLoadChatCounter = 999999999;
 var maxLoadChatCounter = 0;
 $( document ).ready(function() {
-  //console.log("Chat Loaded");
   var userdata = JSON.parse(decrypt(sessionStorage.getItem("user_data"))).data;
+
 
   if(userdata.photourl.length == 0)
     userdata.photourl = "images/user.png";
@@ -19,10 +19,13 @@ $( document ).ready(function() {
 
 
   nextChatToOpen = sessionStorage.getItem("nextChatToOpen");
-  if(nextChatToOpen.length > 0)
+  if(nextChatToOpen != undefined)
   {
-    openChat(nextChatToOpen);
-    nextChatToOpen="";
+    if(nextChatToOpen.length > 0)
+    {
+      openChat(nextChatToOpen);
+      nextChatToOpen="";
+    }
   }
 
   newUserChatList();
@@ -65,6 +68,7 @@ function onLoadUserChatListSuccess(data)
 function printUserChatList(user, total, time)
 {
   var id = "userchatlist_" + user.id;
+
   if($("#" + id).length == 0)
   {
     createChatUserList(user, total, time);
