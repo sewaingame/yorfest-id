@@ -177,7 +177,16 @@ section,
 }
 
 .section-bg {
-	background: #f9fafc;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/bg/yorfest_bg3.jpg);
+	content: '';
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 0;
+	
 }
 
 .no-padding {
@@ -687,12 +696,8 @@ img.pull-right {
 }
 
 .header.header-transparent {
-	position: absolute;
-	width: 100%;
-	left: 0;
-	top: 0;
-	z-index: 2;
-	height: auto;
+	padding: 0;
+
 }
 
 .header.header-transparent.navbar-brand {
@@ -761,9 +766,7 @@ img.pull-right {
 }
 
 .header.h-transparent.sticky {
-	background: rgba(255, 255, 255, 0.);
-	-webkit-box-shadow: 0 8px 17px rgba(0, 0, 0, 0.02);
-	box-shadow: 0 8px 17px rgba(0, 0, 0, 0.02);
+	
 }
 
 .header.header-classic .navbar {
@@ -798,6 +801,7 @@ img.pull-right {
 	background: #f23d51;
 }
 
+
 .header.sticky {
 	position: fixed;
 	left: 0;
@@ -806,6 +810,7 @@ img.pull-right {
 	z-index: 99;
 	background: rgba(255, 255, 255, 255);
 	padding: 5px 0;
+	
 }
 
 .header.sticky .navbar {
@@ -872,7 +877,7 @@ img.pull-right {
 	text-transform: initial;
 	line-height: 82px;
 	letter-spacing: -1.48px;
-	margin-bottom: 20px;
+	margin-bottom: 2000px;
 }
 
 .banner-6 .banner-item .banner-content-wrap .banner-info {
@@ -889,7 +894,7 @@ img.pull-right {
 	color: #3b1d82;
 	font-size: 16px;
 	font-weight: 500;
-	padding: 8px 0 0;
+	padding: 2px 0 0;
 }
 
 .banner-6 .banner-item .banner-content-wrap .banner-info .icon {
@@ -951,6 +956,7 @@ img.pull-right {
 
 .banner-6-alt .banner-item .banner-content-wrap .banner-title {
 	margin-bottom: 100px;
+	
 }
 
 .banner-6-alt .banner-item .banner-content-wrap .date-item {
@@ -1008,8 +1014,8 @@ img.pull-right {
 }
 
 .banner-item .banner-content-wrap .banner-info {
-	font-size: 18px;
-	font-weight: normal;
+	font-size: 24px;
+	font-weight: 400;
 	line-height: 24px;
 	margin-bottom: 10px;
 	color: #fff;
@@ -1017,11 +1023,12 @@ img.pull-right {
 
 .banner-item .banner-content-wrap .banner-title {
 	font-size: 64px;
-	font-weight: 800;
+	font-weight: 1000;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	line-height: 74px;
+	line-height: 70px;
 	margin-bottom: 50px;
+	margin-top: -18px;
 }
 
 .banner-item .banner-content-wrap .banner-btn .btn {
@@ -1630,8 +1637,8 @@ img.pull-right {
 ===========================*/
 
 .ts-speakers {
-	padding-top: 120px;
-	padding-bottom: 20px;
+	padding-top: -100px;
+	padding-bottom: -100px;
 	position: relative;
 	overflow: hidden;
   background-size: cover;
@@ -1870,19 +1877,20 @@ img.pull-right {
 .ts-experiences {
 	padding: 0;
 	overflow: hidden;
-	background: #3b1d82;
+	background: #2f62a3;
 }
 
 .ts-experiences .exp-img {
-	min-height: 480px;
+	min-height: 530px;
+	position : relative;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .ts-exp-wrap {
-	background: #1c1a4f;
-	min-height: 480px;
+	background: #2f62a3;
+	min-height: 520px;
 	position: relative;
 }
 
@@ -1893,7 +1901,7 @@ img.pull-right {
 	width: 100%;
 	height: 100%;
 	content: '';
-	background: url(../images/shap/cta_bg.png) no-repeat 100%/cover;
+	color: #fff;
 }
 
 .ts-exp-wrap:after {
@@ -1903,11 +1911,7 @@ img.pull-right {
 	width: 100%;
 	height: 100%;
 	content: '';
-	background-image: -webkit-gradient(linear, left top, right top, from(#321575), color-stop(51%, #8d0b93), color-stop(100%, #ff0066), to(#ff057c));
-	background-image: -webkit-linear-gradient(left, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
-	background-image: -o-linear-gradient(left, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
-	background-image: linear-gradient(90deg, #321575 0%, #8d0b93 51%, #ff0066 100%, #ff057c 100%);
-	opacity: 0.302;
+	
 }
 
 .ts-exp-wrap .ts-exp-content {
@@ -1925,6 +1929,7 @@ img.pull-right {
 
 .ts-exp-wrap .ts-exp-content .column-title span {
 	color: #fff;
+	
 }
 
 .ts-exp-wrap .ts-exp-content .column-title:after {
@@ -1934,6 +1939,7 @@ img.pull-right {
 .ts-exp-wrap .ts-exp-content p {
 	margin-bottom: 30px;
 	color: #fff;
+	
 }
 
 .ts-exp-wrap .ts-exp-content p strong {
@@ -2702,7 +2708,7 @@ img.pull-right {
 }
 
 .post .post-media.post-image {
-	width: calc(100% - 40px);
+	width: calc(50% - 40px);
 	margin: 0 auto 5px auto;
 	position: relative;
 }
@@ -4059,24 +4065,22 @@ blockquote:before {
 
 .about-video {
 	position: relative;
+	
 }
 
 .about-video img {
 	width: 100%;
+	
+	
 }
 
 .about-video:before {
-	background-image: -webkit-gradient(linear, left top, right top, from(#e6005d), color-stop(65%, rgba(115, 0, 47, 0.35)), to(rgba(0, 0, 0, 0)));
-	background-image: -webkit-linear-gradient(left, #e6005d 0%, rgba(115, 0, 47, 0.35) 65%, rgba(0, 0, 0, 0) 100%);
-	background-image: -o-linear-gradient(left, #e6005d 0%, rgba(115, 0, 47, 0.35) 65%, rgba(0, 0, 0, 0) 100%);
-	background-image: linear-gradient(90deg, #e6005d 0%, rgba(115, 0, 47, 0.35) 65%, rgba(0, 0, 0, 0) 100%);
-	background-image: -webkit-linear-gradient(90deg, #e6005d 0%, rgba(115, 0, 47, 0.35) 65%, rgba(0, 0, 0, 0) 100%);
-	background-image: -ms-linear-gradient(90deg, #e6005d 0%, rgba(115, 0, 47, 0.35) 65%, rgba(0, 0, 0, 0) 100%);
+	
 	position: absolute;
 	left: 0;
 	top: 0;
 	content: '';
-	width: 100%;
+	width: 1000%;
 	height: 100%;
 }
 
@@ -4110,7 +4114,7 @@ blockquote:before {
 }
 
 .ts-event-outcome .outcome-content .column-title {
-	font-style: italic;
+	font-style: regular;
 	color: #000000;
 	font-weight: 300;
 	margin-bottom: 8px;
