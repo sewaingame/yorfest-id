@@ -88,7 +88,7 @@
 </div>
 
 <!-- COMMENT TEMPLATE -->
-<li class="mb-2" style="display:none;" id="comment">
+<li class="mb-1 mt-1" style="display:none;" id="comment">
    <div class="d-flex flex-wrap">
       <div class="user-img">
          <img src="###PhotoURL###" alt="userimg" class="avatar-35 rounded-circle img-fluid comment_photourl">

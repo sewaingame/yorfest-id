@@ -4,6 +4,8 @@
 
   $cmd = "";
 
+
+
   if(isset($_POST['cmd']))
   {
     $cmd = $_POST['cmd'];
@@ -12,6 +14,12 @@
   if(isset($_GET['c']))
   {
     $cmd = $_GET['c'];
+  }
+
+  if(isset($_POST["api_key"]))
+  {
+    $data['api_key'] = $_POST['api_key'];
+    checkapikey($data);
   }
 
   if($cmd == "register")
@@ -201,4 +209,49 @@
 
     echo json_encode($response, JSON_PRETTY_PRINT);
   }
+  else if($cmd == "sc")
+  {
+    $data['api_key'] = $_POST['api_key'];
+    $data['to'] = $_POST['to'];
+    $data['message'] = $_POST['message'];
+    $data['chatid'] = $_POST['chatid'];
+    $data['id'] = $_POST['id'];
+
+    $response = sendchat($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "ch")
+  {
+    $data['api_key'] = $_POST['api_key'];
+    $data['to'] = $_POST['to'];
+    $data['maxCounter'] = $_POST['maxCounter'];
+    $data['minCounter'] = $_POST['minCounter'];
+    $data['time'] = $_POST['time'];
+
+    $response = getchat($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "cl")
+  {
+    $data['api_key'] = $_POST['api_key'];
+
+    $response = getchatlist($data);
+
+
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "mr")
+  {
+    $data['api_key'] = $_POST['api_key'];
+    $data['id'] = $_POST['id'];
+
+    $response = markchatasread($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+
+
 ?>

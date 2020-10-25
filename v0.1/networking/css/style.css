@@ -4402,6 +4402,7 @@ span.avatar-status {
 	padding: 1.4rem;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	flex-flow: column-reverse wrap;
 }
 
 .chat-user {
@@ -4427,10 +4428,10 @@ span.avatar-status {
 	margin: 0 1.33rem 1.33rem .3rem;
 	clear: both;
 	word-break: break-word;
-	color: var(--iq-white);
-	background: var(--iq-primary);
 	border-radius: 15px;
-	box-shadow: 0 2px 4px 0 rgb(80, 181, 255);
+	color: var(--iq-body-text);
+	background-color: var(--iq-white);
+	box-shadow: 0px 0px 20px 0px rgba(44, 101, 144, 0.1);
 }
 
 .chat-message>p {

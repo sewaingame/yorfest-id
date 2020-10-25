@@ -33,7 +33,6 @@ function loadPage(link)
       {
         if(!$("#" + ids[i]).hasClass("active")){
            $("#" + ids[i]).addClass("active");
-           loadPageData(i);
         }
       }
       else
@@ -145,34 +144,37 @@ function updateUser(user)
   $(userObject.find('.iq-profile-avatar')[0]).addClass(calculateOnlineStatus(user.last_update));
 }
 
-function calculateOnlineStatus(time){
-
-    var t = time.split(/[- :]/);
-    var postDate = new Date(t[0], t[1]-1, t[2], t[3], t[4], t[5]);
-    var currentDate = new Date(Date.now());
-    var diffInMilliSeconds = currentDate-postDate;
-
-    var cd = 24 * 60 * 60 * 1000,
-        ch = 60 * 60 * 1000,
-        d = Math.floor(diffInMilliSeconds / cd),
-        h = Math.floor( (diffInMilliSeconds - d * cd) / ch),
-        m = Math.round( (diffInMilliSeconds - d * cd - h * ch) / 60000),
-        pad = function(n){ return n < 10 ? '0' + n : n; };
-    if( m === 60 ){
-    h++;
-    m = 0;
-    }
-    if( h === 24 ){
-    d++;
-    h = 0;
-    }
-
+function calculateOnlineStatus(time)
+{
     var result = "status-online";
-    if(d == 0 && h != 0)
-      result = "status-online";
-    else if(h == 0 && m < 2)
-      result = "status-away";
 
+    if(time != undefined)
+    {
+      var t = time.split(/[- :]/);
+      var postDate = new Date(t[0], t[1]-1, t[2], t[3], t[4], t[5]);
+      var currentDate = new Date(Date.now());
+      var diffInMilliSeconds = currentDate-postDate;
+
+      var cd = 24 * 60 * 60 * 1000,
+          ch = 60 * 60 * 1000,
+          d = Math.floor(diffInMilliSeconds / cd),
+          h = Math.floor( (diffInMilliSeconds - d * cd) / ch),
+          m = Math.round( (diffInMilliSeconds - d * cd - h * ch) / 60000),
+          pad = function(n){ return n < 10 ? '0' + n : n; };
+      if( m === 60 ){
+      h++;
+      m = 0;
+      }
+      if( h === 24 ){
+      d++;
+      h = 0;
+      }
+
+      if(d == 0 && h != 0)
+        result = "status-online";
+      else if(h == 0 && m < 2)
+        result = "status-away";
+    }
     return result;
 }
 
@@ -180,15 +182,12 @@ function calculateOnlineStatus(time){
 
 function openUserChat(input){
   nextChatToOpen = $(input).attr("data");
+  sessionStorage.setItem("nextChatToOpen", nextChatToOpen);
+  //loadPage(2);
 
-  var link = {id:"button_chat"}
-  loadPage(link);
-
-  try {
+  const params = new URLSearchParams(window.location.search);
+  if(params.get("c") != 2)
+    window.location.href= "?p=2&c=2";
+  else
     openChat(nextChatToOpen);
-  } catch (e) {
-
-  } finally {
-
-  }
 }

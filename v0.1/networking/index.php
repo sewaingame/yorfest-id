@@ -14,7 +14,7 @@
 
    <!-- Site Title -->
    <title>YORFEST - 2020 &amp; YOUNG ORGANIC FESTIVAL 2020 </title>
-   <link rel="shortcut icon" type="image/x-icon" href="images/logo_tab.png">
+   <link rel="shortcut icon" type="image/x-icon" href="../images/logo_tab.png">
 
    <!-- CSS
          ================================================== -->
@@ -96,12 +96,12 @@
 
         <!-- TOP Nav Bar END -->
         <!-- Right Sidebar Panel Start-->
-        <div class="right-sidebar-mini right-sidebar">
+        <div class="right-sidebar-mini right-sidebar mt-1">
            <div class="right-sidebar-panel p-0">
               <div class="iq-card shadow-none">
                  <div class="iq-card-body p-0">
                       <div class="media-height pl-3 pt-3 pr-3">
-                        <div class="media align-items-center mb-4">
+                        <div class="media align-items-center">
                           <input type="text" class="text search-input" placeholder="Search by Name" id="searchUserList">
                         </div>
                       </div>
@@ -133,7 +133,7 @@
         </div>
      </div>
 
-     <div class="media align-items-center mb-4" id="template_user" style="display:none;">
+     <div class="media align-items-center pb-4" id="template_user" style="display:none;">
         <div class="iq-profile-avatar">
            <img class="rounded-circle avatar-50 user_photourl" src="images/user.png" alt="">
         </div>
@@ -171,7 +171,7 @@
 
       <script src="js/countdown.min.js"></script>
       <!-- Counterup JavaScript -->
-      <script src="js/waypoints.min.js"></script>
+      <!-- <script src="js/waypoints.min.js"></script> -->
       <script src="js/jquery.counterup.min.js"></script>
       <!-- Wow JavaScript -->
       <script src="js/wow.min.js"></script>

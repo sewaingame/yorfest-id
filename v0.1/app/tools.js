@@ -42,3 +42,36 @@ function getShortName2(name){
   }
   return name_short;
 }
+
+function calculateTime(time){
+
+    var t = time.split(/[- :]/);
+    var postDate = new Date(t[0], t[1]-1, t[2], t[3], t[4], t[5]);
+    var currentDate = new Date(Date.now());
+    var diffInMilliSeconds = currentDate-postDate;
+
+    var cd = 24 * 60 * 60 * 1000,
+        ch = 60 * 60 * 1000,
+        d = Math.floor(diffInMilliSeconds / cd),
+        h = Math.floor( (diffInMilliSeconds - d * cd) / ch),
+        m = Math.round( (diffInMilliSeconds - d * cd - h * ch) / 60000),
+        pad = function(n){ return n < 10 ? '0' + n : n; };
+    if( m === 60 ){
+    h++;
+    m = 0;
+    }
+    if( h === 24 ){
+    d++;
+    h = 0;
+    }
+
+    var result ="Just Now";
+    if(d >= 1)
+      result = d + " days";
+    else if(d == 0 && h != 0)
+      result = h + " hours";
+    else if(h == 0 && m != 0)
+      result = m + " minutes";
+
+    return result;
+}

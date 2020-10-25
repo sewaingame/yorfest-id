@@ -707,7 +707,7 @@
 
       $response = [];
 
-      $userSQL = "SELECT id, name, photourl, email FROM participant WHERE id=".$id;
+      $userSQL = "SELECT id, name, photourl, email, company FROM participant WHERE id=".$id;
       $resultUser = $con->query($userSQL);
 
       while($rowUser = $resultUser->fetch_assoc())
@@ -716,6 +716,7 @@
         $response["id"] = $rowUser["id"];
         $response["name"] = $rowUser["name"];
         $response["email"] = $rowUser["email"];
+        $response["company"] = $rowUser["company"];
         $response["photourl"] = $rowUser["photourl"];
       }
 
@@ -860,4 +861,223 @@
       $con->close();
     }
 
+    function sendchat($data)
+    {
+      include 'connection.php';
+      $response["error"] = false;
+      $response["message"] = "";
+
+      $sender = checkapikey($data)["data"];
+      $chatid = getchatid($data['to'], $sender['id']);
+
+      $sqlChatID = 'INSERT INTO chatid(`id`) SELECT * FROM (SELECT "'.$chatid.'") AS tmp WHERE NOT EXISTS (SELECT id FROM chatid WHERE id="'.$chatid.'")';
+      $sqlSenderParticipantChat = 'INSERT INTO participant_chat(`participantid`, `chatid`) SELECT * FROM (SELECT '.$sender['id'].', "'.$chatid.'") AS tmp WHERE NOT EXISTS (SELECT id FROM participant_chat WHERE `participantid`='.$sender["id"].' AND `chatid`="'.$chatid.'")';
+      $sqlToParticipantChat = 'INSERT INTO participant_chat(`participantid`, `chatid`) SELECT * FROM (SELECT '.$data['to'].', "'.$chatid.'") AS tmp WHERE NOT EXISTS (SELECT id FROM participant_chat WHERE `participantid`='.$data['to'].' AND `chatid`="'.$chatid.'")';
+      $sqlChat = 'INSERT INTO chat(`id`, `chatid`, `participantid`, `message`) VALUES ("'.$data['id'].'", "'.$chatid.'", '.$sender['id'].', "'.$data['message'].'" )';
+
+      if(!($con->query($sqlChatID)))
+      {
+        $response["error"] = true;
+        $response["message"] = $con->error;
+        return $response;
+        return;
+      }
+      if(!($con->query($sqlSenderParticipantChat)))
+      {
+        $response["error"] = true;
+        $response["message"] = $con->error;
+        return $response;
+        return;
+      }
+      if(!($con->query($sqlToParticipantChat)))
+      {
+        $response["error"] = true;
+        $response["message"] = $con->error;
+        return $response;
+        return;
+      }
+      if(!($con->query($sqlChat)))
+      {
+        $response["error"] = true;
+        $response["message"] = $con->error;
+        return $response;
+        return;
+      }
+
+      $selectChatTime = 'SELECT time FROM chat WHERE id="'.$data["id"].'"';
+      $result = $con->query($selectChatTime);
+
+      if ($result->num_rows > 0)
+      {
+        // output data of each row
+        while($row = $result->fetch_assoc())
+        {
+          $data['time'] = $row['time'];
+        }
+      }
+      else
+      {
+        $response["error"] = true;
+        $response["message"] = $con->error;
+      }
+
+      $response["data"] = $data;
+
+      return $response;
+    }
+
+    function getchatid($userid1, $userid2)
+    {
+      $id1 = $userid1;
+      $id2 = $userid2;
+
+      if($id1 > $id2)
+      {
+        $id1 = $userid2;
+        $id2 = $userid1;
+      }
+
+      return md5($id1 . '-' . $id2);
+    }
+
+    function getchat($data)
+    {
+      include 'connection.php';
+
+      $response["error"] = false;
+      $response["message"] = "";
+      $response["data"] = [];
+      $response["data"]["chats"] = [];
+
+      $sender = checkapikey($data)["data"];
+      $chatid = getchatid($data['to'], $sender['id']);
+
+      $data["myid"] = $sender["id"];
+
+      $response["data"] = $data;
+
+      $sql = 'SELECT * FROM chat WHERE chatid="'.$chatid.'" AND counter>' . $_POST["maxCounter"] . ' ORDER BY counter DESC LIMIT 20';
+
+      if($data['time'] == "old")
+        $sql = 'SELECT * FROM chat WHERE chatid="'.$chatid.'" AND counter<' . $_POST["minCounter"] . ' ORDER BY counter DESC LIMIT 20';
+
+      $result = $con->query($sql);
+
+      if ($result->num_rows > 0)
+      {
+        // output data of each row
+        while($row = $result->fetch_assoc())
+        {
+          $newChat = [];
+          $newChat["counter"] = $row['counter'];
+          $newChat["id"] = $row['id'];
+          $newChat["chatid"] = $row['chatid'];
+          $newChat["participantid"] = $row['participantid'];
+          $newChat["message"] = $row['message'];
+          $newChat["time"] = $row['time'];
+
+          $response["data"]["chats"][] = $newChat;
+        }
+      }
+
+      return $response;
+
+      $con->close();
+    }
+
+    function getchatlist($data)
+    {
+      include 'connection.php';
+
+      $response["error"] = false;
+      $response["message"] = "";
+      $response["data"] = [];
+
+      $sender = checkapikey($data)["data"];
+
+      $sql = 'SELECT participantid, chatid FROM `participant_chat` WHERE participantid!='.$sender['id'].' AND chatid IN (SELECT chatid FROM participant_chat WHERE participantid='.$sender['id'].') GROUP BY participantid';
+
+      $result = $con->query($sql);
+
+      if ($result->num_rows > 0)
+      {
+        // output data of each row
+        while($row = $result->fetch_assoc())
+        {
+          $newParticipant = [];
+          $newParticipant["participant"] = getParticipantByIDAllData($row['participantid']);
+
+          $sqlTotalChat = 'SELECT COUNT(counter) as total FROM chat WHERE status=0 AND participantid=' . $row['participantid'] . ' AND chatid="'.$row['chatid'].'"';
+          $resultTotalChat = $con->query($sqlTotalChat);
+
+          $newParticipant["sql"] = $sqlTotalChat;
+          $newParticipant["totalchat"]  = 0;
+          while($rowTotalChat = $resultTotalChat->fetch_assoc())
+          {
+            $newParticipant["totalchat"] = $rowTotalChat["total"];
+          }
+
+          $sqlLastChat = 'SELECT time FROM chat WHERE participantid=' . $row['participantid'] . ' AND chatid="'.$row['chatid'].'" ORDER BY counter DESC LIMIT 1';
+          $resultLastChat = $con->query($sqlLastChat);
+          $newParticipant["time"] = "";
+          while($rowLastChat = $resultLastChat->fetch_assoc())
+          {
+            $newParticipant["time"] = $rowLastChat["time"];
+          }
+
+          // $response["sql"] = $sqlLastChat;
+          $response["data"][] = $newParticipant;
+        }
+      }
+
+      return $response;
+
+      $con->close();
+    }
+
+    function getParticipantByIDAllData($id)
+    {
+      include 'connection.php';
+
+      $response = [];
+      $userSQL = "SELECT * FROM participant WHERE id=".$id;
+      $resultUser = $con->query($userSQL);
+
+      while($rowUser = $resultUser->fetch_assoc())
+      {
+        $response = [];
+        $response["id"] = $rowUser["id"];
+        $response["name"] = $rowUser["name"];
+        $response["email"] = $rowUser["email"];
+        $response["birth"] = $rowUser["birth"];
+        $response["company"] = $rowUser["company"];
+        $response["interest"] = $rowUser["interest"];
+        $response["photourl"] = $rowUser["photourl"];
+        $response["cardurl"] = $rowUser["cardurl"];
+        $response["last_update"] = $rowUser["last_update"];
+      }
+
+      $con->close();
+
+      return $response;
+    }
+
+    function markchatasread($data)
+    {
+      checkapikey($data);
+
+      include 'connection.php';
+
+      $response["error"] = false;
+      $response["message"] = "";
+      $response["data"] = $data;
+
+      $sql = 'UPDATE chat SET status=1 WHERE id="'.$data["id"].'"';
+      $response["sql"] = $sql;
+      $resultUser = $con->query($sql);
+
+      $con->close();
+
+      return $response;
+    }
 ?>
