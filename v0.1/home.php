@@ -59,26 +59,22 @@
       <section class="hero-area hero-speakers">
          <div class="banner-item overlay" style="background-image:url(./images/banner/banner_lobby4.png)">
 		   <div class="container">
-               <div class="row">
+              
                   <div class="col-lg-7">
                      <div class="banner-content-wrap">
-                        <p class="banner-info wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">28 - 29 Oktober 2020, Jakarta</p>
-                        <h1 class="banner-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">Young organic farmer
-                           indonesia festival</h1>
+                        <p class="banner-info wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">28 - 29 Oktober, Jakarta</p>
+                        <h3 class="banner-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">YOUNG ORGANIC Festival 2020</h3>
                         <div class="banner-btn wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="800ms">
-                           <a href="#" class="btn">virtual world</a>
-                           <a href="#" class="btn fill">webinar</a>
+                           <a href="#" class="btn">Exhibition</a>
+                           <a href="conference.php?p=3" class="btn fill">Conference</a>
                         </div>
 
                      </div>
                      <!-- Banner content wrap end -->
                   </div><!-- col end-->
-
-
-                        </form><!-- form end-->
-                     </div><!-- hero content end-->
-                  </div><!-- col end-->
-               </div><!-- row end-->
+				  
+					
+           
             </div>
             <!-- Container end -->
          </div>
@@ -120,20 +116,18 @@
       <section class="ts-event-outcome event-intro">
          <div class="container">
             <div class="row">
-               <div class="col-lg-4">
+               <div class="col-lg-8">
                   <div class="">
                      <div class="outcome-content ts-exp-content">
                         <h2 class="column-title">
-                           <span>Event Outcomes</span>
-                           Learn new things and
-                           connect people
+                         ABOUT YORFest
                         </h2>
                         <p>
-                           How you transform your Farmer business , habits industry dynamic change the Find
-                           out from those leading
+                          Adalah acara tahunan para pegiat organik di Indonesia berupa kumpulan komunitas anak muda yang peduli dengan pertanian, perkebunan & peternakan, bisnis yang berhubungan dengan pendayagunaan sistem organik yang alami.<br>
+							Bersatu & berbagi inspirasi untuk pertumbuhan ekonomi melalui pertanian organik yang berkelanjutan sebagai wujud regenerasi petani Indonesia dalam membentuk kemandirian & menggali potensi alam di Indonesia.<br>
+							Menciptakan nilai tambah produk pertanian, perkebunan & perternakan dari eko-sistem organik yang berorientasi ekspor berupa produk siap guna [green label], bukan hanya. meng-ekspor raw material yang bernilai murah.
                         </p>
-                        <a href="#" class="btn">Join Networking</a>
-                     </div>
+                        </div>
                   </div>
                </div>
                <div class="col-lg-4">
@@ -144,23 +138,56 @@
                      <h3 class="img-title text-white"><a href="#" class="text-white">Learn Things</a></h3>
                   </div>
                </div>
-               <div class="col-lg-4">
+               <!--<div class="col-lg-4">
                   <div class="outcome-content">
                      <div class="outcome-img overlay">
                         <img class="" src="images/about/connect_img.jpg" alt="">
                      </div>
                      <h3 class="img-title"><a href="#" class="text-white">connect People</a></h3>
                   </div>
-               </div>
+               </div> -->
 
             </div>
          </div>
       </section>
       <!-- ts intro end-->
-      <!-- ts funfact start-->
+	  
+	  <section id="ts-experiences" class="ts-experiences">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-6 no-padding align-self-center">
+                  <div class="exp-img" style="background-image:url(./images/gallery/gallery2.jpg)">
+                     <!-- <img class="img-fluid" src="images/gallery/gallery2.jpg" alt=""> -->
+                  </div>
+               </div><!-- col end-->
+               <div class="col-lg-6 no-padding align-self-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">
+                  <div class="ts-exp-wrap">
+                     <div class="ts-exp-content">
+                        <h2 class="column-title">
+                           <span>Get Experience</span>
+                           Shift your perspective 
+                        </h2>
+                        <p>
+                           Fitur ini menjadi media komunikasi antara pembicara, peserta dan peminat untuk bertemu & berkenalan dengan sesama pegiat organik. Bangun jaringan anda dengan  bergabung di Organic Networking Space.
+						   </p>
+						   <a href="#" class="btn">JOIN NETWORKING</a>
+                     </div>
+                  </div>
+
+               </div><!-- col end-->
+            </div><!-- row end-->
+         </div><!-- container fluid end-->
+      </section>
+	  
+	  
+	  
+	  <!-- ts intro end-->
+	  
+	  
+	 
 
       <!-- ts speaker start-->
-      <section id="ts-speakers" class="ts-speakers" style="background-image:url(./images/bg/yorfest_bg.jpg)">
+      <section id="ts-speakers" class="ts-speakers" style="background-image:url(./images/speakers/speaker_bg.png">
          <div class="container">
             <div class="row">
                <div class="col-lg-8 mx-auto">
