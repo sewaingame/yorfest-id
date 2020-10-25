@@ -40,10 +40,10 @@
      <li class="nav-item">
                   <a href="../contact.php?p=4">Contact</a>
                </li>
-               <li class="header-ticket nav-item">
-                  <a class="ticket-btn btn" href="../logout.php">
-                    <i class="fas fa-sign-out-alt"></i>
-                    <?php
+               <li class="nav-item dropdown header-ticket nav-item">
+
+
+						<a href="#" class="ticket-btn btn" data-toggle="dropdown"><?php
                       $name = explode(" ", $_SESSION["name"]);
                       for ($i=0; $i < count($name); $i++)
                       {
@@ -52,7 +52,14 @@
                         else
                           echo ' ' . $name[$i][0];
                       }
-                    ?>
+                    ?><i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                           <li><a href="?p=2&c=1" class="icon icon-user">
+						   Profile</a></li>
+						   <li><a href="../logout.php" class="icon icon-exit">
+						   Logout</a></li>
+
+
                   </a>
                </li>
             </ul>
