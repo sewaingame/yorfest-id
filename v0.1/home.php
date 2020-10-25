@@ -946,15 +946,7 @@
                      <a href=""><img src="images/sponsors/sponsor-1.png" alt=""></a>
                      <a href=""><img src="images/sponsors/sponsor-2.png" alt=""></a>
                      <a href=""><img src="images/sponsors/sponsor-3.png" alt=""></a>
-                     <a href=""><img src="images/sponsors/sponsor-4.png" alt=""></a>
-                     <a href=""><img src="images/sponsors/sponsor-5.png" alt=""></a>
-                     <a href=""><img src="images/sponsors/sponsor-6.png" alt=""></a>
-                     <a href=""><img src="images/sponsors/sponsor-7.png" alt=""></a>
-                     <a href=""><img src="images/sponsors/sponsor-8.png" alt=""></a>
-                     <a href=""><img src="images/sponsors/sponsor-9.png" alt=""></a>
-                     <div class="sponsor-btn text-center">
-                        <a href="#" class="btn">Become a Sponsor</a>
-                     </div>
+                     
                   </div><!-- sponsors logo end-->
                </div><!-- col end-->
             </div><!-- row end-->
