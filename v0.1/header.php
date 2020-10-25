@@ -8,7 +8,7 @@
    <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light">
          <!-- logo-->
-         <a class="navbar-brand" href="home.html">
+         <a class="navbar-brand" href="home.php?p=1">
             <img src="images/logos/logo.png" alt="">
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
