@@ -615,6 +615,7 @@
           $newPost["like"] = [];
           $newPost["comment"] = [];
           $newPost["user"] = getParticipantByID($row["participantid"]);
+
           // $userSQL = "SELECT id, name, photourl FROM participant WHERE id=".$row["participantid"];
           // $resultUser = $con->query($userSQL);
           //
@@ -646,7 +647,7 @@
           {
             $comment = [];
             $comment["id"] = $rowComment["id"];
-            $comment["user"] = $newPost["user"] = getParticipantByID($rowComment["participantid"]);
+            $comment["user"] = getParticipantByID($rowComment["participantid"]);
             $comment["message"] = $rowComment["message"];
             $comment["time"] = $rowComment["time"];
 

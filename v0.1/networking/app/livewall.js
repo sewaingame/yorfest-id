@@ -85,8 +85,6 @@ function onLoadNewPostSuccess(data){
   if(last_post_id == 0 && response.data.length > 0)
     last_post_id = response.data[0].id;
 
-
-
   for (var i = response.data.length-1; i >= 0; i--) {
     if(i==0 && response.data[i].id > last_post_id)
       last_post_id = response.data[i].id;
@@ -111,14 +109,10 @@ function printNewPost(post, isold) {
   var userdata = JSON.parse(decrypt(sessionStorage.getItem("user_data"))).data;
   var postObject = $("#post").clone().prop('id', 'post_' + post.id);
 
-  var photourl = post.user.photourl;
-
-  if(photourl.length < 5)
-    photourl = "images/user.png";
 
   $(postObject).attr('data', post.updated);
   $(postObject).attr('data-id', post.id);
-  $(postObject.find('.post_photourl')[0]).attr('src', photourl);
+  $(postObject.find('.post_photourl')[0]).attr('src', post.user.photourl);
   $(postObject.find('.post_name')[0]).html(post.user.name);
   $(postObject.find('.post_time')[0]).html(calculateTime(post.time));
   $(postObject.find('.post_time')[0]).attr('data', post.time);
@@ -131,7 +125,7 @@ function printNewPost(post, isold) {
   for (var i = 0; i < post.comment.length; i++) {
     var commentObject = $("#comment").clone().prop('id', 'comment_' + post.id + '_' + post.comment[i].id);
 
-    $(commentObject.find('.comment_photourl')[0]).attr('src', photourl);
+    $(commentObject.find('.comment_photourl')[0]).attr('src', post.comment[i].user.photourl);
     $(commentObject.find('.comment_name')[0]).html(post.comment[i].user.name);
     $(commentObject.find('.comment_time')[0]).html(calculateTime(post.comment[i].time));
     $(commentObject.find('.comment_time')[0]).attr('data', post.comment[i].time);
@@ -161,9 +155,12 @@ function printNewPost(post, isold) {
     if(post.like[i].user.email == userdata.email)
       is_me_like = true;
 
-    var newName = $('#like_comment_userlist').clone().prop('id', 'like_' + post.like[i].id).html(post.like[i].user.name);
-    $(newName).show();
-    $(postObject.find('.like_userlist')[0]).append(newName);
+    var newid = '#like_' + post.like[i].id;
+    if($(newid).length == 0)
+    {
+      var newName = $('#like_comment_userlist').clone().prop('id', newid).html(post.like[i].user.name);
+      $(postObject.find('.like_userlist')[0]).append(newName);
+    }
   }
 
   // console.log(is_me_like);
@@ -187,13 +184,8 @@ function updatePost(post)
   var userdata = JSON.parse(decrypt(sessionStorage.getItem("user_data"))).data;
   var postObject = $('#post_' + post.id);
 
-  var photourl = post.user.photourl;
-
-  if(photourl.length < 5)
-    photourl = "images/user.png";
-
   $(postObject).attr('data', post.updated);
-  $(postObject.find('.post_photourl')[0]).attr('src', photourl);
+  $(postObject.find('.post_photourl')[0]).attr('src', post.user.photourl);
   $(postObject.find('.post_name')[0]).html(post.user.name);
   $(postObject.find('.post_time')[0]).html(calculateTime(post.time));
   $(postObject.find('.post_time')[0]).attr('data', post.time);
@@ -208,7 +200,7 @@ function updatePost(post)
     {
       var commentObject = $("#comment").clone().prop('id', 'comment_' + post.id + '_' + post.comment[i].id);
 
-      $(commentObject.find('.comment_photourl')[0]).attr('src', photourl);
+      $(commentObject.find('.comment_photourl')[0]).attr('src', post.comment[i].user.photourl);
       $(commentObject.find('.comment_name')[0]).html(post.comment[i].user.name);
       $(commentObject.find('.comment_time')[0]).html(calculateTime(post.comment[i].time));
       $(commentObject.find('.comment_time')[0]).attr('data', post.comment[i].time);

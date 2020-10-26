@@ -235,8 +235,8 @@
                   <div class="ts-exp-wrap">
                      <div class="ts-exp-content">
                         <h2 class="column-title">
-                           <span>Get Experience</span>
-                           Shift your perspective
+                           Organic Network
+
                         </h2>
                         <p>
                            Fitur ini menjadi media komunikasi antara pembicara, peserta dan peminat untuk bertemu & berkenalan dengan sesama pegiat organik. Bangun jaringan anda dengan  bergabung di Organic Networking Space.

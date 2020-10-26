@@ -38,6 +38,13 @@
     if(isset($_FILES["profilepicture"]))
     {
       $target_file = "profilepictures/" . $data["email"] . "." . strtolower(pathinfo($_FILES["businesscard"]["name"],PATHINFO_EXTENSION));
+
+      if (file_exists($target_file))
+      {
+         unlink($target_file);
+      }
+
+
       if (move_uploaded_file($_FILES["profilepicture"]["tmp_name"], "networking/" . $target_file))
       {
         $data["photourl"] = $target_file;
@@ -47,6 +54,12 @@
     if(isset($_FILES["businesscard"]))
     {
       $target_file = "businesscard/" . $data["email"] . "." . strtolower(pathinfo($_FILES["businesscard"]["name"],PATHINFO_EXTENSION));
+
+      if (file_exists($target_file))
+      {
+         unlink($target_file);
+      }
+      
       if (move_uploaded_file($_FILES["businesscard"]["tmp_name"], "networking/" . $target_file))
       {
         $data["cardurl"] = $target_file;
