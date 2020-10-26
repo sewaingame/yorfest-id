@@ -3508,12 +3508,13 @@ img.pull-right {
 /* ---- .grid-item ---- */
 
 .ts-gallery {
-	padding-bottom: 70px;
+	padding-top: 40px;
+	padding-bottom: 250px;
 }
 
 .grid-item img {
 	display: block;
-	max-width: 100%;
+	max-width: 150%;
 }
 
 .ts-grid-item {
