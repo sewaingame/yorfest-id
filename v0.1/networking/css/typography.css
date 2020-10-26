@@ -1180,6 +1180,7 @@ Avatar Size
 	width: 35px;
 	line-height: 35px;
 	font-size: 0.5rem;
+	object-fit:cover;
 }
 
 .avatar-30 {
@@ -1187,6 +1188,7 @@ Avatar Size
 	width: 30px;
 	line-height: 30px;
 	font-size: 0.4rem;
+	object-fit:cover;
 }
 
 .avatar-40 {
@@ -1194,6 +1196,7 @@ Avatar Size
 	width: 40px;
 	line-height: 40px;
 	font-size: 0.6rem;
+	object-fit:cover;
 }
 
 .avatar-45 {
@@ -1201,6 +1204,7 @@ Avatar Size
 	width: 45px;
 	line-height: 45px;
 	font-size: 0.8rem;
+	object-fit:cover;
 }
 
 .avatar-50 {
@@ -1208,6 +1212,7 @@ Avatar Size
 	width: 50px;
 	line-height: 50px;
 	font-size: 1rem;
+	object-fit:cover;
 }
 
 .avatar-60 {
@@ -1215,6 +1220,7 @@ Avatar Size
 	width: 60px;
 	line-height: 60px;
 	font-size: 1.2rem;
+	object-fit:cover;
 }
 
 .avatar-70 {
@@ -1222,6 +1228,7 @@ Avatar Size
 	width: 70px;
 	line-height: 70px;
 	font-size: 1.4rem;
+	object-fit:cover;
 }
 
 .avatar-80 {
@@ -1229,6 +1236,7 @@ Avatar Size
 	width: 80px;
 	line-height: 80px;
 	font-size: 1.6rem;
+	object-fit:cover;
 }
 
 .avatar-90 {
@@ -1236,6 +1244,7 @@ Avatar Size
 	width: 90px;
 	line-height: 90px;
 	font-size: 1.6rem;
+	object-fit:cover;
 }
 
 .avatar-100 {
@@ -1243,6 +1252,7 @@ Avatar Size
 	width: 100px;
 	line-height: 100px;
 	font-size: 1.6rem;
+	object-fit:cover;
 }
 
 .avatar-110 {
@@ -1250,6 +1260,7 @@ Avatar Size
 	width: 110px;
 	line-height: 110px;
 	font-size: 1.6rem;
+	object-fit:cover;
 }
 
 .avatar-120 {
@@ -1257,6 +1268,7 @@ Avatar Size
 	width: 120px;
 	line-height: 120px;
 	font-size: 1.6rem;
+	object-fit:cover;
 }
 
 .avatar-130 {
@@ -1264,6 +1276,7 @@ Avatar Size
 	width: 130px;
 	line-height: 130px;
 	font-size: 1.6rem;
+	object-fit:cover;
 }
 
 

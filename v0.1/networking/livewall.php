@@ -35,7 +35,7 @@
          <div class="user-post-data">
             <div class="d-flex flex-wrap">
                <div class="media-support-user-img mr-3">
-                  <img class="rounded-circle img-fluid post_photourl" src="###PhotoURL###" alt="">
+                  <img class="rounded-circle avatar-60 post_photourl" src="###PhotoURL###" alt="">
                </div>
                <div class="media-support-info mt-2">
                   <h5 class="mb-0 d-inline-block"><a href="#" class="post_name">###Name###</a></h5>
