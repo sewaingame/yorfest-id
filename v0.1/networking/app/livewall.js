@@ -229,8 +229,8 @@ function updatePost(post)
     if(post.like[i].user.email == userdata.email)
       is_me_like = true;
 
-    var newid = '#like_' + post.like[i].id;
-    if($(newid).length == 0)
+    var newid = 'like_' + post.like[i].id;
+    if($("#" + newid).length == 0)
     {
       var newName = $('#like_comment_userlist').clone().prop('id', newid).html(post.like[i].user.name);
       $(postObject.find('.like_userlist')[0]).append(newName);

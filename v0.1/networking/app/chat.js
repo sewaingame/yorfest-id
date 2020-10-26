@@ -8,10 +8,6 @@ var maxLoadChatCounter = 0;
 $( document ).ready(function() {
   var userdata = JSON.parse(decrypt(sessionStorage.getItem("user_data"))).data;
 
-
-  if(userdata.photourl.length == 0)
-    userdata.photourl = "images/user.png";
-
   $("#chat_username").html(getShortName2(userdata.name));
   $("#chat_company").html(userdata.company);
   $("#chat_userphotourl").attr('src', userdata.photourl);
@@ -172,9 +168,6 @@ function openChat(userdata)
 
     activeChat = user.id;
 
-    if(user.photourl.length == 0)
-      user.photourl = "images/user.png";
-
     $("#chat_box").css('display','');
     $("#default-block").hide();
     $($("#chat_box").find(".photourl")[0]).attr('src', user.photourl);
@@ -255,7 +248,8 @@ function onLoadNewChatHistorySuccess(data)
           maxLoadChatCounter = response.data.chats[i].counter;
 
       var me = response.data.chats[i].participantid == response.data.myid;
-      var userData = response.data.chats[i].participantid == me.id ? me : user;
+      var mydata = JSON.parse(decrypt(sessionStorage.getItem("user_data"))).data;
+      var userData = response.data.chats[i].participantid == response.data.myid ? mydata : user;
 
       printChat(me, userData, response.data.chats[i].id, response.data.chats[i].message, getHourAndMinutes(response.data.chats[i].time))
     }
@@ -284,6 +278,8 @@ function sendChat()
 
   var user = JSON.parse(decrypt(nextChatToOpen));
 
+  var mydata = JSON.parse(decrypt(sessionStorage.getItem("user_data"))).data;
+
   var message = $("#chatMessage").val();
 
   if(message.replaceAll(" ", "").length > 0)
@@ -295,7 +291,7 @@ function sendChat()
 
     message = CryptoJS.AES.encrypt(message,key).toString();
 
-    printChat(true, user, lastChatID, message, "Sending");
+    printChat(true, mydata, lastChatID, message, "Sending");
 
     var data = {
       cmd:"sc",
@@ -462,7 +458,8 @@ function onLoadChatHistorySuccess(data)
         maxLoadChatCounter = response.data.chats[i].counter;
 
     var me = response.data.chats[i].participantid == response.data.myid;
-    var userData = response.data.chats[i].participantid == me.id ? me : user;
+    var mydata = JSON.parse(decrypt(sessionStorage.getItem("user_data"))).data;
+    var userData = response.data.chats[i].participantid == response.data.myid ? mydata : user;
 
     printChat(me, userData, response.data.chats[i].id, response.data.chats[i].message, getHourAndMinutes(response.data.chats[i].time))
   }

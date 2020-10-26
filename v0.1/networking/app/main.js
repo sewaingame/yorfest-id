@@ -171,9 +171,9 @@ function calculateOnlineStatus(time)
       }
 
       if(d == 0 && h != 0)
-        result = "status-offline";
+        result = "";
       else if(h == 0 && m < 2)
-        result = "status-online";
+        result = "status-away";
     }
     return result;
 }
