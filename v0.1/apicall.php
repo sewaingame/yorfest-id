@@ -45,7 +45,7 @@
       }
 
 
-      if (move_uploaded_file($_FILES["profilepicture"]["tmp_name"], "networking/" . $target_file))
+      if (move_uploaded_file($_FILES["profilepicture"]["tmp_name"], '../' . $target_file))
       {
         $data["photourl"] = $target_file;
       }
@@ -59,8 +59,8 @@
       {
          unlink($target_file);
       }
-      
-      if (move_uploaded_file($_FILES["businesscard"]["tmp_name"], "networking/" . $target_file))
+
+      if (move_uploaded_file($_FILES["businesscard"]["tmp_name"], '../'. $target_file))
       {
         $data["cardurl"] = $target_file;
       }
