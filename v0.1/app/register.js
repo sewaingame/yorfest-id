@@ -90,7 +90,7 @@ $("#register").click(function ()
     var birth = $('#f-birth').val();
     var company = $('#f-company').val();
     var interest = $('#f-interest option:selected').html();
-    var conference = $('#f-conference option:selected').val();
+    var conference = $('#f-conference option:selected').html();
     var interest_other = $('#f-interest-other').val();
     var password = $('#f-password').val();
     var cpassword = $('#f-cpassword').val();
@@ -109,6 +109,8 @@ $("#register").click(function ()
     formdata.append("company",company);
     formdata.append("interest",interest);
     formdata.append("password",password);
+
+    console.log(conference);
 
     var profilepicture = $("#f-profilepicture")[0].files;
     if (profilepicture[0]) {

@@ -14,10 +14,7 @@
     $response["data"] = null;
     $verifiedkey = uniqid();
 
-    $sql = '
-    INSERT INTO participant(name, email, phone, birth, company, interest, password, verifiedkey, photourl, cardurl)
-    VALUES("'.$data['name'].'","'.$data['email'].'","'.$data['phone'].'","'.$data['birth'].'","'.$data['company'].'","'.$data['interest'].'","'.$data['password'].'","'.$verifiedkey.'","'.$data['photourl'].'","'.$data['cardurl'].'")
-    ';
+    $sql = 'INSERT INTO participant(name, email, phone, birth, company, interest, conference, password, verifiedkey, photourl, cardurl) VALUES("'.$data['name'].'","'.$data['email'].'","'.$data['phone'].'","'.$data['birth'].'","'.$data['company'].'","'.$data['interest'].'","'.$data['conference'].'","'.$data['password'].'","'.$verifiedkey.'","'.$data['photourl'].'","'.$data['cardurl'].'")';
 
     if ($con->query($sql) === TRUE)
     {
@@ -72,7 +69,7 @@
       $subjectText = $subject;
     }
 
-    /*
+
     try {
         //Server settings
         $mail->isSMTP();
@@ -116,7 +113,7 @@
         $response["error"] = true;
         $response["message"] = "Send email error : " . $mail->ErrorInfo;
     }
-    */
+
     return $response;
     }
 
@@ -244,6 +241,7 @@
           $data["verified"] = $row['verified'];
           $data["photourl"] = $row['photourl'];
           $data["cardurl"] = $row['cardurl'];
+          $data["conference"] = $row['conference'];
           $data["verifiedkey"] = $row['verifiedkey'];
 
           $apikey = uniqid();

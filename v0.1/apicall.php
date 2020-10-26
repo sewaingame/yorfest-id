@@ -29,6 +29,7 @@
     $data["phone"] = $_POST['phone'];
     $data["birth"] = $_POST['birth'];
     $data["company"] = $_POST['company'];
+    $data["conference"] = $_POST['conference'];
     $data["interest"] = $_POST['interest'];
     $data["password"] = md5($_POST['password']);
     $data["photourl"] = "images/user.png";

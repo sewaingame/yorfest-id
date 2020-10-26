@@ -1,11 +1,11 @@
 <?php
-  $domain = 'hut56partaigolkar.id';
+  $domain = 'yorfest2020.hut56partaigolkar.id';
   $sender = "noreply@hut56partaigolkar.id";
-  $sendername = "Perayaan HUT 56 Partai Golkar";
+  $sendername = "YORFest 2020";
   $password = 'chelsea2018';
-  $subject = '[VERIFIKASI EMAIL] Perayaan HUT 56 Partai Golkar';
-  $subjectReset = '[RESET PASSWORD] Perayaan HUT 56 Partai Golkar';
-  $smtpaddress = 'flash.webmail.co.id';//'';
+  $subject = '[VERIFIKASI EMAIL] YORFest 2020';
+  $subjectReset = '[RESET PASSWORD] YORFest 2020';
+  $smtpaddress = 'jupiter.webmail.co.id';
   $smtpport = 587;
   $smtpsecure = 'ssl';
   $attachment = [];
@@ -16,7 +16,7 @@
     Yth. '.$data['name'].',
     <br>
     <br>
-    Terima kasih telah melakukan registrasi pada platform Partai Golkar Virtual World!
+    Terima kasih telah melakukan registrasi pada platform YORFest 2020!
     <br>
     Klik link di bawah ini untuk memverifikasi email anda :
     <br>
@@ -24,28 +24,16 @@
     <a href="https://'.$domain.'/verify.php?key=' . $data['verifiedkey']. '"> Konfirmasi Email </a>
     <br>
     <br>
-    Kunjungi platform Partai Golkar Virtual world di www.hut56partaigolkar.id
-    <br>
-    Anda dapat mejelajahi platform Partai Golkar Virtual World untuk mendapatkan informasi serta menghadiri seluruh rangkaian acara HUT 56 Partai Golkar.
+    Kunjungi YORFest 2020 world di '.$domain.'
     <br>
     Sampai bertemu!
     <br>
     <br>
     Hormat kami,
     <br>
-    Sekretariat HUT 56 Partai Golkar
+    YORFest 2020
     <br>
     <br>
-    Jangan lupa ikuti update informasi rangkaian kegiatan peringatan HUT Partai Golkar melalui:
-    <br>
-    Website : www.hut56partaigolkar.id
-    <br>
-    Youtube : PartaiGolkar
-    <br>
-    Instagram : @partaigolkar
-    <br>
-    Facebook: Partai Golkar
-
     ';
 
     return $body;
@@ -65,19 +53,7 @@
     <br>
     Hormat kami,
     <br>
-    Sekretariat HUT 56 Partai Golkar
-    <br>
-    <br>
-    Jangan lupa ikuti update informasi rangkaian kegiatan peringatan HUT Partai Golkar melalui:
-    <br>
-    Website : www.hut56partaigolkar.id
-    <br>
-    Youtube : PartaiGolkar
-    <br>
-    Instagram : @partaigolkar
-    <br>
-    Facebook: Partai Golkar
-
+    YORFest 2020
     ';
 
     return $body;
