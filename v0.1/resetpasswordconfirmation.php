@@ -3,12 +3,18 @@
    <!-- index-515:19-->
    <head>
       <!-- Basic Page Needs ================================================== -->
-      <meta charset="utf-8">
-      <!-- Mobile Specific Metas ================================================== -->
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-      <!-- Site Title -->
-      <title>Exhibz - Conference &amp; Event HTML Template</title>
+   <meta charset="utf-8">
+
+   <!-- Mobile Specific Metas ================================================== -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+   <meta name ="description" content="Young organic festival 2020">
+   <meta name ="og;description" content="Young organic festival 2020">
+   <meta name ="og;url" content="https;//yorfest.id/">
+
+   <!-- Site Title -->
+   <title>YORFEST - 2020 &amp; YOUNG ORGANIC FESTIVAL 2020 </title>
+   <link rel="shortcut icon" type="image/x-icon" href="images/logo_tab.png">
       <!-- CSS
          ================================================== -->
       <!-- Bootstrap -->
@@ -50,8 +56,7 @@
                           <br>
                           <p>
                             Your password has successfully been changed. <br>
-                            You can now login with your email and new password.<br>
-                            Click login button below to login.
+                            Please login to continue
                           </p>
                         </div>
                         <div class="col-12 mt-4">
@@ -67,9 +72,7 @@
          </div>
       </section>
       <!-- banner end-->
-      <!-- footer start-->
-      <?php include 'footer.php'; ?>
-      <!-- ts footer area end-->
+     
       <!-- Javascript Files
          ================================================== -->
       <!-- initialize jQuery Library -->

@@ -3,12 +3,18 @@
    <!-- index-515:19-->
    <head>
       <!-- Basic Page Needs ================================================== -->
-      <meta charset="utf-8">
-      <!-- Mobile Specific Metas ================================================== -->
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-      <!-- Site Title -->
-      <title>Exhibz - Conference &amp; Event HTML Template</title>
+   <meta charset="utf-8">
+
+   <!-- Mobile Specific Metas ================================================== -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+   <meta name ="description" content="Young organic festival 2020">
+   <meta name ="og;description" content="Young organic festival 2020">
+   <meta name ="og;url" content="https;//yorfest.id/">
+
+   <!-- Site Title -->
+   <title>YORFEST - 2020 &amp; YOUNG ORGANIC FESTIVAL 2020 </title>
+   <link rel="shortcut icon" type="image/x-icon" href="images/logo_tab.png">
       <!-- CSS
          ================================================== -->
       <!-- Bootstrap -->
@@ -50,15 +56,15 @@
                            <h2>Reset Password</h2>
                         </div>
                         <div class="col-12 text-left">
-                           <label for="password" style="color:#B8B8B8; font-size:12px;">Password</label>
+                           <label for="password" style="color:#000000; font-size:14px;">New Password</label>
                            <input class="form-control form-control-password" name="password" id="f-password" type="password">
                         </div>
                         <div class="col-12 text-left">
-                           <label for="cpassword" style="color:#B8B8B8; font-size:12px;">Confirm Password</label>
+                           <label for="cpassword" style="color:#000000; font-size:14px;">Confirm New Password</label>
                            <input class="form-control form-control-password" name="cpassword" id="f-cpassword" type="password">
                         </div>
                         <div class="col-12 mt-4">
-                           <button class="btn" type="submit"> Reset</button>
+                           <button class="btn" type="submit"> Confirm</button>
                         </div>
                      </div>
                   </div>
@@ -72,9 +78,7 @@
          </div>
       </section>
       <!-- banner end-->
-      <!-- footer start-->
-      <?php include 'footer.php'; ?>
-      <!-- ts footer area end-->
+     
       <!-- Javascript Files
          ================================================== -->
       <!-- initialize jQuery Library -->

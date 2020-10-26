@@ -2,13 +2,19 @@
 <html lang="en">
    <!-- index-515:19-->
    <head>
-      <!-- Basic Page Needs ================================================== -->
-      <meta charset="utf-8">
-      <!-- Mobile Specific Metas ================================================== -->
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-      <!-- Site Title -->
-      <title>Exhibz - Conference &amp; Event HTML Template</title>
+       <!-- Basic Page Needs ================================================== -->
+   <meta charset="utf-8">
+
+   <!-- Mobile Specific Metas ================================================== -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+   <meta name ="description" content="Young organic festival 2020">
+   <meta name ="og;description" content="Young organic festival 2020">
+   <meta name ="og;url" content="https;//yorfest.id/">
+
+   <!-- Site Title -->
+   <title>YORFEST - 2020 &amp; YOUNG ORGANIC FESTIVAL 2020 </title>
+   <link rel="shortcut icon" type="image/x-icon" href="images/logo_tab.png">
       <!-- CSS
          ================================================== -->
       <!-- Bootstrap -->
@@ -71,11 +77,16 @@
                         <div class="col-12 mt-3">
                            <button class="btn w-100" type="submit" id="login"> Login</button>
                         </div>
-                        <div class="col-12 mt-3">
-                           <a href="register.php" style="color:#4E4E4E; font-size:12px; text-align: center;">Don't have an account yet? Sign Up</a>
+                        <div class="col-12" style="padding-top:20px">
+                           <a href="" style="color:#4E4E4E; font-size:14px; text-align: center;">Don't have an account yet?</a>
                         </div>
-                        <div class="col-12">
-                           <a href="forgetpassword.php" style="color:#6A6969; font-size:12px; text-align: center;">Forget Password</a>
+						<div class="col-12 mt-8">
+                           <a href="register.php" style="color:#3ad134; font-size:14px; text-align: center;">Register</a>
+                        </div>
+						<div class="col-12 mt-8">
+                           <a href="" style="color:#6A6969; font-size:14px; text-align: center;">or</a>
+                        <div class="col-12 mt-8">
+                           <a href="forgetpassword.php" style="color:#6A6969; font-size:14px; text-align: center;">Forgot Password</a>
                         </div>
                      </div>
                   </div>
@@ -92,8 +103,7 @@
       </div>
       <!-- banner end-->
       <!-- footer start-->
-      <?php include 'footer.php'; ?>
-      <!-- ts footer area end-->
+      
       <!-- Javascript Files
          ================================================== -->
       <!-- initialize jQuery Library -->
