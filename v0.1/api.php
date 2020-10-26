@@ -239,8 +239,8 @@
           $data["interest"] = $row['interest'];
           $data["password"] = $row['password'];
           $data["verified"] = $row['verified'];
-          $data["photourl"] = $row['photourl'];
-          $data["cardurl"] = $row['cardurl'];
+          $data["photourl"] = "../../" . $row['photourl'];
+          $data["cardurl"] = "../../" . $row['cardurl'];
           $data["conference"] = $row['conference'];
           $data["verifiedkey"] = $row['verifiedkey'];
 
@@ -843,8 +843,8 @@
           $newUser["birth"] = $row['birth'];
           $newUser["company"] = $row['company'];
           $newUser["interest"] = $row['interest'];
-          $newUser["photourl"] = $row['photourl'];
-          $newUser["cardurl"] = $row['cardurl'];
+          $newUser["photourl"] = "../../" . $row['photourl'];
+          $newUser["cardurl"] = "../../" . $row['cardurl'];
           $newUser["last_update"] = $row['last_update'];
 
           $response["data"][] = $newUser;
