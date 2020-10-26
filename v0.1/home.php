@@ -278,9 +278,9 @@
                                 </a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Fredric Martinsson</a></h3>
+                        <h3 class="ts-title"><a href="#">Azwar Anas</a></h3>
                         <p>
-                           Founder, Edilta
+                           Bupati Banyuwangi
                         </p>
                      </div>
                   </div>
@@ -294,47 +294,30 @@
                         </div><!-- col end-->
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">David Robert</h3>
-                              <span class="speakder-designation">Cheif Architecture</span>
-                              <img class="company-logo" src="images/sponsors/sponsor-6.png" alt="">
+                              <h3 class="ts-title">Abdullah Azwar Anas</h3>
+                              <span class="speakder-designation">Bupati Banyuwangi</span>
+                              <img class="company-logo" src="untitled-3.png" alt="">
                               <p>
-                                 World is committed to making participation in the event a harass ment free experience
-                                 for everyone, regardless of level experience gender, gender identity and expression
+                                 Muda Kaya Indonesia Jaya
                               </p>
                               <h4 class="session-name">
-                                 Sessions by David
+                                 
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
+									<p>Opening Sessions
+                                       </p>
+                                       <h4>28 Oktober 2020</h4>
                                        <span>
-                                                   10.30 - 11.30 am
+                                                   10.20 - 10.40 WIB
                                              </span>
-                                       <p>
-                                          Marketing Matters
-                                       </p>
+                                       
                                     </div>
                                  </div>
-                                 <div class="col-lg-6">
-                                    <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                      10.30 - 11.30 am
-                                                </span>
-                                       <p>
-                                          Marketing Matters
-                                       </p>
-                                    </div>
-                                 </div>
+                                 
                               </div>
-                              <div class="ts-speakers-social">
-                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                 <a href="#"><i class="fa fa-instagram"></i></a>
-                                 <a href="#"><i class="fa fa-google-plus"></i></a>
-                                 <a href="#"><i class="fa fa-linkedin"></i></a>
-                              </div>
+                             
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
                      </div><!-- row end-->
@@ -349,9 +332,9 @@
                                 </a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Melisa Lundryn</a></h3>
+                        <h3 class="ts-title"><a href="#">Tari Dana</a></h3>
                         <p>
-                           Lead Designer, Payol
+                           Avana Green
                         </p>
                      </div>
                   </div>
@@ -363,48 +346,30 @@
                               <img src="images/speakers/speaker2.jpg" alt="">
                            </div>
                         </div><!-- col end-->
-                        <div class="col-lg-6">
+                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">David Robert</h3>
-                              <span class="speakder-designation">Cheif Architecture</span>
-                              <img class="company-logo" src="images/sponsors/sponsor-6.png" alt="">
+                              <h3 class="ts-title">Tari Dana</h3>
+                              <span class="speakder-designation">Avana Green</span>
+                              <img class="company-logo" src="images/logos/untitled-3.png" alt="">
                               <p>
-                                 World is committed to making participation in the event a harass ment free experience
-                                 for everyone, regardless of level experience gender, gender identity and expression
+                                 Premakultur untuk Generasi Muda
                               </p>
                               <h4 class="session-name">
-                                 Sessions by David
+                                 
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                         10.30 - 11.30 am
-                                                   </span>
-                                       <p>
-                                          Marketing Matters
+									<p>Ecosystem Sessions
                                        </p>
+                                       <h4>28 Oktober 2020</h4>
+                                       <span>
+                                                   11.15 - 11.30 WIB
+                                             </span>
+                                       
                                     </div>
                                  </div>
-                                 <div class="col-lg-6">
-                                    <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                            10.30 - 11.30 am
-                                                      </span>
-                                       <p>
-                                          Marketing Matters
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="ts-speakers-social">
-                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                 <a href="#"><i class="fa fa-instagram"></i></a>
-                                 <a href="#"><i class="fa fa-google-plus"></i></a>
-                                 <a href="#"><i class="fa fa-linkedin"></i></a>
+                                 
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -419,10 +384,10 @@
                                     <i class="icon icon-plus"></i>
                                 </a>
                      </div>
-                     <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Agaton Johnsson</a></h3>
+                      <div class="ts-speaker-info">
+                        <h3 class="ts-title"><a href="#">Margaret Agustina</a></h3>
                         <p>
-                           Developer Expert
+                           Jagapati.com
                         </p>
                      </div>
                   </div>
@@ -431,54 +396,37 @@
                      <div class="row">
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-img">
-                              <img src="images/speakers/speaker3.jpg" alt="">
+                              <img src="images/speakers/speaker2.jpg" alt="">
                            </div>
                         </div><!-- col end-->
-                        <div class="col-lg-6">
+						<div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">David Robert</h3>
-                              <span class="speakder-designation">Cheif Architecture</span>
-                              <img class="company-logo" src="images/sponsors/sponsor-6.png" alt="">
+                              <h3 class="ts-title">Margaret Agustina</h3>
+                              <span class="speakder-designation">Japagapati com</span>
+                              <img class="company-logo" src="images/logos/untitled-3.png" alt="">
                               <p>
-                                 World is committed to making participation in the event a harass ment free experience
-                                 for everyone, regardless of level experience gender, gender identity and expression
+                                 Platform Organik
                               </p>
                               <h4 class="session-name">
-                                 Sessions by David
+                                 
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                         10.30 - 11.30 am
-                                                   </span>
-                                       <p>
-                                          Marketing Matters
+									<p>Ecosystem Sessions
                                        </p>
+                                       <h4>28 Oktober 2020</h4>
+                                       <span>
+                                                   15.30 - 15.45 WIB
+                                             </span>
+                                       
                                     </div>
                                  </div>
-                                 <div class="col-lg-6">
-                                    <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                            10.30 - 11.30 am
-                                                      </span>
-                                       <p>
-                                          Marketing Matters
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="ts-speakers-social">
-                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                 <a href="#"><i class="fa fa-instagram"></i></a>
-                                 <a href="#"><i class="fa fa-google-plus"></i></a>
-                                 <a href="#"><i class="fa fa-linkedin"></i></a>
+                                 
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
+						
                      </div><!-- row end-->
                   </div><!-- popup end-->
                </div> <!-- col end-->
@@ -491,9 +439,9 @@
                                 </a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Rebecca Henrikon</a></h3>
+                        <h3 class="ts-title"><a href="#">Moeldoko</a></h3>
                         <p>
-                           Founder, Cards
+                           HKTI
                         </p>
                      </div>
                   </div>
@@ -507,46 +455,28 @@
                         </div><!-- col end-->
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">David Robert</h3>
-                              <span class="speakder-designation">Cheif Architecture</span>
-                              <img class="company-logo" src="images/sponsors/sponsor-6.png" alt="">
+                              <h3 class="ts-title">Moeldoko</h3>
+                              <span class="speakder-designation">Himpunan Kerukunan Tani Indonesia</span>
+                              <img class="company-logo" src="images/logos/untitled-3.png" alt="">
                               <p>
-                                 World is committed to making participation in the event a harass ment free experience
-                                 for everyone, regardless of level experience gender, gender identity and expression
+                                 Organic Farm Indonesia
                               </p>
                               <h4 class="session-name">
-                                 Sessions by David
+                                 
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                         10.30 - 11.30 am
-                                                   </span>
-                                       <p>
-                                          Marketing Matters
+									<p>Closing Sessions
                                        </p>
+                                       <h4>28 Oktober 2020</h4>
+                                       <span>
+                                                   16.45 - 17.00 WIB
+                                             </span>
+                                       
                                     </div>
                                  </div>
-                                 <div class="col-lg-6">
-                                    <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                            10.30 - 11.30 am
-                                                      </span>
-                                       <p>
-                                          Marketing Matters
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="ts-speakers-social">
-                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                 <a href="#"><i class="fa fa-instagram"></i></a>
-                                 <a href="#"><i class="fa fa-google-plus"></i></a>
-                                 <a href="#"><i class="fa fa-linkedin"></i></a>
+                                 
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -562,9 +492,9 @@
                                 </a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Fredric Martinsson</a></h3>
+                        <h3 class="ts-title"><a href="#">Ivanka</a></h3>
                         <p>
-                           Founder, Edilta
+                           SLANK
                         </p>
                      </div>
                   </div>
@@ -576,48 +506,30 @@
                               <img src="images/speakers/speaker5.jpg" alt="">
                            </div>
                         </div><!-- col end-->
-                        <div class="col-lg-6">
+                       <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">David Robert</h3>
-                              <span class="speakder-designation">Cheif Architecture</span>
-                              <img class="company-logo" src="images/sponsors/sponsor-6.png" alt="">
+                              <h3 class="ts-title">Ivanka</h3>
+                              <span class="speakder-designation">Green Slank</span>
+                              <img class="company-logo" src="images/logos/untitled-3.png" alt="">
                               <p>
-                                 World is committed to making participation in the event a harass ment free experience
-                                 for everyone, regardless of level experience gender, gender identity and expression
+                                 Green Slank Indonesia
                               </p>
                               <h4 class="session-name">
-                                 Sessions by David
+                                 
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                         10.30 - 11.30 am
-                                                   </span>
-                                       <p>
-                                          Marketing Matters
+									<p>Opening Sessions
                                        </p>
+                                       <h4>29 Oktober 2020</h4>
+                                       <span>
+                                                   10.00 - 10.10 WIB
+                                             </span>
+                                       
                                     </div>
                                  </div>
-                                 <div class="col-lg-6">
-                                    <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                            10.30 - 11.30 am
-                                                      </span>
-                                       <p>
-                                          Marketing Matters
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="ts-speakers-social">
-                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                 <a href="#"><i class="fa fa-instagram"></i></a>
-                                 <a href="#"><i class="fa fa-google-plus"></i></a>
-                                 <a href="#"><i class="fa fa-linkedin"></i></a>
+                                 
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -633,9 +545,9 @@
                                 </a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Lundryn Melisa </a></h3>
+                        <h3 class="ts-title"><a href="#">Reza Purnomo </a></h3>
                         <p>
-                           Lead Designer, Payol
+                           BIO-Cert
                         </p>
                      </div>
                   </div>
@@ -647,48 +559,30 @@
                               <img src="images/speakers/speaker1.jpg" alt="">
                            </div>
                         </div><!-- col end-->
-                        <div class="col-lg-6">
+                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">David Robert</h3>
-                              <span class="speakder-designation">Cheif Architecture</span>
-                              <img class="company-logo" src="images/sponsors/sponsor-6.png" alt="">
+                              <h3 class="ts-title">Reza Purnomo</h3>
+                              <span class="speakder-designation">Bio Certificate</span>
+                              <img class="company-logo" src="images/logos/untitled-3.png" alt="">
                               <p>
-                                 World is committed to making participation in the event a harass ment free experience
-                                 for everyone, regardless of level experience gender, gender identity and expression
+                                 Persayaratan Sertifikasi Organik
                               </p>
                               <h4 class="session-name">
-                                 Sessions by David
+                                 
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                         10.30 - 11.30 am
-                                                   </span>
-                                       <p>
-                                          Marketing Matters
+									<p>Certification Sessions
                                        </p>
+                                       <h4>29 Oktober 2020</h4>
+                                       <span>
+                                                   10.15 - 11.00 WIB
+                                             </span>
+                                       
                                     </div>
                                  </div>
-                                 <div class="col-lg-6">
-                                    <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                            10.30 - 11.30 am
-                                                      </span>
-                                       <p>
-                                          Marketing Matters
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="ts-speakers-social">
-                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                 <a href="#"><i class="fa fa-instagram"></i></a>
-                                 <a href="#"><i class="fa fa-google-plus"></i></a>
-                                 <a href="#"><i class="fa fa-linkedin"></i></a>
+                                 
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -704,9 +598,9 @@
 								</a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Johnsson Agaton </a></h3>
+                        <h3 class="ts-title"><a href="#">Franciscus Richard </a></h3>
                         <p>
-                           Developer Expert
+                           Triasindo Royal Agro
                         </p>
                      </div>
                   </div>
@@ -720,46 +614,28 @@
                         </div><!-- col end-->
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">David Robert</h3>
-                              <span class="speakder-designation">Cheif Architecture</span>
-                              <img class="company-logo" src="images/sponsors/sponsor-6.png" alt="">
+                              <h3 class="ts-title">Franciscus Richard</h3>
+                              <span class="speakder-designation">Triasindo Royal Agro</span>
+                              <img class="company-logo" src="images/logos/untitled-3.png" alt="">
                               <p>
-                                 World is committed to making participation in the event a harass ment free experience
-                                 for everyone, regardless of level experience gender, gender identity and expression
+                                 Penyuburan Tanah
                               </p>
                               <h4 class="session-name">
-                                 Sessions by David
+                                 
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                         10.30 - 11.30 am
-                                                   </span>
-                                       <p>
-                                          Marketing Matters
+									<p>The Trial and Error Experience Sessions
                                        </p>
+                                       <h4>29 Oktober 2020</h4>
+                                       <span>
+                                                   13.30 - 14.15 WIB
+                                             </span>
+                                       
                                     </div>
                                  </div>
-                                 <div class="col-lg-6">
-                                    <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                            10.30 - 11.30 am
-                                                      </span>
-                                       <p>
-                                          Marketing Matters
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="ts-speakers-social">
-                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                 <a href="#"><i class="fa fa-instagram"></i></a>
-                                 <a href="#"><i class="fa fa-google-plus"></i></a>
-                                 <a href="#"><i class="fa fa-linkedin"></i></a>
+                                 
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -776,9 +652,9 @@
                                 </a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Henrikon Rebecca </a></h3>
+                        <h3 class="ts-title"><a href="#">Hemindra Primula </a></h3>
                         <p>
-                           Founder, Cards
+                           Crowde Funds
                         </p>
                      </div>
                   </div>
@@ -792,46 +668,28 @@
                         </div><!-- col end-->
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">David Robert</h3>
-                              <span class="speakder-designation">Cheif Architecture</span>
-                              <img class="company-logo" src="images/sponsors/sponsor-6.png" alt="">
+                              <h3 class="ts-title">Hemindra Primula</h3>
+                              <span class="speakder-designation">Crowde Funds</span>
+                              <img class="company-logo" src="images/logos/untitled-3.png" alt="">
                               <p>
-                                 World is committed to making participation in the event a harass ment free experience
-                                 for everyone, regardless of level experience gender, gender identity and expression
+                                 Smart Money untuk para petani
                               </p>
                               <h4 class="session-name">
-                                 Sessions by David
+                                 
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                         10.30 - 11.30 am
-                                                   </span>
-                                       <p>
-                                          Marketing Matters
+									<p>Organic Marketing Sessions
                                        </p>
+                                       <h4>29 Oktober 2020</h4>
+                                       <span>
+                                                   16.00 - 16.30 WIB
+                                             </span>
+                                       
                                     </div>
                                  </div>
-                                 <div class="col-lg-6">
-                                    <div class="speaker-session-info">
-                                       <h4>Day 1</h4>
-                                       <span>
-                                                            10.30 - 11.30 am
-                                                      </span>
-                                       <p>
-                                          Marketing Matters
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="ts-speakers-social">
-                                 <a href="#"><i class="fa fa-facebook"></i></a>
-                                 <a href="#"><i class="fa fa-twitter"></i></a>
-                                 <a href="#"><i class="fa fa-instagram"></i></a>
-                                 <a href="#"><i class="fa fa-google-plus"></i></a>
-                                 <a href="#"><i class="fa fa-linkedin"></i></a>
+                                 
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -860,20 +718,20 @@
                <div class="col-lg-8 mx-auto">
                   <h2 class="section-title">
                      <span>Schedule Details</span>
-                     EVENT SCHEDULES
+                     CONFERENCE SCHEDULES
                   </h2>
                   <div class="ts-schedule-nav">
                      <ul class="nav nav-tabs justify-content-center" role="tablist">
                         <li class="nav-item">
                            <a class="active" title="Click Me" href="#date1" role="tab" data-toggle="tab">
                                  <h3>28th October</h3>
-                                 <span>Wednesday</span>
+                                 <span>Rabu</span>
                                </a>
                         </li>
                         <li class="nav-item">
                            <a class="" href="#date2" title="Click Me" role="tab" data-toggle="tab">
 						   <h3>29th October</h3>
-                                  <span>Thursday</span>
+                                  <span>Kamis</span>
                               </a>
                         </li>
                        </ul>
@@ -889,55 +747,43 @@
                         <div class="row">
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-left">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker1.jpg" alt="">
-                                 <span class="schedule-slot-time">12.30 - 13.30 AM</span>
-                                 <h3 class="schedule-slot-title">Marketing Matters</h3>
-                                 <h4 class="schedule-slot-name">@ Ultrman</h4>
-                                 <p>
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                 </p>
+                                 <img class="schedule-slot-speakers" src="images/logos/logo_banner home.png" alt="">
+                                 <span class="schedule-slot-time">10.45 - 11.45 WIB</span>
+                                 <h3 class="schedule-slot-title">Young Farmer</h3>
+                                 <h4 class="schedule-slot-name">@ Bank Mandiri, Angeline Theo, Tari Dana, Andhika Mahardika</h4>
+                                
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-right">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker2.jpg" alt="">
-                                 <span class="schedule-slot-time">10.30 - 11.30 PM</span>
-                                 <h3 class="schedule-slot-title">Reinventing Experiences</h3>
-                                 <h4 class="schedule-slot-name">@ Kemendes</h4>
-                                 <p>
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                 </p>
+                                 <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
+                                 <span class="schedule-slot-time">10.00 - 10.45 WIB</span>
+                                 <h3 class="schedule-slot-title">Opening</h3>
+                                 <h4 class="schedule-slot-name">@ Budi Arie Setiadi, Joko Widodo, Azwar Anas</h4>
+                                
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-left">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt="">
-                                 <span class="schedule-slot-time">12.30 - 01.30 PM</span>
-                                 <h3 class="schedule-slot-title">Cultures of Creativity</h3>
-                                 <h4 class="schedule-slot-name">@ Sipitung</h4>
-                                 <p>
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                 </p>
+                                 <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
+                                 <span class="schedule-slot-time">13.15 - 16.15 WIB</span>
+                                 <h3 class="schedule-slot-title">Eco-system</h3>
+                                 <h4 class="schedule-slot-name">@ BRI, Suradi,Raka Bagus,Putri Arif Febrila,Christopher M. Satriandaru,Ichwan Joesoef,Margaret Agustina,Dwi Anoraganingrum </h4>
+								
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-right">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker4.jpg" alt="">
-                                 <span class="schedule-slot-time">01.30 - 02.30 PM</span>
-                                 <h3 class="schedule-slot-title">Human Centered Design</h3>
-                                 <h4 class="schedule-slot-name">@ Nagabonar</h4>
-                                 <p>
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                 </p>
-                              </div>
+                                 <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
+                                 <span class="schedule-slot-time">16.15 - 17.00 WIB</span>
+                                 <h3 class="schedule-slot-title">Agro Wisata</h3>
+                                 <h4 class="schedule-slot-name">@ Dedi Wahyu Hernanda, Moeldoko</h4>
+                                 
                            </div><!-- col end-->
                         </div><!-- row end-->
+						</div>
                         <div class="schedule-listing-btn">
-                           <a href="Conference.html" class="btn">More Details</a>
+                           <a href="conference.php?p=3" class="btn">More Details</a>
                         </div>
                      </div><!-- tab pane end-->
 
@@ -945,55 +791,35 @@
                         <div class="row">
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-left">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt="">
-                                 <span class="schedule-slot-time">02.30 - 03.30 PM</span>
-                                 <h3 class="schedule-slot-title">Marketing Matters</h3>
-                                 <h4 class="schedule-slot-name">@ Rebecca Henrikon</h4>
-                                 <p>
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                 </p>
+                                <img class="schedule-slot-speakers" src="images/logos/logo_banner home.png" alt="">
+                                 <span class="schedule-slot-time">13.15 - 15.15 WIB</span>
+                                 <h3 class="schedule-slot-title">The Trial & Error Experience</h3>
+                                 <h4 class="schedule-slot-name">@ Muslahudin Daud, Franciscus Richard, Junaedi Prasetiyo</h4>
+                                
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-right">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt="">
-                                 <span class="schedule-slot-time">03.30 - 04.30 PM</span>
-                                 <h3 class="schedule-slot-title">Reinventing Experiences</h3>
-                                 <h4 class="schedule-slot-name">@ Fredric Martinsson</h4>
-                                 <p>
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                 </p>
+                                 <img class="schedule-slot-speakers" rc="images/logos/logo_banner_home2.png" alt="">
+                                 <span class="schedule-slot-time">10.00 - 12.00 WIB</span>
+                                 <h3 class="schedule-slot-title">Opening & Certification</h3>
+                                 <h4 class="schedule-slot-name">@ Ivanka, Reza Purnomo, Fikri Sopyana Tsauri</h4>
+                                
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-left">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker7.jpg" alt="">
-                                 <span class="schedule-slot-time">04.30 - 05.30 PM</span>
-                                 <h3 class="schedule-slot-title">Cultures of Creativity</h3>
-                                 <h4 class="schedule-slot-name">@ Melisa Lundryn</h4>
-                                 <p>
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                 </p>
+                                 <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
+                                  <span class="schedule-slot-time">15.30 - 17.45 WIB</span>
+                                 <h3 class="schedule-slot-title">Organic Marketing</h3>
+                                 <h4 class="schedule-slot-name">@ Christopher Emille Jayanata,Hemindra Primula,Anisa Paramita,Fendi Hartanto</h4>
+								
                               </div>
                            </div><!-- col end-->
-                           <div class="col-lg-6">
-                              <div class="schedule-listing-item schedule-right">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
-                                 <span class="schedule-slot-time">05.30 - 06.30 PM</span>
-                                 <h3 class="schedule-slot-title">Human Centered Design</h3>
-                                 <h4 class="schedule-slot-name">@ Agaton Johnsson</h4>
-                                 <p>
-                                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                                 </p>
-                              </div>
-                           </div><!-- col end-->
+                          
                         </div><!-- row end-->
                         <div class="schedule-listing-btn">
-                           <a href="#" class="btn">More Details</a>
+                           <a href="conference.php?p=3" class="btn">More Details</a>
                         </div>
 
 
@@ -1014,9 +840,16 @@
             <div class="row">
                <div class="col-lg-12">
                   <div class="sponsors-logo text-center">
-                     <a href=""><img src="images/sponsors/sponsor-1.png" alt=""></a>
-                     <a href=""><img src="images/sponsors/sponsor-2.png" alt=""></a>
-                     <a href=""><img src="images/sponsors/sponsor-3.png" alt=""></a>
+                     <img src="images/sponsors/sponsor-1.png" alt=""></a>
+                     <img src="images/sponsors/sponsor-2.png" alt=""></a>
+                     <img src="images/sponsors/sponsor-3.png" alt=""></a>
+					 <img src="images/sponsors/sponsor-7.png" alt=""></a>
+                     <img src="images/sponsors/sponsor-8.png" alt=""></a>
+					 <img src="" alt=""></a>
+                     <img src="images/sponsors/sponsor-4.png" alt=""></a>
+					 <img src="images/sponsors/sponsor-5.png" alt=""></a>
+                     <img src="images/sponsors/sponsor-6.png" alt=""></a>
+                     <img src="images/sponsors/sponsor-9.png" alt=""></a>
 
                   </div><!-- sponsors logo end-->
                </div><!-- col end-->
