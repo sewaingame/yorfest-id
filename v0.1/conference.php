@@ -125,7 +125,7 @@
                                                   <img class="schedule-slot-speakers" src="images/speakers/speaker1.jpg" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi 
+                                 <h3 class="schedule-slot-title">Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi
                                     <strong>@ Budi Arie Setyadi </strong>
                                  </h3>
                                  <p>Bisnis Pertanian Organik adalah Bisnis Masa Depan</p>
@@ -527,6 +527,10 @@
 
       <!-- Template custom -->
       <script src="js/main.js"></script>
+
+      <script src="js/crypto-js.min.js"></script>
+      <script src="app/tools.js"></script>
+      <script src="js/checknotification.js"></script>
    </div>
    <!-- Body inner end -->
 </body>

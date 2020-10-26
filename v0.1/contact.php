@@ -280,6 +280,9 @@
 
       <!-- Template custom -->
       <script src="js/main.js"></script>
+      <script src="js/crypto-js.min.js"></script>
+      <script src="app/tools.js"></script>
+      <script src="js/checknotification.js"></script>
 
    </div>
    <!-- Body inner end -->

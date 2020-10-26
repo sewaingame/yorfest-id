@@ -79,7 +79,7 @@
 
                      </li>
                      <li class="nav-item <?php if($_GET["p"] == 4) echo "active"; ?>">
-                        <a href="#" class="" >Ehxibition</a>
+                        <a href="exhibition.php" class="" >Ehxibition</a>
                      </li>
                     <li class="nav-item <?php if($_GET["p"] == 5) echo "active"; ?>">
                         <a href="contact.php?p=5">Contact</a>
@@ -90,7 +90,9 @@
                         echo
                         '
                         <li class="nav-item dropdown header-ticket nav-item">
-               						<a href="#" class="ticket-btn btn" data-toggle="dropdown">';
+               						<a href="#" class="ticket-btn btn" data-toggle="dropdown">
+
+                             ';
 
                                $name = explode(" ", $_SESSION["name"]);
                                for ($i=0; $i < count($name); $i++)
@@ -101,13 +103,17 @@
                                    echo ' ' . $name[$i][0];
                                }
                         echo '
-                              <i class="fa fa-angle-down"></i>
-                           </a>
-                           <ul class="dropdown-menu" role="menu">
-                             <li><a href="networking/?p=2&c=1" class="icon icon-user">Profile</a></li>
-             						    <li><a href="logout.php" class="icon icon-exit">Logout</a></li>
-                           </ul>
-                         </li>
+                        &nbsp;<n class="nav-notification-number-1">(2)</n> &nbsp;
+
+                         <i class="fa fa-angle-down"></i>
+                         </a>
+                         <ul class="dropdown-menu" role="menu">
+                            <li><a href="networking/?p=2&c=1"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+                            <li><a href="networking/?p=2&c=2"><i class="fa fa-comment" aria-hidden="true"></i> Chat <n class="nav-notification-number-2">(2)</n></a></li>
+                            <li><a href="networking/?p=2&c=3"><i class="fa fa-bell" aria-hidden="true"></i> Notification <n class="nav-notification-number-3">(2)</n></a></li>
+                           <li><a href="logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+                         </ul>
+                       </li>
                         ';
                       }
                       else
@@ -301,7 +307,7 @@
                                  Muda Kaya Indonesia Jaya
                               </p>
                               <h4 class="session-name">
-                                 
+
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
@@ -312,12 +318,12 @@
                                        <span>
                                                    10.20 - 10.40 WIB
                                              </span>
-                                       
+
                                     </div>
                                  </div>
-                                 
+
                               </div>
-                             
+
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
                      </div><!-- row end-->
@@ -355,7 +361,7 @@
                                  Premakultur untuk Generasi Muda
                               </p>
                               <h4 class="session-name">
-                                 
+
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
@@ -366,10 +372,10 @@
                                        <span>
                                                    11.15 - 11.30 WIB
                                              </span>
-                                       
+
                                     </div>
                                  </div>
-                                 
+
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -408,7 +414,7 @@
                                  Platform Organik
                               </p>
                               <h4 class="session-name">
-                                 
+
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
@@ -419,14 +425,14 @@
                                        <span>
                                                    15.30 - 15.45 WIB
                                              </span>
-                                       
+
                                     </div>
                                  </div>
-                                 
+
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
-						
+
                      </div><!-- row end-->
                   </div><!-- popup end-->
                </div> <!-- col end-->
@@ -462,7 +468,7 @@
                                  Organic Farm Indonesia
                               </p>
                               <h4 class="session-name">
-                                 
+
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
@@ -473,10 +479,10 @@
                                        <span>
                                                    16.45 - 17.00 WIB
                                              </span>
-                                       
+
                                     </div>
                                  </div>
-                                 
+
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -515,7 +521,7 @@
                                  Green Slank Indonesia
                               </p>
                               <h4 class="session-name">
-                                 
+
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
@@ -526,10 +532,10 @@
                                        <span>
                                                    10.00 - 10.10 WIB
                                              </span>
-                                       
+
                                     </div>
                                  </div>
-                                 
+
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -568,7 +574,7 @@
                                  Persayaratan Sertifikasi Organik
                               </p>
                               <h4 class="session-name">
-                                 
+
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
@@ -579,10 +585,10 @@
                                        <span>
                                                    10.15 - 11.00 WIB
                                              </span>
-                                       
+
                                     </div>
                                  </div>
-                                 
+
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -621,7 +627,7 @@
                                  Penyuburan Tanah
                               </p>
                               <h4 class="session-name">
-                                 
+
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
@@ -632,10 +638,10 @@
                                        <span>
                                                    13.30 - 14.15 WIB
                                              </span>
-                                       
+
                                     </div>
                                  </div>
-                                 
+
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -675,7 +681,7 @@
                                  Smart Money untuk para petani
                               </p>
                               <h4 class="session-name">
-                                 
+
                               </h4>
                               <div class="row">
                                  <div class="col-lg-6">
@@ -686,10 +692,10 @@
                                        <span>
                                                    16.00 - 16.30 WIB
                                              </span>
-                                       
+
                                     </div>
                                  </div>
-                                 
+
                               </div>
                            </div><!-- ts-speaker-popup-content end-->
                         </div><!-- col end-->
@@ -751,7 +757,7 @@
                                  <span class="schedule-slot-time">10.45 - 11.45 WIB</span>
                                  <h3 class="schedule-slot-title">Young Farmer</h3>
                                  <h4 class="schedule-slot-name">@ Bank Mandiri, Angeline Theo, Tari Dana, Andhika Mahardika</h4>
-                                
+
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
@@ -760,7 +766,7 @@
                                  <span class="schedule-slot-time">10.00 - 10.45 WIB</span>
                                  <h3 class="schedule-slot-title">Opening</h3>
                                  <h4 class="schedule-slot-name">@ Budi Arie Setiadi, Joko Widodo, Azwar Anas</h4>
-                                
+
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
@@ -769,7 +775,7 @@
                                  <span class="schedule-slot-time">13.15 - 16.15 WIB</span>
                                  <h3 class="schedule-slot-title">Eco-system</h3>
                                  <h4 class="schedule-slot-name">@ BRI, Suradi,Raka Bagus,Putri Arif Febrila,Christopher M. Satriandaru,Ichwan Joesoef,Margaret Agustina,Dwi Anoraganingrum </h4>
-								
+
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
@@ -778,7 +784,7 @@
                                  <span class="schedule-slot-time">16.15 - 17.00 WIB</span>
                                  <h3 class="schedule-slot-title">Agro Wisata</h3>
                                  <h4 class="schedule-slot-name">@ Dedi Wahyu Hernanda, Moeldoko</h4>
-                                 
+
                            </div><!-- col end-->
                         </div><!-- row end-->
 						</div>
@@ -795,7 +801,7 @@
                                  <span class="schedule-slot-time">13.15 - 15.15 WIB</span>
                                  <h3 class="schedule-slot-title">The Trial & Error Experience</h3>
                                  <h4 class="schedule-slot-name">@ Muslahudin Daud, Franciscus Richard, Junaedi Prasetiyo</h4>
-                                
+
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
@@ -804,7 +810,7 @@
                                  <span class="schedule-slot-time">10.00 - 12.00 WIB</span>
                                  <h3 class="schedule-slot-title">Opening & Certification</h3>
                                  <h4 class="schedule-slot-name">@ Ivanka, Reza Purnomo, Fikri Sopyana Tsauri</h4>
-                                
+
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
@@ -813,10 +819,10 @@
                                   <span class="schedule-slot-time">15.30 - 17.45 WIB</span>
                                  <h3 class="schedule-slot-title">Organic Marketing</h3>
                                  <h4 class="schedule-slot-name">@ Christopher Emille Jayanata,Hemindra Primula,Anisa Paramita,Fendi Hartanto</h4>
-								
+
                               </div>
                            </div><!-- col end-->
-                          
+
                         </div><!-- row end-->
                         <div class="schedule-listing-btn">
                            <a href="conference.php?p=3" class="btn">More Details</a>
@@ -927,7 +933,10 @@
       <script src="js/isotope.pkgd.min.js"></script>
 
       <!-- Template custom -->
+      <script src="js/crypto-js.min.js"></script>
+      <script src="app/tools.js"></script>
       <script src="js/main.js"></script>
+      <script src="js/checknotification.js"></script>
 
    </div>
    <!-- Body inner end -->

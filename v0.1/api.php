@@ -1072,8 +1072,85 @@
       $response["data"] = $data;
 
       $sql = 'UPDATE chat SET status=1 WHERE id="'.$data["id"].'"';
+      // $response["sql"] = $sql;
+      $resultUser = $con->query($sql);
+
+      $con->close();
+
+      return $response;
+    }
+
+    function insertNotification($data)
+    {
+      $userID = checkapikey($data)['data']['id'];
+
+      include 'connection.php';
+
+      $response["error"] = false;
+      $response["message"] = "";
+      $response["data"] = $data;
+
+      $sql = 'INSERT INTO notification (`participantid`, `participantid2`, `action`) VALUES ('.$userID.','.$data["id"].',"'.$data["action"].'")';
       $response["sql"] = $sql;
       $resultUser = $con->query($sql);
+
+      $con->close();
+
+      return $response;
+    }
+
+    function getNotification($data)
+    {
+      include 'connection.php';
+
+      $userID = checkapikey($data)['data']['id'];
+
+      $response["error"] = false;
+      $response["message"] = "";
+      $response["data"] = [];
+
+      $userSQL = "SELECT * FROM notification WHERE participantid2=".$userID;
+      $resultUser = $con->query($userSQL);
+
+      while($rowUser = $resultUser->fetch_assoc())
+      {
+        $newNotif = [];
+        $newNotif["user"] = getParticipantByIDAllData($rowUser["participantid"]);
+        $newNotif["id"] = $rowUser["id"];
+        $newNotif["action"] = $rowUser["action"];
+        $newNotif["status"] = $rowUser["status"];
+        $newNotif["time"] = $rowUser["time"];
+
+        $response["data"][] = $newNotif;
+
+        $sqlSetStatus = 'UPDATE notification SET status=1 WHERE id="'.$rowUser["id"].'"';
+        $con->query($sqlSetStatus);
+      }
+
+      $con->close();
+
+      return $response;
+    }
+
+    function getChatAndNotification($data)
+    {
+      include 'connection.php';
+
+      $userID = checkapikey($data)['data']['id'];
+
+      $response["error"] = false;
+      $response["message"] = "";
+      $response["data"] = [];
+
+      $notificationSQL = "SELECT COUNT(id) as total FROM notification WHERE participantid2=".$userID . " AND status=0";
+      $resultUser = $con->query($notificationSQL);
+      while($rowUser = $resultUser->fetch_assoc())
+        $response["data"]["notification"] = $rowUser["total"];
+
+      $chatSQL = "SELECT COUNT(chat.id) as total FROM chat LEFT JOIN participant_chat ON participant_chat.chatid=chat.chatid WHERE participant_chat.participantid=".$userID . " AND status=0 AND chat.participantid!=" . $userID;
+      $resultChat = $con->query($chatSQL);
+      while($rowChat = $resultChat->fetch_assoc())
+        $response["data"]["chat"] = $rowChat["total"];
 
       $con->close();
 

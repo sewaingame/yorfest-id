@@ -286,6 +286,32 @@
 
     echo json_encode($response, JSON_PRETTY_PRINT);
   }
+  else if($cmd == "nd")
+  {
+    $data['api_key'] = $_POST['api_key'];
+    $data['id'] = $_POST['id'];
+    $data['action'] = $_POST['action'];
+    $data['url'] = $_POST['url'];
 
+    $response = insertNotification($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "gn")
+  {
+    $data['api_key'] = $_POST['api_key'];
+
+    $response = getNotification($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "an")
+  {
+    $data['api_key'] = $_POST['api_key'];
+
+    $response = getChatAndNotification($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
 
 ?>

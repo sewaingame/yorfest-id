@@ -14,6 +14,10 @@
                      <div class="profile-detail">
                         <h3 class="user-name">Bni Cyst</h3>
                      </div>
+                     <div class="text-center pb-n10">
+                       <a href="javascript:void();" style="color:black;"><i class="ri-edit-line mr-2"></i>Edit</a>
+                       <a href="javascript:void();" style="color:black; display:none;"><i class="ri-save-line mr-2"></i>Save</a>
+                     </div>
                   </div>
                </div>
             </div>
@@ -38,7 +42,15 @@
                        <div class="col-md-9 pl-4">
                           <div class="tab-content">
                              <div class="tab-pane fade active show" id="basicinfo" role="tabpanel">
-                                <h4>Contact Information</h4>
+                               <div class="row">
+                                 <div class="col-lg-6">
+                                   <h4>Contact Information</h4>
+                                 </div>
+                                  <div class="col-lg-6 text-right pr-3">
+                                    <a href="javascript:void();"><i class="ri-edit-line mr-2"></i>Edit</a>
+                                    <a href="javascript:void();" style="display:none;"><i class="ri-save-line mr-2"></i>Save</a>
+                                  </div>
+                               </div>
                                 <hr>
                                 <div class="row">
                                    <div class="col-3">
@@ -48,9 +60,6 @@
                                      <div class="col-lg-8">
                                       <p class="mb-0 user-email">Bnijohn@gmail.com</p>
                                      </div>
-                                     <div class="col-lg-4 text-right">
-                                       <a href="javascript:void();"><i class="ri-edit-line mr-2"></i>Edit</a>
-                                     </div>
                                    </div>
                                    <div class="col-3">
                                       <h6>Phone</h6>
@@ -59,9 +68,6 @@
                                      <div class="col-lg-8">
                                       <p class="mb-0 user-phone">085659622363</p>
                                      </div>
-                                     <div class="col-lg-4 text-right">
-                                       <a href="javascript:void();"><i class="ri-edit-line mr-2"></i>Edit</a>
-                                     </div>
                                    </div>
                                    <div class="col-3">
                                       <h6>Birth</h6>
@@ -69,9 +75,6 @@
                                    <div class="col-9 row">
                                      <div class="col-lg-8">
                                       <p class="mb-0 user-birth">Bnijohn@gmail.com</p>
-                                     </div>
-                                     <div class="col-lg-4 text-right">
-                                       <a href="javascript:void();"><i class="ri-edit-line mr-2"></i>Edit</a>
                                      </div>
                                    </div>
                                 </div>
@@ -86,9 +89,6 @@
                                      <div class="col-lg-8">
                                       <p class="mb-0 user-company">Bnijohn@gmail.com</p>
                                      </div>
-                                     <div class="col-lg-4 text-right">
-                                       <a href="javascript:void();"><i class="ri-edit-line mr-2"></i>Edit</a>
-                                     </div>
                                    </div>
                                    <div class="col-3">
                                       <h6>Interest</h6>
@@ -96,9 +96,6 @@
                                    <div class="col-9 row">
                                      <div class="col-lg-8">
                                       <p class="mb-0 user-interest">085659622363</p>
-                                     </div>
-                                     <div class="col-lg-4 text-right">
-                                       <a href="javascript:void();"><i class="ri-edit-line mr-2"></i>Edit</a>
                                      </div>
                                    </div>
                                    <div class="col-3">
@@ -108,14 +105,20 @@
                                      <div class="col-lg-8">
                                       <p class="mb-0 user-conference">Bnijohn@gmail.com</p>
                                      </div>
-                                     <div class="col-lg-4 text-right">
-                                       <a href="javascript:void();"><i class="ri-edit-line mr-2"></i>Edit</a>
-                                     </div>
                                    </div>
                                 </div>
                                 <hr>
                              </div>
                              <div class="tab-pane fade" id="family" role="tabpanel">
+                               <div class="row">
+                                 <div class="col-lg-6">
+                                   <h4>Business Card</h4>
+                                 </div>
+                                  <div class="col-lg-6 text-right pr-3">
+                                    <a href="javascript:void();"><i class="ri-edit-line mr-2"></i>Edit</a>
+                                    <a href="javascript:void();" style="display:none;"><i class="ri-save-line mr-2"></i>Save</a>
+                                  </div>
+                               </div>
                                 <hr>
                                 <img src="images/card.png" alt="card" style="width:100%;" class="user-card">
                                 <hr>

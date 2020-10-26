@@ -125,7 +125,7 @@ function printUser(user){
 
   if(user.cardurl.length != 0)
   {
-    $(userObject.find('.user_card')[0]).attr("url", user.cardurl);
+    $(userObject.find('.user_card')[0]).attr("data-id", user.id);
     $(userObject.find('.user_card')[0]).attr("url", user.cardurl);
   }
   else
@@ -181,6 +181,43 @@ function calculateOnlineStatus(time)
         result = "status-away";
     }
     return result;
+}
+
+function downloadBusinessCard(input)
+{
+  var api_key = sessionStorage.getItem("api_key");
+
+  var data = {
+    cmd:"nd",
+    api_key:api_key,
+    id:$(input).attr("data-id"),
+    url:$(input).attr("url"),
+    action:"download",
+  }
+
+  console.log(data);
+
+  $.ajax({
+    type: "POST",
+    url: "../apicall.php",
+    data: data,
+    success: onNotifyDownloadSuccess,
+    fail: onNotifyDownloadFail
+  });
+}
+
+function onNotifyDownloadSuccess(data)
+{
+  console.log(data);
+
+  var response = JSON.parse(data);
+
+  window.open('downloadfile.php?url=' + response.data.url, '_blank');
+}
+
+function onNotifyDownloadFail(data)
+{
+
 }
 
 
