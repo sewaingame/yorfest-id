@@ -715,8 +715,8 @@
         $response["id"] = $rowUser["id"];
         $response["name"] = $rowUser["name"];
         $response["email"] = $rowUser["email"];
-        $response["company"] = $rowUser["company"];
-        $response["photourl"] = $rowUser["photourl"];
+        $response["company"] = '../../' . $rowUser["company"];
+        $response["photourl"] = '../../' . $rowUser["photourl"];
       }
 
       $con->close();
@@ -1051,8 +1051,8 @@
         $response["birth"] = $rowUser["birth"];
         $response["company"] = $rowUser["company"];
         $response["interest"] = $rowUser["interest"];
-        $response["photourl"] = $rowUser["photourl"];
-        $response["cardurl"] = $rowUser["cardurl"];
+        $response["photourl"] ='../../' . $rowUser["photourl"];
+        $response["cardurl"] ='../../' . $rowUser["cardurl"];
         $response["last_update"] = $rowUser["last_update"];
       }
 
