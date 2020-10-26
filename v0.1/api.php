@@ -715,7 +715,7 @@
         $response["id"] = $rowUser["id"];
         $response["name"] = $rowUser["name"];
         $response["email"] = $rowUser["email"];
-        $response["company"] = '../../' . $rowUser["company"];
+        $response["company"] = $rowUser["company"];
         $response["photourl"] = '../../' . $rowUser["photourl"];
       }
 
