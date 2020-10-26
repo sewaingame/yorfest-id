@@ -124,9 +124,14 @@ function printUser(user){
   $(userObject.find('.iq-profile-avatar')[0]).addClass(calculateOnlineStatus(user.last_update));
 
   if(user.cardurl.length != 0)
-    $(userObject.find('.user_card')[0]).attr("href", "downloadfile.php?url=" + user.cardurl);
+  {
+    $(userObject.find('.user_card')[0]).attr("url", user.cardurl);
+    $(userObject.find('.user_card')[0]).attr("url", user.cardurl);
+  }
   else
+  {
     $(userObject.find('.user_card')[0]).hide();
+  }
 
   $("#user_list").append($(userObject));
 }
