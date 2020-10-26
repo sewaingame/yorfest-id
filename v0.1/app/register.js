@@ -72,6 +72,11 @@ $("#register").click(function ()
     $("#v-cpassword").show();
     valid = false;
   }
+  if(!valid_conference)
+  {
+    $("#v-conference").show();
+    valid = false;
+  }
 
   if(valid)
   {
@@ -94,21 +99,35 @@ $("#register").click(function ()
     if($('#f-interest').val() == 5)
       interest = interest_other;
 
-    var data = {
-      cmd:"register",
-      name:name,
-      email:email,
-      phone:phone,
-      birth:birth,
-      company:company,
-      interest:interest,
-      password:password
+    var formdata = new FormData();
+    formdata.append("cmd","register");
+    formdata.append("name",name);
+    formdata.append("email",email);
+    formdata.append("phone",phone);
+    formdata.append("birth",birth);
+    formdata.append("conference",conference);
+    formdata.append("company",company);
+    formdata.append("interest",interest);
+    formdata.append("password",password);
+
+    var profilepicture = $("#f-profilepicture")[0].files;
+    if (profilepicture[0]) {
+      formdata.append("profilepicture",profilepicture[0]);
+      console.log(profilepicture[0]);
+    }
+
+    var bcard = $("#f-bussinesscard")[0].files;
+    if (bcard[0]) {
+      formdata.append("businesscard",bcard[0]);
+      console.log(bcard[0]);
     }
 
     $.ajax({
       type: "POST",
       url: "apicall.php",
-      data: data,
+      data: formdata,
+      contentType: false, // NEEDED, DON'T OMIT THIS (requires jQuery 1.6+)
+      processData: false, // NEEDED, DON'T OMIT THIS
       success: onRegisterSuccess,
       fail: onRegisterFail
     });
@@ -165,13 +184,53 @@ $("#f-password").change(function(){
   checkConfirmPassword();
 });
 
-$("#f-conference").change(function(){
+$("#f-conference").change(function()
+{
   valid_conference = $('#f-conference').val() > -1;
+
+  console.log(valid_conference);
+
+  if(!valid_conference) $("#v-conference").show();
+  else $("#v-conference").hide();
 });
 
 $("#f-cpassword").change(function()
 {
   checkConfirmPassword();
+});
+
+$("#f-profilepicture").change(function()
+{
+    var myFile = $(this).prop('files');
+    console.log();
+
+    if (myFile[0])
+    {
+        var reader = new FileReader();
+
+        reader.onload = function (e)
+        {
+            $('#preview-profilepicture').attr('src', e.target.result);
+        }
+        reader.readAsDataURL(myFile[0]);
+    }
+});
+
+$("#f-bussinesscard").change(function()
+{
+    var myFile = $(this).prop('files');
+    console.log();
+
+    if (myFile[0])
+    {
+        var reader = new FileReader();
+
+        reader.onload = function (e)
+        {
+            $('#preview-bussinesscard').attr('src', e.target.result);
+        }
+        reader.readAsDataURL(myFile[0]);
+    }
 });
 
 $("#f-interest").change(function(){

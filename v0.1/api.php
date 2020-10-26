@@ -15,8 +15,8 @@
     $verifiedkey = uniqid();
 
     $sql = '
-    INSERT INTO participant(name, email, phone, birth, company, interest, password, verifiedkey)
-    VALUES("'.$data['name'].'","'.$data['email'].'","'.$data['phone'].'","'.$data['birth'].'","'.$data['company'].'","'.$data['interest'].'","'.$data['password'].'","'.$verifiedkey.'")
+    INSERT INTO participant(name, email, phone, birth, company, interest, password, verifiedkey, photourl, cardurl)
+    VALUES("'.$data['name'].'","'.$data['email'].'","'.$data['phone'].'","'.$data['birth'].'","'.$data['company'].'","'.$data['interest'].'","'.$data['password'].'","'.$verifiedkey.'","'.$data['photourl'].'","'.$data['cardurl'].'")
     ';
 
     if ($con->query($sql) === TRUE)

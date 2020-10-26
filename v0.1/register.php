@@ -83,6 +83,9 @@
                              <input class="form-control form-control-email" name="company" id="f-company"  type="text" required="">
                              <label id="v-company" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Company is not valid. Minimum 3 character</label>
                           </div>
+                        </div>
+                        <div class="col-lg-6 row">
+
                           <div class="col-12 text-left">
                              <label for="interest" style="color:#B8B8B8; font-size:12px;">Interest</label>
                              <select class="form-control form-control-email" id="f-interest">
@@ -97,8 +100,6 @@
                               <label id="v-interest" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Minimum 4 character</label>
                               <label id="v-interest-2" for="name" style="color:#FF6C6C; font-size:12px; display:none;">You must select one of the option.</label>
                           </div>
-                        </div>
-                        <div class="col-lg-6 row">
                           <div class="col-12 text-left">
                              <label for="conference" style="color:#B8B8B8; font-size:12px;">Join Conferece As</label>
                              <select class="form-control form-control-email" id="f-conference">
@@ -106,28 +107,27 @@
                                 <option value="0">Participant</option>
                                 <option value="1">Visitor</option>
                               </select>
-                              <label id="v-conference" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Minimum 4 character</label>
-                              <label id="v-conference-2" for="name" style="color:#FF6C6C; font-size:12px; display:none;">You must select one of the option.</label>
+                              <label id="v-conference" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Select one of the options.</label>
                           </div>
                           <div class="col-12 text-left">
                              <label for="profilepicture" style="color:#B8B8B8; font-size:12px;">Profile Picture (Optional)</label>
                              <br>
-                             <img src="images/user.png" alt="" style="width:30%; position:relative;">
-                             <br><br>
+                             <img src="images/user.png" alt="" style="max-height: 200px; max-width: 100%; position:relative;" id="preview-profilepicture">
+                             <br>
                              <input class="form-control form-control-email" name="company" id="f-profilepicture"  type="file" required="" accept="image/x-png,image/gif,image/jpeg">
                           </div>
                           <div class="col-12 text-left">
                              <label for="bussinesscard" style="color:#B8B8B8; font-size:12px;">Bussiness Card (Optional)</label>
                              <br>
-                             <img src="images/user.png" alt="" style="width:30%; position:relative;">
-                             <br><br>
+                             <img src="images/card.png" alt="" style="max-height: 200px; max-width: 100%; position:relative;" id="preview-bussinesscard">
+                             <br>
                              <input class="form-control form-control-email" name="company" id="f-bussinesscard"  type="file" required="" accept="image/x-png,image/gif,image/jpeg">
-                          </div>
-                          <div class="col-12 mt-4">
-                             <button class="btn" id="register"> Register</button>
                           </div>
                         </div>
 
+                        <div class="col-12 mt-4">
+                           <button class="btn" id="register"> Register</button>
+                        </div>
                         <div class="col-12 mt-3">
                            <a href="login.php" style="color:#4E4E4E; font-size:12px; text-align: center;">Already have an account? Sign In</a>
                         </div>
