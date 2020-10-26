@@ -867,17 +867,12 @@
                      <div class="ts-footer-social text-center mb-30">
                         <ul>
                            <li>
-                              <a href="#"><i class="fa fa-facebook"></i></a>
-                           </li>
-                           <li>
-                              <a href="#"><i class="fa fa-twitter"></i></a>
-                           </li>
-                           <li>
-                              <a href="#"><i class="fa fa-linkedin"></i></a>
-                           </li>
-                           <li>
-                              <a href="#"><i class="fa fa-instagram"></i></a>
-                           </li>
+                  <a href="https://www.facebook.com/yorfestid/" target="blank"><i class="fa fa-facebook"></i></a>
+               </li>
+              
+               <li>
+                  <a href="https://www.instagram.com/yorfestid/" target="blank"><i class="fa fa-instagram"></i></a>
+               </li>
                         </ul>
                      </div>
                      <!-- footer social end-->

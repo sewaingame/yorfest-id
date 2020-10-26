@@ -110,8 +110,8 @@
                              <label for="conference" style="color:#000000; padding-top:20px; font-size:14px;">Join Conferece As</label>
                              <select class="form-control form-control-email" id="f-conference">
                                 <option value="-1">Select One</option>
-                                <option value="0">Participant</option>
-                                <option value="1">Visitor</option>
+                                <option value="0">Participant/Peserta</option>
+                                <option value="1">Visitor/Penonton</option>
                               </select>
                               <label id="v-conference" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Select one of the options.</label>
                           </div>
