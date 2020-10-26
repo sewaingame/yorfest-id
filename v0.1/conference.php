@@ -117,20 +117,18 @@
 				      <div role="tabpanel" class="tab-pane active" id="date1">
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 9.30 - 10.30 AM</span>
-                              Webinar
+                              <span> 10.00 - 10.15 WIB</span>
+                              Opening
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
                                                   <img class="schedule-slot-speakers" src="images/speakers/speaker1.jpg" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Marketing Matters!
-                                    <strong>@ Fredric Martinsson</strong>
+                                 <h3 class="schedule-slot-title">Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi 
+                                    <strong>@ Budi Arie Setyadi </strong>
                                  </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
+                                 <p>Bisnis Pertanian Organik adalah Bisnis Masa Depan</p>
 									</a>
                               </div>
                               <!--Info content end -->
@@ -139,20 +137,18 @@
                         <!--schedule-listing end -->
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 10.30 - 11.30 AM</span>
-                              Workshop
+                              <span> 10.15 - 10.30 WIB</span>
+                              Opening
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
                                  <img class="schedule-slot-speakers" src="images/speakers/speaker2.jpg" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Reinventing Experiences
-                                    <strong>@ Melisa Lundryn</strong>
+                                 <h3 class="schedule-slot-title">Sambutan dari Presiden Republik Indonesia
+                                    <strong>@ IR. H. Joko Widodo</strong>
                                  </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
+                                 <p>Ekonomi Meroket 2016 </p>
 									</a>
                               </div>
                               <!--Info content end -->

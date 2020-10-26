@@ -191,7 +191,7 @@
                   <div class="">
                      <div class="outcome-content ts-exp-content">
                         <h2 class="column-title">
-                         ABOUT YORFest
+                         About YORFest
                         </h2>
                         <p>
                           Adalah acara tahunan para pegiat organik di Indonesia berupa kumpulan komunitas anak muda yang peduli dengan pertanian, perkebunan & peternakan, bisnis yang berhubungan dengan pendayagunaan sistem organik yang alami.<br>
