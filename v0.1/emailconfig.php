@@ -1,5 +1,5 @@
 <?php
-  $domain = 'yorfest2020.hut56partaigolkar.id';
+  $domain = 'yorfest.id';
   $sender = "noreply@hut56partaigolkar.id";
   $sendername = "YORFest 2020";
   $password = 'chelsea2018';
