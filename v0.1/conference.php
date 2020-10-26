@@ -465,6 +465,11 @@
                <li>
                   <a href="https://www.instagram.com/yorfestid/" target="blank"><i class="fa fa-instagram"></i></a>
                </li>
+			   <li>
+                  <a href="https://www.youtube.com/channel/UC8Dfwmw3LznZ5mLIkyNDQHA" target="blank"><i class="fa fa-youtube"></i></a>
+               </li>
+			   
+			   
                         </ul>
                      </div>
                      <!-- footer social end-->
