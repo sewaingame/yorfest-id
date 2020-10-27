@@ -73,7 +73,7 @@
     try {
         //Server settings
         $mail->isSMTP();
-        $mail->SMTPDebug = 0;
+        $mail->SMTPDebug = 4;
         $mail->Host = $smtpaddress;
         $mail->SMTPAuth = true;
         $mail->SMTPAutoTLS = false;
