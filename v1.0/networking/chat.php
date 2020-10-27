@@ -183,4 +183,4 @@
       </div>
    </div>
 </div>
-<script type="text/javascript" src="app/chat.js"></script>
+<script type="text/javascript" src="app/chat.js?v=<?php echo uniqid(); ?>"></script>

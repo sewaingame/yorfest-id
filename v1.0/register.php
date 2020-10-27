@@ -177,7 +177,7 @@
       <script src="js/crypto-js.min.js"></script>
       <!-- App -->
       <script src="app/tools.js"></script>
-      <script src="app/register.js"></script>
+      <script src="app/register.js?v=<?php echo uniqid(); ?>"></script>
       <!-- Body inner end -->
    </body>
    <!-- index-515:53-->

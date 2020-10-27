@@ -154,5 +154,5 @@
          </div>
       </li>
 
-<script type="text/javascript" src="./app/livewall.js"></script>
+<script type="text/javascript" src="./app/livewall.js?v=<?php echo uniqid(); ?>"></script>
 <a class="dropdown-item" href="#" id="like_comment_userlist" style="display:block"></a>

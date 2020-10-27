@@ -13,7 +13,7 @@
    </div>
 </div>
 
-<script type="text/javascript" src="app/notification.js"></script>
+<script type="text/javascript" src="app/notification.js?v=<?php echo uniqid(); ?>"></script>
 
 <div class="col-sm-12" id="notification-template" style="display:none;">
   <div class="iq-card">

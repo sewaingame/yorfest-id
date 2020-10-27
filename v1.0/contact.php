@@ -115,7 +115,7 @@
                   </div><!-- single intro text end-->
                   <div class="border-shap left"></div>
                </div><!-- col end-->
-             
+
 
             </div><!-- row end-->
          </div><!-- container end-->
@@ -140,7 +140,7 @@
          </div>
       </section> -->
 
-           
+
 
       <!-- ts footer area start-->
 
@@ -213,7 +213,7 @@
       <script src="js/main.js"></script>
       <script src="js/crypto-js.min.js"></script>
       <script src="app/tools.js"></script>
-      <script src="js/checknotification.js"></script>
+      <script src="js/checknotification.js?v=<?php echo uniqid(); ?>"></script>
       <?php include "chat.php"; ?>
    </div>
    <!-- Body inner end -->

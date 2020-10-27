@@ -146,4 +146,4 @@
    </div>
 </div>
 
-<script type="text/javascript" src="app/profile.js"></script>
+<script type="text/javascript" src="app/profile.js?v=<?php echo uniqid(); ?>"></script>
