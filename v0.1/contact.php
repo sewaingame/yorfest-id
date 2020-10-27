@@ -87,13 +87,13 @@
                   <div class="single-intro-text single-contact-feature">
                      <h3 class="ts-title">Business information</h3>
                      <p>
-                        <strong>Name:</strong> Dimas Aron
+                        <strong>Name:</strong> John Tumiwa
                      </p>
                      <p>
-                        <strong>Phone:</strong> 009-215-5595
+                        <strong>Phone:</strong> 08111805282
                      </p>
                      <p>
-                        <strong>Email:</strong> info@example.com
+                        <strong>Email:</strong> ‎jtumiwa@gmail.com
                      </p>
                      <span class="count-number fa fa-paper-plane"></span>
                   </div><!-- single intro text end-->
@@ -103,34 +103,19 @@
                   <div class="single-intro-text single-contact-feature">
                      <h3 class="ts-title">Partnerships info</h3>
                      <p>
-                        <strong>Name:</strong> Delissa Taher
+                        <strong>Name:</strong> Andre Opa Sumual
                      </p>
                      <p>
-                        <strong>Phone:</strong> 009-215-5595
+                        <strong>Phone:</strong> 082132923645
                      </p>
                      <p>
-                        <strong>Email:</strong> info@example.com
+                        <strong>Email:</strong> andre.sumual@gmail.com
                      </p>
                      <span class="count-number fa fa-paper-plane"></span>
                   </div><!-- single intro text end-->
                   <div class="border-shap left"></div>
                </div><!-- col end-->
-               <div class="col-lg-4">
-                  <div class="single-intro-text single-contact-feature">
-                     <h3 class="ts-title">Programm Details</h3>
-                     <p>
-                        <strong>Name:</strong> Manuel
-                     </p>
-                     <p>
-                        <strong>Phone:</strong> 009-215-5595
-                     </p>
-                     <p>
-                        <strong>Email:</strong> info@example.com
-                     </p>
-                     <span class="count-number fa fa-paper-plane"></span>
-                  </div><!-- single intro text end-->
-                  <div class="border-shap left"></div>
-               </div><!-- col end-->
+             
 
             </div><!-- row end-->
          </div><!-- container end-->
