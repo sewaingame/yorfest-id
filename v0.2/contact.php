@@ -75,17 +75,17 @@
       <section class="ts-contact">
          <div class="container">
             <div class="row">
-               <div class="col-lg-8 mx-auto">
+               <div class="col-lg- mx-auto">
                   <h2 class="section-title text-center">
                      <span>Get Information</span>
-                     Contact Information
+                     Contact Us
                   </h2>
                </div><!-- col end-->
             </div>
             <div class="row">
                <div class="col-lg-4">
                   <div class="single-intro-text single-contact-feature">
-                     <h3 class="ts-title">Business information</h3>
+                     <h3 class="ts-title">YORFest Information</h3>
                      <p>
                         <strong>Name:</strong> John Tumiwa
                      </p>
@@ -101,7 +101,7 @@
                </div><!-- col end-->
                <div class="col-lg-4">
                   <div class="single-intro-text single-contact-feature">
-                     <h3 class="ts-title">Partnerships info</h3>
+                     <h3 class="ts-title">YORFest Information</h3>
                      <p>
                         <strong>Name:</strong> Andre Opa Sumual
                      </p>
@@ -140,60 +140,7 @@
          </div>
       </section> -->
 
-      <section class="ts-contact-form" style="background-image: url(./images/bg/yorfest_bg2.jpg)">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-8 mx-auto">
-                  <h2 class="section-title text-center">
-                     <span>Have Questions?</span>
-                     Send Message
-                  </h2>
-               </div><!-- col end-->
-            </div>
-            <div class="row">
-               <div class="col-lg-8 mx-auto">
-                  <form id="contact-form" class="contact-form" action="contact-form.php" method="post">
-                     <div class="error-container"></div>
-                     <div class="row">
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input class="form-control form-control-name" placeholder="First Name" name="name" id="f-name"
-                                 type="text" required>
-                           </div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input class="form-control form-control-name" placeholder="Last Name" name="name" id="l-name"
-                                 type="text" required>
-                           </div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input class="form-control form-control-subject" placeholder="Subject" name="subject" id="subject"
-                                 required>
-                           </div>
-                        </div>
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input class="form-control form-control-email" placeholder="Email" name="email" id="email"
-                                 type="email" required>
-                           </div>
-                        </div>
-
-                     </div>
-                     <div class="form-group">
-                        <textarea class="form-control form-control-message" name="message" id="message" placeholder="Your message...*"
-                           rows="6" required></textarea>
-                     </div>
-                     <div class="text-center"><br>
-                        <button class="btn" type="submit"> Send Message</button>
-                     </div>
-                  </form><!-- Contact form end -->
-               </div>
-            </div>
-         </div>
-
-		</section>
+           
 
       <!-- ts footer area start-->
 
