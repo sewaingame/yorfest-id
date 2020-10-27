@@ -123,7 +123,7 @@
       <!--/ Header end -->
       <!-- banner start-->
       <video class="banner-item overlay" autoplay muted loop id="myVideo" style="position:fixed; left:0px; bottom:0px; width:100%;overflow: hidden; z-index:-9999999">
-       <source src="images/video/Yorfestrender.mp4" type="video/mp4">
+       <source src="images/video/Yorfestrender2.mp4" type="video/mp4">
        Your browser does not support HTML5 video.
       </video>
       <section class="hero-area hero-speakers">
