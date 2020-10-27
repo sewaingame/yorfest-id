@@ -151,12 +151,45 @@ function onRegisterSuccess(data)
 
   if(response.error == false)
   {
-    window.location.href = "emailconfirmationsent.php?key=" + response.data.verifiedkey;
+    sendEmail(data);
+    // window.location.href = "emailconfirmationsent.php?key=" + response.data.verifiedkey;
   }
   else
   {
     $("#v-email-2").show();
   }
+
+}
+
+function sendEmail(data)
+{
+  var response = JSON.parse(data);
+
+  var formdata = new FormData();
+  formdata.append("cmd","register");
+  formdata.append("name",response.data.name);
+  formdata.append("email",response.data.email);
+  formdata.append("verifiedkey",response.data.phone);
+
+  $.ajax({
+    type: "POST",
+    url: "sendemail.php",
+    data: formdata,
+    contentType: false, // NEEDED, DON'T OMIT THIS (requires jQuery 1.6+)
+    processData: false, // NEEDED, DON'T OMIT THIS
+    success: onSendEmailSuccess,
+    fail: onSendEmailFail
+  });
+}
+
+function onSendEmailSuccess(data)
+{
+  console.log(data);
+   //window.location.href = "emailconfirmationsent.php?key=" + response.data.verifiedkey;
+}
+
+function onSendEmailFail(data)
+{
 
 }
 
