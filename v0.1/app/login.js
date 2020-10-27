@@ -3,7 +3,7 @@ $("#login").click(function(){
   var password = $("#f-password").val();
 
   $("#v-login").hide();
-  $("#loading").show();
+  $(".loading").show();
 
   var data = {
     cmd:"login",
@@ -24,11 +24,12 @@ $("#login").click(function(){
 
 function onLoginSuccess(data)
 {
+  $(".loading").hide();
+  
   console.log(data);
 
   var response = JSON.parse(data);
 
-  $("#loading").hide();
 
   if(response.error == false)
   {
