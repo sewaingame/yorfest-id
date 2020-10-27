@@ -39,9 +39,17 @@
       var API_KEY = "YjvNrkU7Q3O64sGTqtYIvw";
       var API_SECRET = "enjNPwghXNKlLpojlNytaAeCImVwrKNQJibD";
 
+      if(sessionStorage.getItem("user_data") == null)
+      {
+        alert("Mohon melakukan login kembali.");
+        window.location.href = "logout.php";
+      }
+
       var userdata = JSON.parse(decrypt(sessionStorage.getItem("user_data")));
 
-      var meetingConfig = testTool.getMeetingConfig(response.data.meetingid, userdata.data.name, response.data.password, userdata.data.email);
+      console.log(userdata);
+
+      var meetingConfig = testTool.getMeetingConfig(response.data.meetingid, userdata.data.name, response.data.pwd, userdata.data.email);
 
       console.log(meetingConfig);
 
@@ -64,7 +72,7 @@
           console.log(res.result);
           meetingConfig.signature = res.result;
           meetingConfig.apiKey = API_KEY;
-          var joinUrl = "./zoommeeting.php?" + testTool.serialize(meetingConfig) + "&started=" + response.data.isStarted+ "&day=" + response.data.day+ "&date=" + response.data.date+ "&time=" + response.data.time + "&meetingname=" + response.data.name + "&g=" + params.get('g') + "&endTime=" + response.data.endTime;
+          var joinUrl = "./zoommeeting.php?" + testTool.serialize(meetingConfig) + "&started=" + response.data.isStarted+ "&day=" + response.data.day+ "&date=" + response.data.date+ "&time=" + response.data.time + "&meetingname=" + response.data.name + "&g=" + params.get('g') + "&endTime=" + response.data.endTime + "&pass=" + response.data.pwd;
           console.log(joinUrl);
 
           window.open(joinUrl,"_self");
@@ -73,7 +81,7 @@
     }
     else
     {
-      alert('Anda tidak memiliki akses untuk masuk ke link zoom ini!')
+      alert('Zoom meeting belum dimulai.')
       onFail();
     }
   }

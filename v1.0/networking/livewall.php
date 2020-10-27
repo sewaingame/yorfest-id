@@ -1,34 +1,31 @@
 <div class="col-lg-2"></div>
 <div class="container">
    <div class="row">
-      <div class="col-lg-8 row m-0 p-0" id="content">
+      <div class="col-lg-8" id="content">
          <div class="col-sm-12 row" style="width:100%">
-            <div class="col-sm-12">
-               <div id="post-modal-data" class="iq-card iq-card-block iq-card-stretch iq-card-height">
-                  <div class="iq-card-header d-flex justify-content-between">
-                     <div class="iq-header-title">
-                        <h4 class="card-title">What's on your mind?</h4>
-                     </div>
-                  </div>
-                  <div class="iq-card-body">
-                     <div class="d-flex align-items-center">
-                        <div class="user-img">
-                           <img id="post_photourl" src="images/user/1.jpg" alt="userimg" class="avatar-60 rounded-circle">
-                        </div>
-                        <!-- <textarea class="form-control rounded" name="name" rows="1" cols="80" placeholder="Write something here..." style="border:none;"></textarea> -->
-                        <!-- <input id="Input" type="text" class="form-control rounded" placeholder="Write something here..." style="border:none;"> -->
-                        <span class="textarea" role="textbox" contenteditable id="postmessage"></span>
-                     </div>
-                     <hr>
-                     <button type="submit" class="btn btn-primary d-block mt-3 mb-3 circle" id="newpost" onclick="postMessage()">Send</button>
-                  </div>
-               </div>
-            </div>
+           <div class="col-12">
+             <div id="post-modal-data" class="iq-card iq-card-block iq-card-stretch iq-card-height">
+                <div class="iq-card-header d-flex justify-content-between">
+                   <div class="iq-header-title">
+                      <h4 class="card-title">What's on your mind?</h4>
+                   </div>
+                </div>
+                <div class="iq-card-body">
+                   <div class="d-flex align-items-center">
+                      <div class="user-img">
+                         <img id="post_photourl" src="images/user/1.jpg" alt="userimg" class="avatar-60 rounded-circle">
+                      </div>
+                      <!-- <textarea class="form-control rounded" name="name" rows="1" cols="80" placeholder="Write something here..." style="border:none;"></textarea> -->
+                      <!-- <input id="Input" type="text" class="form-control rounded" placeholder="Write something here..." style="border:none;"> -->
+                      <span class="textarea" role="textbox" contenteditable id="postmessage"></span>
+                   </div>
+                   <hr>
+                   <button type="submit" class="btn btn-primary d-block mt-3 mb-3 circle" id="newpost" onclick="postMessage()">Send</button>
+                </div>
+             </div>
+           </div>
          </div>
          <div class="col-sm-12 row" id="posts">
-         </div>
-         <div class="col-sm-12 text-center">
-            <img src="images/page-img/page-load-loader.gif" alt="loader" style="height: 100px;">
          </div>
       </div>
       <div class="col-lg-4 m-0 p-0">
@@ -39,44 +36,44 @@
              </div>
           </div>
           <div class="iq-card-body row">
-            <div class="col-12 mb-3"style="margin-left: 10px">
-               <img src="../images/sponsors/sponsor-1.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center">
+               <img src="../images/sponsors/sponsor-1.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
-            <div class="col-12 mb-3" style="margin-left: 60px">
-               <img src="../images/sponsors/sponsor-03.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center">
+               <img src="../images/sponsors/sponsor-03.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
-            <div class="col-12 mb-3" style="margin-left: 40px">
-               <img src="../images/sponsors/sponsor-2.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center">
+               <img src="../images/sponsors/sponsor-2.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
-            <div class="col-12 mb-3" style="margin-left: 20px">
-               <img src="../images/sponsors/sponsor-3.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center">
+               <img src="../images/sponsors/sponsor-3.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
-            <div class="col-12 mb-3" style="margin-left: 40px">
-               <img src="../images/sponsors/sponsor-7.1.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center">
+               <img src="../images/sponsors/sponsor-7.1.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
-            <div class="col-12 mb-3">
-               <img src="../images/sponsors/sponsor-8.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center">
+               <img src="../images/sponsors/sponsor-8.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
-            <div class="col-12 mb-3" style="margin-left: 60px">
-               <img src="../images/sponsors/sponsor-4.1.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center" >
+               <img src="../images/sponsors/sponsor-4.1.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
-            <div class="col-12 mb-3" style="margin-left: 60px">
-               <img src="../images/sponsors/sponsor-5.1.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center">
+               <img src="../images/sponsors/sponsor-5.1.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
-            <div class="col-12 mb-3" style="margin-left: 60px">
-               <img src="../images/sponsors/sponsor-6.1.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center">
+               <img src="../images/sponsors/sponsor-6.1.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
-            <div class="col-12 mb-3" style="margin-left: 60px">
-               <img src="../images/sponsors/sponsor-9.1.png" class="img-fluid rounded" alt="Responsive image">
+            <div class="col-12 mb-3 text-center">
+               <img src="../images/sponsors/sponsor-9.1.png" class="img-fluid rounded" alt="Responsive image" style="max-width:70%;">
                <div class="mt-3" style="padding-bottom:20px"></div>
             </div>
           </div>

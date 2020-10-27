@@ -174,10 +174,12 @@
     <script src="https://source.zoom.us/1.8.1/lib/vendor/lodash.min.js"></script>
     <script src="https://source.zoom.us/zoom-meeting-1.8.1.min.js"></script>
 
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/crypto-js.min.js"></script>
     <script src="app/tools.js"></script>
     <script src="js/tool.js"></script>
-    <script src="js/generatezoomlink.js"></script> -->
+    <script src="js/generatezoomlink.js"></script>
 
 
 </body>
