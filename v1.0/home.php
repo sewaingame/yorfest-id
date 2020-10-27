@@ -142,7 +142,7 @@
                         <p class="banner-info wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500ms">28 - 29 Oktober, Jakarta</p>
                         <h3 class="banner-title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="700ms">YOUNG ORGANIC Festival 2020</h3>
                         <div class="banner-btn wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="800ms">
-                           <a href="#" class="btn">Exhibition</a>
+                           <a href="exhibition.php" class="btn">Exhibition</a>
                            <a href="conference.php?p=3" class="btn fill">Conference</a>
                         </div>
 
@@ -284,7 +284,7 @@
                                 </a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Azwar Anas</a></h3>
+                        <h3 class="ts-title"><a href="#">Abdullah Azwar Anas M.Si.</a></h3>
                         <p>
                            Bupati Banyuwangi
                         </p>
@@ -300,7 +300,7 @@
                         </div><!-- col end-->
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">Abdullah Azwar Anas</h3>
+                              <h3 class="ts-title">Abdullah Abdullah Azwar Anas M.Si.</h3>
                               <span class="speakder-designation">Bupati Banyuwangi</span>
                               <img class="company-logo" src="untitled-3.png" alt="">
                               <p>
@@ -445,7 +445,7 @@
                                 </a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Moeldoko</a></h3>
+                        <h3 class="ts-title"><a href="#">Jend TNI (Purn) Dr. Ir. Moeldoko S.I.P.</a></h3>
                         <p>
                            HKTI
                         </p>
@@ -461,7 +461,7 @@
                         </div><!-- col end-->
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">Moeldoko</h3>
+                              <h3 class="ts-title">Jend TNI (Purn) Dr. Ir. Moeldoko S.I.P.</h3>
                               <span class="speakder-designation">Himpunan Kerukunan Tani Indonesia</span>
                               <img class="company-logo" src="images/logos/untitled-3.png" alt="">
                               <p>
@@ -658,9 +658,9 @@
                                 </a>
                      </div>
                      <div class="ts-speaker-info">
-                        <h3 class="ts-title"><a href="#">Hemindra Primula </a></h3>
+                        <h3 class="ts-title"><a href="#">Annisa Paramita </a></h3>
                         <p>
-                           Crowde Funds
+                           SPIND.id
                         </p>
                      </div>
                   </div>
@@ -674,11 +674,11 @@
                         </div><!-- col end-->
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-content">
-                              <h3 class="ts-title">Hemindra Primula</h3>
-                              <span class="speakder-designation">Crowde Funds</span>
+                              <h3 class="ts-title">Annisa Paramita</h3>
+                              <span class="speakder-designation">SPIND.id</span>
                               <img class="company-logo" src="images/logos/untitled-3.png" alt="">
                               <p>
-                                 Smart Money untuk para petani
+                                 Pengelolahan organik untuk kemasan
                               </p>
                               <h4 class="session-name">
 
@@ -765,7 +765,7 @@
                                  <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
                                  <span class="schedule-slot-time">10.00 - 10.45 WIB</span>
                                  <h3 class="schedule-slot-title">Opening</h3>
-                                 <h4 class="schedule-slot-name">@ Budi Arie Setiadi, Joko Widodo, Moeldoko, Azwar Anas</h4>
+                                 <h4 class="schedule-slot-name">@ Budi Arie Setiadi, Joko Widodo, Jend TNI (Purn) Dr. Ir. Moeldoko S.I.P., Abdullah Azwar Anas M.Si.</h4>
 
                               </div>
                            </div><!-- col end-->
