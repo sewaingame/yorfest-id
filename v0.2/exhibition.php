@@ -50,17 +50,14 @@
 
 <body>
    <div class="body-inner">
-      <!-- Header start -->
-      <?php include 'header.php'; ?>
-      <!--/ Header end -->
-
-
-
-
+    
+<?php
+  include "checksession.php";
+?>
       <!-- ts intro start -->
 
 
-      <section class="ts-contact-form" style="background-image: url(./images/bg/yorfest_bg2.jpg); height:75vh;">
+      <section class="ts-contact-form" style="background-image: url(./images/bg/yorfest_bg2.jpg); height:100vh;">
          <iframe src="../virtual_event/index.htm" style="position:absolute; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden;"></iframe>
 
 		</section>
@@ -87,19 +84,7 @@
                            </li>
                         </ul>
                      </div>
-                     <!-- footer social end-->
-                     <div class="footer-menu text-center mb-25">
-                        <ul>
-                           <li><a href="#">Contact</a></li>
-						</ul>
-                     </div><!-- footer menu end-->
-                     <div class="copyright-text text-center">
-                        <p>Copyright © 2020 YORFEST. All Rights Reserved.</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </footer>
+                    
          <!-- footer end-->
 
 
