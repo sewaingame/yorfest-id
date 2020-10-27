@@ -30,9 +30,9 @@
     "password" : "042ptg",
     "name" : "Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi",
     "day" : "Wednesday",
-    "date" : "27-10-2020",
+    "date" : "28-10-2020",
     "time" : "12.30",
-    "endTime" : "23.30"
+    "endTime" : "13.30"
   },{
     "meetingid" : "1234653212",
     "password" : "asddwas",
