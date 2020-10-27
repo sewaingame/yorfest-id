@@ -155,6 +155,7 @@ function onRegisterSuccess(data)
   }
   else
   {
+    $("#loading").hide();
     $("#v-email-2").show();
   }
 
