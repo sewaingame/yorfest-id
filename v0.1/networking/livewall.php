@@ -1,4 +1,6 @@
-<div id="content-page" class="content-page">
+
+<div class="col-lg-2">
+</div>
     <div class="container">
        <div class="row">
 			<div class="col-lg-8 row m-0 p-0" id="content">
@@ -103,9 +105,8 @@
 </li>
 
 
-<div class="col-lg-4">
-                  
-                     
+
+				<div class="col-lg-4">
                      <div class="iq-card">
                         <div class="iq-card-header d-flex justify-content-between">
                            <div class="iq-header-title">
@@ -115,19 +116,23 @@
                         </div>
                         <div class="iq-card-body">
                            <ul class="suggested-page-story m-0 p-0 list-inline">
-                              <li class="mb-3">
+                              <li class="mb-3"style="margin-left: 10px">
                                  <img src="../images/sponsors/sponsor-1.png" class="img-fluid rounded" alt="Responsive image">
                                 <div class="mt-3" style="padding-bottom:20px"></div>
                               </li>
-							  <li class="mb-3" style="margin-left: 10px">
+							  <li class="mb-3" style="margin-left: 60px">
+                                 <img src="../images/sponsors/sponsor-03.png" class="img-fluid rounded" alt="Responsive image">
+                                 <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+							   <li class="mb-3" style="margin-left: 40px">
                                  <img src="../images/sponsors/sponsor-2.png" class="img-fluid rounded" alt="Responsive image">
                                  <div class="mt-3" style="padding-bottom:20px"></div>
                               </li>
-							   <li class="mb-3">
+							   <li class="mb-3" style="margin-left: 20px">
                                  <img src="../images/sponsors/sponsor-3.png" class="img-fluid rounded" alt="Responsive image">
                                 <div class="mt-3" style="padding-bottom:20px"></div>
                               </li>
-							  <li class="mb-3" style="margin-left: 30px">
+							  <li class="mb-3" style="margin-left: 40px">
                                  <img src="../images/sponsors/sponsor-7.1.png" class="img-fluid rounded" alt="Responsive image">
                                  <div class="mt-3" style="padding-bottom:20px"></div>
                               </li>
@@ -160,11 +165,9 @@
                   </div>
                </div>
             </div>
-         </div>
-      </div>
-	  </div>
-</div>
-</div>
+			
+     
+
 <script type="text/javascript" src="./app/livewall.js"></script>
 
 <a class="dropdown-item" href="#" id="like_comment_userlist" style="display:block"></a>
