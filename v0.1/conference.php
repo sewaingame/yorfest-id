@@ -118,7 +118,7 @@
                                                   <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi
+                                 <h3 class="schedule-slot-title">Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi 
                                     <strong>@ Budi Arie Setyadi </strong>
                                  </h3>
                                  <p>Bisnis Pertanian Organik adalah Bisnis Masa Depan</p>
@@ -579,7 +579,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                          <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt="">
+                                                          <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Opening Keynote Green Slank
@@ -599,7 +599,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                              <img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt="">
+                                                              <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Video Highlight
@@ -619,7 +619,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                                  <img class="schedule-slot-speakers" src="images/speakers/speaker7.jpg" alt="">
+                                                                  <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title">Bio Cert
@@ -638,12 +638,15 @@
 							  Certification
                            </div>
                            <div class="schedule-slot-info">
+						    <a href="#">
+																	<img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title">Certifier
                                     <strong>@ Fikri Sopyana Tsauri</strong>
                                  </h3>
 								 <p> Peraturan Sertifikasi Standard Internasional</p>
+									</a>
                                  <!--<a href="#">
                                                                   <img  src="images/schedule_lunch.png" alt="">
                                                                </a>-->
@@ -660,7 +663,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Q & A
@@ -679,7 +682,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Lunch
@@ -698,7 +701,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Keynote
@@ -717,7 +720,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Triasindo Royal Agro
@@ -736,7 +739,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Pupuk Organik Gunung Salak
@@ -755,7 +758,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Q & A
@@ -774,10 +777,10 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title"> Komonitas Organik Indonesia
+                                 <h3 class="schedule-slot-title"> Komunitas Organik Indonesia
                                     <strong> @ Christopher Emille Jayanata</strong>
                                  </h3>
                                  <p> Komunitas Organik Indonesia</p>
@@ -793,7 +796,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Crowde Funds
@@ -812,7 +815,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> SPIND.id
@@ -831,7 +834,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> LOJIN.CO.ID
@@ -850,7 +853,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Q & A
@@ -869,7 +872,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> Closing
@@ -919,17 +922,17 @@
                      <div class="ts-footer-social text-center mb-30">
                         <ul>
                            <li>
-                  <a href="https://www.facebook.com/yorfestid/" target="blank"><i class="fa fa-facebook"></i></a>
-               </li>
-
-               <li>
-                  <a href="https://www.instagram.com/yorfestid/" target="blank"><i class="fa fa-instagram"></i></a>
-               </li>
-			   <li>
-                  <a href="https://www.youtube.com/channel/UC8Dfwmw3LznZ5mLIkyNDQHA" target="blank"><i class="fa fa-youtube"></i></a>
-               </li>
-
-
+                              <a href="#"><i class="fa fa-facebook"></i></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-twitter"></i></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-linkedin"></i></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-instagram"></i></a>
+                           </li>
                         </ul>
                      </div>
                      <!-- footer social end-->
@@ -987,12 +990,6 @@
 
       <!-- Template custom -->
       <script src="js/main.js"></script>
-
-      <script src="js/crypto-js.min.js"></script>
-      <script src="app/tools.js"></script>
-      <script src="js/checknotification.js"></script>
-
-      <?php include "chat.php"; ?>
    </div>
    <!-- Body inner end -->
 </body>
