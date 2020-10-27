@@ -10,6 +10,7 @@
    <meta name ="description" content="Young organic festival 2020">
    <meta name ="og;description" content="Young organic festival 2020">
    <meta name ="og;url" content="https;//yorfest.id/">
+   <script src="version.js"></script>
 
    <!-- Site Title -->
    <title>YORFEST - 2020 &amp; YOUNG ORGANIC FESTIVAL 2020 </title>

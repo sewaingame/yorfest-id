@@ -26,13 +26,13 @@
     "time" : "11.30",
     "endTime" : "12.30"
   },{
-    "meetingid" : "1234653212",
-    "password" : "asddwas",
+    "meetingid" : "79080383364",
+    "password" : "042ptg",
     "name" : "Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi",
     "day" : "Wednesday",
-    "date" : "28-10-2020",
+    "date" : "27-10-2020",
     "time" : "12.30",
-    "endTime" : "16.30"
+    "endTime" : "23.30"
   },{
     "meetingid" : "1234653212",
     "password" : "asddwas",
@@ -88,6 +88,7 @@
 
   date_default_timezone_set("Asia/Jakarta");
   $hours=date("Hi");
+  $date=date("d");
 
   $response["error"]=false;
   $response["message"]="";
@@ -116,9 +117,10 @@
   {
 
     $endTime = explode(".", $response["data"]["endTime"]);
+    $dates = explode("-", $response["data"]["date"]);
     $time = $endTime[0] . $endTime[1];
     $response["time"]=$hours . '<' . $time;
-    $response["data"]["isStarted"] = $hours < $time;
+    $response["data"]["isStarted"] = ($hours < $time) && $dates == $date;
   }
 
   echo json_encode($response, JSON_PRETTY_PRINT);

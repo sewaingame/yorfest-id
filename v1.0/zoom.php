@@ -142,10 +142,8 @@
 
                 </form>
             </div>
-            <!--/.navbar-collapse -->
         </div>
     </nav>
-
 
     <div id="show-test-tool" style="display:none;">
         <button type="submit" class="btn btn-primary" id="show-test-tool-btn"
@@ -164,6 +162,10 @@
         })
     </script>
 
+    -->
+
+    <div class="loading" Loading&#8230;</div>
+
     <script src="https://source.zoom.us/1.8.1/lib/vendor/react.min.js"></script>
     <script src="https://source.zoom.us/1.8.1/lib/vendor/react-dom.min.js"></script>
     <script src="https://source.zoom.us/1.8.1/lib/vendor/redux.min.js"></script>
@@ -177,7 +179,6 @@
     <script src="js/tool.js"></script>
     <script src="js/generatezoomlink.js"></script> -->
 
-    <div class="loading" style="display:none">Loading&#8230;</div>
 
 </body>
 

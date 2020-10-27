@@ -10,6 +10,7 @@
    <meta name ="description" content="Young organic festival 2020">
    <meta name ="og;description" content="Young organic festival 2020">
    <meta name ="og;url" content="https;//yorfest.id/">
+   <script src="version.js"></script>
 
    <!-- Site Title -->
    <title>YORFEST - 2020 &amp; YOUNG ORGANIC FESTIVAL 2020 </title>
@@ -19,7 +20,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-  
+
 
 
   </head>
