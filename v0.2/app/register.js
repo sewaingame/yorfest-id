@@ -163,6 +163,8 @@ function onRegisterSuccess(data)
 
 function sendEmail(data)
 {
+  console.log("Sending Email");
+
   var response = JSON.parse(data);
 
   var formdata = new FormData();
