@@ -5,7 +5,7 @@
   $sendername = "Perayaan HUT 56 Partai Golkar";
   $password = 'chelsea2018';
   $subject = '[VERIFIKASI EMAIL] Perayaan HUT 56 Partai Golkar';
-  $smtpaddress = 'flash.webmail.co.id';//'mail.hut56partaigolkar.id';//'';
+  $smtpaddress = 'jupiter.webmail.co.id';//'mail.hut56partaigolkar.id';//'';
   $smtpport = 587;
   $smtpsecure = 'ssl';
   $attachment = [];
