@@ -8,7 +8,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
       <!-- Site Title -->
-      <title>Exhibz - Conference &amp; Event HTML Template</title>
+     <title>YORFEST - 2020 &amp; YOUNG ORGANIC FESTIVAL 2020 </title>
       <!-- CSS
          ================================================== -->
       <!-- Bootstrap -->

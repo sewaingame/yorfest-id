@@ -146,12 +146,12 @@ function onRegisterSuccess(data)
 
   var response = JSON.parse(data);
 
-  $("#loading").hide();
 
   if(response.error == false)
   {
-    window.location.href = "sendemail.php?name=" + response.data.name + "&email=" + response.data.email + "&verifiedkey=" + response.data.verifiedkey;
+    // window.location.href = "sendemail.php?name=" + response.data.name + "&email=" + response.data.email + "&verifiedkey=" + response.data.verifiedkey;
     // window.location.href = "emailconfirmationsent.php?key=" + response.data.verifiedkey;
+    sendEmail(data);
   }
   else
   {
@@ -160,9 +160,10 @@ function onRegisterSuccess(data)
 
 }
 
+var verifiedkey = "";
 function sendEmail(data)
 {
-  console.log("Sending Email");
+  console.log("Sending Email", data);
 
   var response = JSON.parse(data);
 
@@ -170,7 +171,9 @@ function sendEmail(data)
   formdata.append("cmd","register");
   formdata.append("name",response.data.name);
   formdata.append("email",response.data.email);
-  formdata.append("verifiedkey",response.data.phone);
+  formdata.append("verifiedkey",response.data.verifiedkey);
+
+  verifiedkey = response.data.verifiedkey;
 
   $.ajax({
     type: "POST",
@@ -186,7 +189,11 @@ function sendEmail(data)
 function onSendEmailSuccess(data)
 {
   console.log("SUCCESS SEND EMAIL", data);
-   //window.location.href = "emailconfirmationsent.php?key=" + response.data.verifiedkey;
+  setTimeout(function()
+  {
+    $("#loading").hide();
+    window.location.href = "emailconfirmationsent.php?key=" + verifiedkey;
+  }, 1000);
 }
 
 function onSendEmailFail(data)
