@@ -61,12 +61,7 @@
             <div class="text-center">
                <h2>Schedule </h2>
                <ol class="breadcrumb">
-                  <li>
-                     <a href="#">Day 1 /</a>
-                  </li>
-                  <li>
-                     <a href="#">Day 2</a>
-                  </li>
+                    <a href="zoom.php?g=0" class="btn">JOIN NOW</a>
                </ol>
             </div>
          </div><!-- Subpage title end -->
@@ -78,14 +73,10 @@
                <div class="col-lg-6">
                   <div class="ts-schedule-content">
                      <h2 class="column-title">
-                        <span>Schedule Details</span>
-                        Information of Event Schedules
+                        <span>Schedule </span>
+                        Information of Organic Event Schedules
                      </h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut nisi in urna porta sollicitudin at ut mauris.
-						Donec ut accumsan risus.
-						Vestibulum pharetra consectetur justo feugiat tempor. Quisque condimentum ultrices rhoncus. Ut efficitur enim at venenatis tempus.
-						Cras ultricies nibh id erat dictum, vitae tincidunt nunc pretium. Morbi elit neque, semper et orci sed, rutrum placerat enim.
-                     </p>
+                     
                   </div>
                </div><!-- col end-->
                <div class="col-lg-6">
