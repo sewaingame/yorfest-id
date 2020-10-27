@@ -151,7 +151,7 @@ function onRegisterSuccess(data)
 
   if(response.error == false)
   {
-    sendEmail(data);
+    window.location.href = "sendemail.php?name=" + response.data.name + "&email=" + response.data.email + "&verifiedkey=" + response.data.verifiedkey;
     // window.location.href = "emailconfirmationsent.php?key=" + response.data.verifiedkey;
   }
   else
