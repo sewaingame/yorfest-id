@@ -186,13 +186,13 @@ function sendEmail(data)
 
 function onSendEmailSuccess(data)
 {
-  console.log(data);
+  console.log("SUCCESS SEND EMAIL", data);
    //window.location.href = "emailconfirmationsent.php?key=" + response.data.verifiedkey;
 }
 
 function onSendEmailFail(data)
 {
-
+  console.log("FAILED SEND EMAIL", data);
 }
 
 function onRegisterFail(data)
