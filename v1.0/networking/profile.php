@@ -78,20 +78,6 @@
                                      </div>
                                    </div>
                                    <div class="col-3">
-                                      <h6>Birth</h6>
-                                   </div>
-                                   <div class="col-9 row">
-                                     <div class="col-lg-8">
-                                      <p class="mb-0 user-birth">Bnijohn@gmail.com</p>
-                                      <input type="date" name="" value="085659622363" class="form-control mb-0 user-birth-input inputprofile">
-                                     </div>
-                                   </div>
-                                </div>
-                                <hr>
-                                <h4>Contact Information</h4>
-                                <hr>
-                                <div class="row">
-                                   <div class="col-3">
                                       <h6>Company</h6>
                                    </div>
                                    <div class="col-9 row">
