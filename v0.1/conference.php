@@ -60,14 +60,10 @@
          <div class="page-banner-title ">
             <div class="text-center">
                <h2>Schedule </h2>
-               <ol class="breadcrumb">
-                  <li>
-                     <a href="#">Day 1 /</a>
-                  </li>
-                  <li>
-                     <a href="#">Day 2</a>
-                  </li>
-               </ol>
+			   
+                   <a href="#" class="btn text-center">JOIN NOW</a>
+                       
+              
             </div>
          </div><!-- Subpage title end -->
       </div><!-- Page Banner end -->
@@ -79,12 +75,9 @@
                   <div class="ts-schedule-content">
                      <h2 class="column-title">
                         <span>Schedule Details</span>
-                        Information of Event Schedules
+                        Information of Event 
                      </h2>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut nisi in urna porta sollicitudin at ut mauris.
-						Donec ut accumsan risus.
-						Vestibulum pharetra consectetur justo feugiat tempor. Quisque condimentum ultrices rhoncus. Ut efficitur enim at venenatis tempus.
-						Cras ultricies nibh id erat dictum, vitae tincidunt nunc pretium. Morbi elit neque, semper et orci sed, rutrum placerat enim.
+                     <p>Organic Sessions Schedules
                      </p>
                   </div>
                </div><!-- col end-->
