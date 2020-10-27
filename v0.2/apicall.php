@@ -39,9 +39,9 @@
     {
       $target_file = "profilepictures/" . $data["email"] . "." . strtolower(pathinfo($_FILES["businesscard"]["name"],PATHINFO_EXTENSION));
 
-      if (file_exists($target_file))
+      if (file_exists('../' .$target_file))
       {
-         unlink($target_file);
+         unlink('../' .$target_file);
       }
 
 
@@ -55,9 +55,9 @@
     {
       $target_file = "businesscard/" . $data["email"] . "." . strtolower(pathinfo($_FILES["businesscard"]["name"],PATHINFO_EXTENSION));
 
-      if (file_exists($target_file))
+      if (file_exists('../' . $target_file))
       {
-         unlink($target_file);
+         unlink('../' . $target_file);
       }
 
       if (move_uploaded_file($_FILES["businesscard"]["tmp_name"], '../'. $target_file))
