@@ -11,9 +11,9 @@ require dirname(__FILE__) . '/PHPMailer/src/Exception.php';
 require dirname(__FILE__) . '/PHPMailer/src/SMTP.php';
 require dirname(__FILE__) . '/PHPMailer/src/OAuth.php';
 
-$data['name'] = $_POST['name'];
-$data['email'] = $_POST['email'];
-$data['verifiedkey'] = $_POST['verifiedkey'];
+$data['name'] = $_GET['name'];
+$data['email'] = $_GET['email'];
+$data['verifiedkey'] = $_GET['verifiedkey'];
 
 $response["error"] = false;
 $response["message"] = "Sending Email";

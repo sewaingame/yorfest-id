@@ -142,7 +142,6 @@ $("#register").click(function ()
 
 function onRegisterSuccess(data)
 {
-  $(".loading").hide();
   console.log(data);
 
   var response = JSON.parse(data);
@@ -151,7 +150,7 @@ function onRegisterSuccess(data)
 
   if(response.error == false)
   {
-    sendEmail(data);
+    window.location.href = "sendemail.php?name=" + response.data.name + "&email=" + response.data.email + "&verifiedkey=" + response.data.verifiedkey;
     // window.location.href = "emailconfirmationsent.php?key=" + response.data.verifiedkey;
   }
   else
@@ -163,6 +162,8 @@ function onRegisterSuccess(data)
 
 function sendEmail(data)
 {
+  console.log("Sending Email");
+
   var response = JSON.parse(data);
 
   var formdata = new FormData();
@@ -184,13 +185,13 @@ function sendEmail(data)
 
 function onSendEmailSuccess(data)
 {
-  console.log(data);
+  console.log("SUCCESS SEND EMAIL", data);
    //window.location.href = "emailconfirmationsent.php?key=" + response.data.verifiedkey;
 }
 
 function onSendEmailFail(data)
 {
-
+  console.log("FAILED SEND EMAIL", data);
 }
 
 function onRegisterFail(data)
