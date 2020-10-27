@@ -142,7 +142,6 @@ $("#register").click(function ()
 
 function onRegisterSuccess(data)
 {
-  $(".loading").hide();
   console.log(data);
 
   var response = JSON.parse(data);
