@@ -21,7 +21,7 @@
       $data['verifiedkey'] = $verifiedkey;
 
       $response['data'] = $data;
-      $response = sendEmail($data, 'register');
+      // $response = sendEmail($data, 'register');
     }
     else
     {
@@ -29,14 +29,15 @@
 
       if($checkverify['data']['verified'] == 0)
       {
-        $response = sendEmail($checkverify['data'], 'register');
-        $response["error"] = false;
-        $response["message"] = "";
+        // $response = sendEmail($checkverify['data'], 'register');
+        $response = $checkverify;
       }
-
-      $response["error"] = true;
-      $response["message"] = $con->error;
-      $response["data"] = null;
+      else
+      {
+        $response["error"] = true;
+        $response["message"] = $con->error;
+        $response["data"] = null;
+      }
     }
 
     $con->close();
