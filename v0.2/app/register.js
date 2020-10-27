@@ -142,10 +142,10 @@ $("#register").click(function ()
 
 function onRegisterSuccess(data)
 {
+  $(".loading").hide();
   console.log(data);
 
   var response = JSON.parse(data);
-
 
   if(response.error == false)
   {
@@ -155,7 +155,12 @@ function onRegisterSuccess(data)
   }
   else
   {
-    $("#loading").hide();
+    console.log("ERROR");
+    setTimeout(function()
+    {
+      console.log("Hide");
+      $(".loading").hide();
+    }, 2000);
     $("#v-email-2").show();
   }
 
@@ -164,6 +169,7 @@ function onRegisterSuccess(data)
 var verifiedkey = "";
 function sendEmail(data)
 {
+  $(".loading").show();
   console.log("Sending Email", data);
 
   var response = JSON.parse(data);
@@ -192,7 +198,7 @@ function onSendEmailSuccess(data)
   console.log("SUCCESS SEND EMAIL", data);
   setTimeout(function()
   {
-    $("#loading").hide();
+    $(".loading").hide();
     window.location.href = "emailconfirmationsent.php?key=" + verifiedkey;
   }, 1000);
 }
