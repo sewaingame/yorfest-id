@@ -337,7 +337,7 @@
                               </div>
                               <div class="schedule-slot-info">
                                  <a href="#">
-                                    <img class="schedule-slot-speakers" src="images/speakers/Margaret Agustina.png" alt="">
+                                    <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt="">
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title"> JAGAPATI.COM
                                           <strong> @ Margaret Agustina</strong>
@@ -399,7 +399,7 @@
                               </div>
                               <div class="schedule-slot-info">
                                  <a href="#">
-                                    <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+                                    <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt="">
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title"> Opening Keynote Green Slank
                                           <strong>@ Ivanka</strong>
@@ -420,7 +420,7 @@
                               </div>
                               <div class="schedule-slot-info">
                                  <a href="#">
-                                    <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+                                    <img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt="">
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title">Bio Cert
                                           <strong>@ Reza Purnomo</strong>
@@ -484,7 +484,7 @@
                                  <a href="#">
                                     <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
                                     <div class="schedule-slot-info-content">
-                                       <h3 class="schedule-slot-title"> Lunch
+                                       <h3 class="schedule-slot-title">Break Lunch
                                           <strong></strong>
                                        </h3>
                                        <p> </p>
@@ -520,7 +520,7 @@
                               </div>
                               <div class="schedule-slot-info">
                                  <a href="#">
-                                    <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+                                    <img class="schedule-slot-speakers" src="images/speakers/speaker7.jpg" alt="">
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title"> Triasindo Royal Agro
                                           <strong> @ Franciscus Richard</strong>
@@ -615,10 +615,10 @@
                               </div>
                               <div class="schedule-slot-info">
                                  <a href="#">
-                                    <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+                                    <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title"> SPIND.id
-                                          <strong> @ Anisa Paramita</strong>
+                                          <strong> @ Anissa Paramita</strong>
                                        </h3>
                                        <p> Pengelolahan organik untuk kemasan</p>
                                  </a>
