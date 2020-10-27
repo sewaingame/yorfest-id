@@ -79,9 +79,9 @@
                              <input class="form-control form-control-email" name="phone" id="f-phone"  type="phone" required="">
                              <label id="v-phone" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Phone is not valid. Minimum 10 digit. Ex: 08xxxxxxxxxx</label>
                           </div>
-                          <div class="col-12 text-left">
+                          <div class="col-12 text-left" style="display:none">
                              <label for="birth" style="color:#000000; font-size:14px;">Date of Birth</label>
-                             <input class="form-control form-control-email" name="birth" id="f-birth"  type="date" required="">
+                             <input class="form-control form-control-email" name="birth" id="f-birth"  type="text" required="" value="1991-08-17">
                              <label id="v-birth" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Please select your birth date</label>
                           </div>
                           <div class="col-12 text-left">
@@ -89,23 +89,23 @@
                              <input class="form-control form-control-email" name="company" id="f-company"  type="text" required="">
                              <label id="v-company" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Company is not valid. Minimum 3 character</label>
                           </div>
+                          <div class="col-12 text-left">
+                            <label for="interest" style="color:#000000;  font-size:14px;">Interest</label>
+                            <select class="form-control form-control-email" id="f-interest">
+                               <option value="-1">Select One</option>
+                               <option value="0">Organic Healthy Life Style</option>
+                               <option value="1">Organic Farming</option>
+                               <option value="2">Organic Business</option>
+                               <option value="4">Organic Agriculture</option>
+                               <option value="5">Other</option>
+                             </select>
+                             <input class="form-control form-control-email mt-2" placeholder="Fill with your interest" name="company" id="f-interest-other"  type="text" required="" style="display:none;">
+                             <label id="v-interest" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Minimum 4 character</label>
+                             <label id="v-interest-2" for="name" style="color:#FF6C6C; font-size:12px; display:none;">You must select one of the option.</label>
+                         </div>
                         </div>
-
                         <div class="col-lg-6 row">
-							<div class="col-12 text-left">
-                             <label for="interest" style="color:#000000;  font-size:14px;">Interest</label>
-                             <select class="form-control form-control-email" id="f-interest">
-                                <option value="-1">Select One</option>
-                                <option value="0">Organic Healthy Life Style</option>
-                                <option value="1">Organic Farming</option>
-                                <option value="2">Organic Business</option>
-                                <option value="4">Organic Agriculture</option>
-                                <option value="5">Other</option>
-                              </select>
-                              <input class="form-control form-control-email mt-2" placeholder="Fill with your interest" name="company" id="f-interest-other"  type="text" required="" style="display:none;">
-                              <label id="v-interest" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Minimum 4 character</label>
-                              <label id="v-interest-2" for="name" style="color:#FF6C6C; font-size:12px; display:none;">You must select one of the option.</label>
-                          </div>
+
                           <div class="col-12 text-left" style="display:none;">
                              <label for="conference" style="color:#000000; padding-top:20px; font-size:14px;">Join Conferece As</label>
                              <select class="form-control form-control-email" id="f-conference">
