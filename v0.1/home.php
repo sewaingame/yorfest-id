@@ -165,22 +165,22 @@
                <div class="col-lg-10 mx-auto">
                   <div class="countdown gradient clearfix">
                      <div class="counter-item">
-                        <span class="days">00</span>
+                        <span class="days" id="day">00</span>
                         <div class="smalltext">Days</div>
                         <b>:</b>
                      </div>
                      <div class="counter-item">
-                        <span class="hours">00</span>
+                        <span class="hours" id="hour">00</span>
                         <div class="smalltext">Hours</div>
                         <b>:</b>
                      </div>
                      <div class="counter-item">
-                        <span class="minutes">00</span>
+                        <span class="minutes" id="min">00</span>
                         <div class="smalltext">Minutes</div>
                         <b>:</b>
                      </div>
                      <div class="counter-item">
-                        <span class="seconds">00</span>
+                        <span class="seconds" id="sec">00</span>
                         <div class="smalltext">Seconds</div>
                      </div>
                   </div>
@@ -875,14 +875,14 @@
                            <li>
                   <a href="https://www.facebook.com/yorfestid/" target="blank"><i class="fa fa-facebook"></i></a>
                </li>
-              
+
                <li>
                   <a href="https://www.instagram.com/yorfestid/" target="blank"><i class="fa fa-instagram"></i></a>
                </li>
 			     <li>
                   <a href="https://www.youtube.com/channel/UC8Dfwmw3LznZ5mLIkyNDQHA" target="blank"><i class="fa fa-youtube"></i></a>
                </li>
-			   
+
                         </ul>
                      </div>
                      <!-- footer social end-->
@@ -932,11 +932,13 @@
       <script src="js/isotope.pkgd.min.js"></script>
 
       <!-- Template custom -->
+      <script src="js/countdown.js"></script>
       <script src="js/crypto-js.min.js"></script>
       <script src="app/tools.js"></script>
       <script src="js/main.js"></script>
       <script src="js/checknotification.js"></script>
 
+      <?php include "chat.php"; ?>
    </div>
    <!-- Body inner end -->
 </body>
