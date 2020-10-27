@@ -77,10 +77,10 @@
                                       <input type="number" name="" value="085659622363" class="form-control mb-0 user-phone-input inputprofile">
                                      </div>
                                    </div>
-                                   <div class="col-3">
+                                   <div class="col-3" style="display:none;">
                                       <h6>Birth</h6>
                                    </div>
-                                   <div class="col-9 row">
+                                   <div class="col-9 row" style="display:none;">
                                      <div class="col-lg-8">
                                       <p class="mb-0 user-birth">Bnijohn@gmail.com</p>
                                       <input type="date" name="" value="085659622363" class="form-control mb-0 user-birth-input inputprofile">
