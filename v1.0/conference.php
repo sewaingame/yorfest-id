@@ -114,7 +114,7 @@
                               </div>
                               <!-- Slot info end -->
                            </div>
-                          
+
                            <!--schedule-listing end -->
                            <div class="schedule-listing">
                               <div class="schedule-slot-time">
@@ -753,7 +753,7 @@
       <script src="js/isotope.pkgd.min.js"></script>
       <!-- Template custom -->
       <script src="js/main.js"></script>
-      <script src="js/checknotification.js"></script>
+      <script src="js/checknotification.js?v=<?php echo uniqid(); ?>"></script>
       </div>
       <!-- Body inner end -->
    </body>

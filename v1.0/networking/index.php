@@ -205,8 +205,8 @@
       <script src="../js/crypto-js.min.js"></script>
       <script src="../app/tools.js"></script>
       <script src="app/keycheck.js"></script>
-      <script src="app/main.js"></script>
-      <script src="js/checknotification.js"></script>
+      <script src="app/main.js?v=<?php echo uniqid(); ?>"></script>
+      <script src="js/checknotification.js?v=<?php echo uniqid(); ?>"></script>
       <?php include "../chat.php"; ?>
    </div>
    <!-- Body inner end -->
