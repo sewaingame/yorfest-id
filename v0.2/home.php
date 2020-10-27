@@ -756,7 +756,7 @@
                                  <img class="schedule-slot-speakers" src="images/logos/logo_banner home.png" alt="">
                                  <span class="schedule-slot-time">10.45 - 11.45 WIB</span>
                                  <h3 class="schedule-slot-title">Young Farmer</h3>
-                                 <h4 class="schedule-slot-name">@ Bank Mandiri, Angeline Theo, Tari Dana, Andhika Mahardika</h4>
+                                 <h4 class="schedule-slot-name">@ Angeline Theo, Tari Dana, Andhika Mahardika</h4>
 
                               </div>
                            </div><!-- col end-->
@@ -765,25 +765,25 @@
                                  <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
                                  <span class="schedule-slot-time">10.00 - 10.45 WIB</span>
                                  <h3 class="schedule-slot-title">Opening</h3>
-                                 <h4 class="schedule-slot-name">@ Budi Arie Setiadi, Joko Widodo, Azwar Anas</h4>
+                                 <h4 class="schedule-slot-name">@ Budi Arie Setiadi, Joko Widodo, Moeldoko, Azwar Anas</h4>
 
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-left">
                                  <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
-                                 <span class="schedule-slot-time">13.15 - 16.15 WIB</span>
-                                 <h3 class="schedule-slot-title">Eco-system</h3>
-                                 <h4 class="schedule-slot-name">@ BRI, Suradi,Raka Bagus,Putri Arif Febrila,Christopher M. Satriandaru,Ichwan Joesoef,Margaret Agustina,Dwi Anoraganingrum </h4>
+                                 <span class="schedule-slot-time">16.15 - 17.00 WIB</span>
+                                 <h3 class="schedule-slot-title">Agro Wisata</h3>
+                                 <h4 class="schedule-slot-name">@ Dedi Wahyu Hernanda </h4>
 
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-right">
                                  <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
-                                 <span class="schedule-slot-time">16.15 - 17.00 WIB</span>
-                                 <h3 class="schedule-slot-title">Agro Wisata</h3>
-                                 <h4 class="schedule-slot-name">@ Dedi Wahyu Hernanda, Moeldoko</h4>
+                                 <span class="schedule-slot-time">13.15 - 16.15 WIB</span>
+                                 <h3 class="schedule-slot-title"> Eco-system & Commerce</h3>
+                                 <h4 class="schedule-slot-name">@ Suradi, Raka Bagus, Putri Arif Febrila, Christopher M. Satriandaru, Ichwan Joesoef, Margaret Agustina, Dwi Anoraganingrum</h4>
 
                            </div><!-- col end-->
                         </div><!-- row end-->
@@ -794,36 +794,44 @@
                      </div><!-- tab pane end-->
 
                      <div role="tabpanel" class="tab-pane" id="date2">
-                        <div class="row">
+                         <div class="row">
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-left">
-                                <img class="schedule-slot-speakers" src="images/logos/logo_banner home.png" alt="">
-                                 <span class="schedule-slot-time">13.15 - 15.15 WIB</span>
-                                 <h3 class="schedule-slot-title">The Trial & Error Experience</h3>
-                                 <h4 class="schedule-slot-name">@ Muslahudin Daud, Franciscus Richard, Junaedi Prasetiyo</h4>
+                                 <img class="schedule-slot-speakers" src="images/logos/logo_banner home.png" alt="">
+                                 <span class="schedule-slot-time">10.15 - 12.00 WIB</span>
+                                 <h3 class="schedule-slot-title">Certification</h3>
+                                 <h4 class="schedule-slot-name">@ Reza Purnomo, Fikri Sopyana Tsauri</h4>
 
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-right">
-                                 <img class="schedule-slot-speakers" rc="images/logos/logo_banner_home2.png" alt="">
-                                 <span class="schedule-slot-time">10.00 - 12.00 WIB</span>
-                                 <h3 class="schedule-slot-title">Opening & Certification</h3>
-                                 <h4 class="schedule-slot-name">@ Ivanka, Reza Purnomo, Fikri Sopyana Tsauri</h4>
+                                 <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
+                                 <span class="schedule-slot-time">10.00 - 10.15 WIB</span>
+                                 <h3 class="schedule-slot-title">Opening</h3>
+                                 <h4 class="schedule-slot-name">@ Ivanka</h4>
 
                               </div>
                            </div><!-- col end-->
                            <div class="col-lg-6">
                               <div class="schedule-listing-item schedule-left">
                                  <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
-                                  <span class="schedule-slot-time">15.30 - 17.45 WIB</span>
-                                 <h3 class="schedule-slot-title">Organic Marketing</h3>
-                                 <h4 class="schedule-slot-name">@ Christopher Emille Jayanata,Hemindra Primula,Anisa Paramita,Fendi Hartanto</h4>
+                                 <span class="schedule-slot-time">15.45 - 17.30 WIB</span>
+                                 <h3 class="schedule-slot-title">Organic Community</h3>
+                                 <h4 class="schedule-slot-name">@ Christopher Emille Jayanata, Hemindra Primula, Anisa Paramita, Fendi Hartanto </h4>
 
                               </div>
                            </div><!-- col end-->
+                           <div class="col-lg-6">
+                              <div class="schedule-listing-item schedule-right">
+                                 <img class="schedule-slot-speakers" src="images/logos/logo_banner_home2.png" alt="">
+                                 <span class="schedule-slot-time">13.15 - 15.45 WIB</span>
+                                 <h3 class="schedule-slot-title"> Organic Support</h3>
+                                 <h4 class="schedule-slot-name">@ Muslahudin Daud, Franciscus Richard, Junaedi Prasetiyo</h4>
 
+                           </div><!-- col end-->
                         </div><!-- row end-->
+						</div>
                         <div class="schedule-listing-btn">
                            <a href="conference.php?p=3" class="btn">More Details</a>
                         </div>
