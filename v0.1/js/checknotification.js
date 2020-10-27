@@ -18,7 +18,7 @@ function getNavBarNotification()
   var userdata = JSON.parse(decrypt(sessionStorage.getItem("user_data")));
 
   var api_key = sessionStorage.getItem("api_key");
-
+  
   var data = {
     cmd:"an",
     api_key:api_key

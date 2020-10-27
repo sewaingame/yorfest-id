@@ -207,7 +207,7 @@
       <script src="app/keycheck.js"></script>
       <script src="app/main.js"></script>
       <script src="js/checknotification.js"></script>
-
+      <?php include "../chat.php"; ?>
    </div>
    <!-- Body inner end -->
 </body>

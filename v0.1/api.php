@@ -1156,4 +1156,64 @@
 
       return $response;
     }
+
+    function updateUserProfile($data)
+    {
+      $userID = checkapikey($data)['data']['id'];
+
+      include 'connection.php';
+
+      $response["error"] = false;
+      $response["message"] = "";
+
+      $sql = 'UPDATE participant SET `name`="'.$data['name'].'", `phone`="'.$data['phone'].'", `birth`="'.  $data['birth'].'", `company`="'.$data['company'].'" WHERE id=' . $userID;
+      $response["sql"] = $sql;
+      $resultUser = $con->query($sql);
+
+      $response["data"] = getParticipantByIDAllData($userID);
+
+      $con->close();
+
+      return $response;
+    }
+
+    function updateUserProfilePicture($data)
+    {
+      $userID = checkapikey($data)['data']['id'];
+
+      include 'connection.php';
+
+      $response["error"] = false;
+      $response["message"] = "";
+
+      $sql = 'UPDATE participant SET `photourl`="'.$data['photourl'].'" WHERE id=' . $userID;
+      $response["sql"] = $sql;
+      $resultUser = $con->query($sql);
+
+      $response["data"] = getParticipantByIDAllData($userID);
+
+      $con->close();
+
+      return $response;
+    }
+
+    function updateUserBusinessCard($data)
+    {
+      $userID = checkapikey($data)['data']['id'];
+
+      include 'connection.php';
+
+      $response["error"] = false;
+      $response["message"] = "";
+
+      $sql = 'UPDATE participant SET `cardurl`="'.$data['cardurl'].'" WHERE id=' . $userID;
+      $response["sql"] = $sql;
+      $resultUser = $con->query($sql);
+
+      $response["data"] = getParticipantByIDAllData($userID);
+
+      $con->close();
+
+      return $response;
+    }
 ?>

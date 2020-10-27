@@ -138,7 +138,7 @@
       <script src="js/crypto-js.min.js"></script>
       <script src="app/tools.js"></script>
       <script src="js/checknotification.js"></script>
-
+      <?php include "chat.php"; ?>
    </div>
    <!-- Body inner end -->
 </body>

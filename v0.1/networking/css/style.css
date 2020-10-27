@@ -5034,3 +5034,7 @@ Add User Page
 	border: none;
 	background: var(--iq-light-primary);
 }
+
+.inputprofile {
+	color: #000;
+}
