@@ -847,11 +847,20 @@
                <div class="col-lg-12">
                   <div class="sponsors-logo text-center">
                      <img src="images/sponsors/sponsor-1.png" alt=""></a>
+					 
+                  </div><!-- sponsors logo end-->
+				   <div class="col-lg-12">
+                  <div class="sponsors-logo text-center">
+					 <img src="images/sponsors/sponsor-03.png" alt=""></a>
+					 <img src="" alt=""></a>
                      <img src="images/sponsors/sponsor-2.png" alt=""></a>
                      <img src="images/sponsors/sponsor-3.png" alt=""></a>
-					 <img src="images/sponsors/sponsor-7.png" alt=""></a>
-                     <img src="images/sponsors/sponsor-8.png" alt=""></a>
 					 <img src="" alt=""></a>
+					  <img src="images/sponsors/sponsor-7.png" alt=""></a>
+                  </div><!-- sponsors logo end-->
+               </div><!-- col end-->
+			    <div class="col-lg-12">
+                  <div class="sponsors-logo text-center">
                      <img src="images/sponsors/sponsor-4.png" alt=""></a>
 					 <img src="images/sponsors/sponsor-5.png" alt=""></a>
                      <img src="images/sponsors/sponsor-6.png" alt=""></a>
