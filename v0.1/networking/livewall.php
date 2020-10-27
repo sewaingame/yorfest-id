@@ -1,10 +1,11 @@
-<div class="col-lg-2">
-</div>
-<div class="col-lg-8 row m-0 p-0" id="content">
-  <div class="col-sm-12 row" style="width:100%">
-    <div class="col-sm-12">
-       <div id="post-modal-data" class="iq-card iq-card-block iq-card-stretch iq-card-height">
-          <div class="iq-card-header d-flex justify-content-between">
+<div id="content-page" class="content-page">
+    <div class="container">
+       <div class="row">
+			<div class="col-lg-8 row m-0 p-0" id="content">
+				<div class="col-sm-12 row" style="width:100%">
+					<div class="col-sm-12">
+				<div id="post-modal-data" class="iq-card iq-card-block iq-card-stretch iq-card-height">
+				<div class="iq-card-header d-flex justify-content-between">
              <div class="iq-header-title">
                 <h4 class="card-title">What's on your mind?</h4>
              </div>
@@ -100,7 +101,69 @@
       </div>
    </div>
 </li>
-<div class="col-lg-2">
+
+
+<div class="col-lg-4">
+                  
+                     
+                     <div class="iq-card">
+                        <div class="iq-card-header d-flex justify-content-between">
+                           <div class="iq-header-title">
+                              <h4 class="card-title text-center">Sponsors by</h4>
+                           </div>
+                           
+                        </div>
+                        <div class="iq-card-body">
+                           <ul class="suggested-page-story m-0 p-0 list-inline">
+                              <li class="mb-3">
+                                 <img src="../images/sponsors/sponsor-1.png" class="img-fluid rounded" alt="Responsive image">
+                                <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+							  <li class="mb-3" style="margin-left: 10px">
+                                 <img src="../images/sponsors/sponsor-2.png" class="img-fluid rounded" alt="Responsive image">
+                                 <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+							   <li class="mb-3">
+                                 <img src="../images/sponsors/sponsor-3.png" class="img-fluid rounded" alt="Responsive image">
+                                <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+							  <li class="mb-3" style="margin-left: 30px">
+                                 <img src="../images/sponsors/sponsor-7.1.png" class="img-fluid rounded" alt="Responsive image">
+                                 <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+							   <li class="mb-3">
+                                 <img src="../images/sponsors/sponsor-8.png" class="img-fluid rounded" alt="Responsive image">
+                                <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+							  <li class="mb-3" style="margin-left: 60px">
+                                 <img src="../images/sponsors/sponsor-4.1.png" class="img-fluid rounded" alt="Responsive image">
+                                 <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+							   <li class="mb-3" style="margin-left: 60px">
+                                 <img src="../images/sponsors/sponsor-5.1.png" class="img-fluid rounded" alt="Responsive image">
+                                <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+							  <li class="mb-3" style="margin-left: 60px">
+                                 <img src="../images/sponsors/sponsor-6.1.png" class="img-fluid rounded" alt="Responsive image">
+                                 <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+							  <li class="mb-3" style="margin-left: 60px">
+                                 <img src="../images/sponsors/sponsor-9.1.png" class="img-fluid rounded" alt="Responsive image">
+                                <div class="mt-3" style="padding-bottom:20px"></div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-12 text-center">
+                     <img src="images/page-img/page-load-loader.gif" alt="loader" style="height: 100px;">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  </div>
+</div>
 </div>
 <script type="text/javascript" src="./app/livewall.js"></script>
 
