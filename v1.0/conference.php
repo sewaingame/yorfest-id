@@ -97,7 +97,7 @@
                         <div role="tabpanel" class="tab-pane active" id="date1">
                            <div class="schedule-listing">
                               <div class="schedule-slot-time">
-                                 <span> 10.00 - 10.15 WIB</span>
+                                 <span> 10.00 - 10.20 WIB</span>
                                  Opening
                               </div>
                               <div class="schedule-slot-info">
@@ -114,26 +114,7 @@
                               </div>
                               <!-- Slot info end -->
                            </div>
-                           <!--schedule-listing end -->
-                           <div class="schedule-listing">
-                              <div class="schedule-slot-time">
-                                 <span> 10.15 - 10.20 WIB</span>
-                                 Opening
-                              </div>
-                              <div class="schedule-slot-info">
-                                 <a href="#">
-                                    <img class="schedule-slot-speakers" src="images/speakers/JokoWidodo.jpg" alt="">
-                                    <div class="schedule-slot-info-content">
-                                       <h3 class="schedule-slot-title">Sambutan dari Presiden Republik Indonesia
-                                          <strong>@ IR. H. Joko Widodo</strong>
-                                       </h3>
-                                       <p> </p>
-                                 </a>
-                                 </div>
-                                 <!--Info content end -->
-                              </div>
-                              <!-- Slot info end -->
-                           </div>
+                          
                            <!--schedule-listing end -->
                            <div class="schedule-listing">
                               <div class="schedule-slot-time">
@@ -707,42 +688,40 @@
       </div>
       <!-- container end-->
       </section>
-      <!-- ts footer area start-->
-      <footer class="ts-footer" >
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-8 mx-auto">
-                  <div class="ts-footer-social text-center mb-30">
-                     <ul>
-                        <li>
-                           <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                           <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                           <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                           <a href="#"><i class="fa fa-instagram"></i></a>
-                        </li>
-                     </ul>
-                  </div>
-                  <!-- footer social end-->
-                  <div class="footer-menu text-center mb-25">
-                     <ul>
-                        <li><a href="#">Contact</a></li>
-                     </ul>
-                  </div>
-                  <!-- footer menu end-->
-                  <div class="copyright-text text-center">
-                     <p>Copyright © 2020 YORFEST. All Rights Reserved.</p>
+       <!--ts footer start-->
+         <footer class="ts-footer" >
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                     <div class="ts-footer-social text-center mb-30">
+                        <ul>
+                           <li>
+                  <a href="https://www.facebook.com/yorfestid/" target="blank"><i class="fa fa-facebook"></i></a>
+               </li>
+
+               <li>
+                  <a href="https://www.instagram.com/yorfestid/" target="blank"><i class="fa fa-instagram"></i></a>
+               </li>
+			     <li>
+                  <a href="https://www.youtube.com/channel/UC8Dfwmw3LznZ5mLIkyNDQHA" target="blank"><i class="fa fa-youtube"></i></a>
+               </li>
+
+                        </ul>
+                     </div>
+                     <!-- footer social end-->
+                     <div class="footer-menu text-center mb-25">
+                        <ul>
+                           <li><a href="#">Contact</a></li>
+						</ul>
+                     </div><!-- footer menu end-->
+                     <div class="copyright-text text-center">
+                        <p>Copyright © 2020 YORFEST. All Rights Reserved.</p>
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
-      </footer>
-      <!-- footer end-->
+         </footer>
+         <!-- footer end-->
       <div class="BackTo">
          <a href="#" class="fa fa-angle-up" aria-hidden="true"></a>
       </div>
