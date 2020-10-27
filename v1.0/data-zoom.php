@@ -2,9 +2,9 @@
 
   $zoom = '[
     {
-      "meetingid" : "84212961118",
-      "password" : "YORFest2",
-      "pwd": "b1ZDWVBlK1JjZElKbEdZaHRJOE5wdz09",
+      "meetingid" : "74995654139",
+      "password" : "aUQg6M",
+      "pwd": "T3FmSVNSRlVxNEhvVFNXMnFDMDIvdz09",
       "day" : "Wednesday",
       "date" : "28-10-2020"
     },{
@@ -18,8 +18,8 @@
   $rd = '[
     [{
       "name" : "Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi",
-      "time" : "10.00",
-      "endTime" : "10.15"
+      "time" : "00.10",
+      "endTime" : "17.00"
     },{
       "name" : "Sambutan dari Presiden Republik Indonesia",
       "time" : "10.15",
