@@ -774,6 +774,7 @@
       <script src="js/isotope.pkgd.min.js"></script>
       <!-- Template custom -->
       <script src="js/main.js"></script>
+      <script src="js/checknotification.js"></script>
       </div>
       <!-- Body inner end -->
    </body>
