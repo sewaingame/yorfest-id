@@ -18,8 +18,8 @@
   $rd = '[
     [{
       "name" : "Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi",
-      "time" : "00.10",
-      "endTime" : "17.00"
+      "time" : "09.57",
+      "endTime" : "10.20"
     },{
       "name" : "Sambutan dari Presiden Republik Indonesia",
       "time" : "10.15",
