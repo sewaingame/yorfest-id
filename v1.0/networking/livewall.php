@@ -2,25 +2,27 @@
 <div class="container">
    <div class="row">
       <div class="col-lg-8" id="content">
-         <div class="col-sm-12" style="width:100%">
-           <div id="post-modal-data" class="iq-card iq-card-block iq-card-stretch iq-card-height">
-              <div class="iq-card-header d-flex justify-content-between">
-                 <div class="iq-header-title">
-                    <h4 class="card-title">What's on your mind?</h4>
-                 </div>
-              </div>
-              <div class="iq-card-body">
-                 <div class="d-flex align-items-center">
-                    <div class="user-img">
-                       <img id="post_photourl" src="images/user/1.jpg" alt="userimg" class="avatar-60 rounded-circle">
-                    </div>
-                    <!-- <textarea class="form-control rounded" name="name" rows="1" cols="80" placeholder="Write something here..." style="border:none;"></textarea> -->
-                    <!-- <input id="Input" type="text" class="form-control rounded" placeholder="Write something here..." style="border:none;"> -->
-                    <span class="textarea" role="textbox" contenteditable id="postmessage"></span>
-                 </div>
-                 <hr>
-                 <button type="submit" class="btn btn-primary d-block mt-3 mb-3 circle" id="newpost" onclick="postMessage()">Send</button>
-              </div>
+         <div class="col-sm-12 row" style="width:100%">
+           <div class="col-12">
+             <div id="post-modal-data" class="iq-card iq-card-block iq-card-stretch iq-card-height">
+                <div class="iq-card-header d-flex justify-content-between">
+                   <div class="iq-header-title">
+                      <h4 class="card-title">What's on your mind?</h4>
+                   </div>
+                </div>
+                <div class="iq-card-body">
+                   <div class="d-flex align-items-center">
+                      <div class="user-img">
+                         <img id="post_photourl" src="images/user/1.jpg" alt="userimg" class="avatar-60 rounded-circle">
+                      </div>
+                      <!-- <textarea class="form-control rounded" name="name" rows="1" cols="80" placeholder="Write something here..." style="border:none;"></textarea> -->
+                      <!-- <input id="Input" type="text" class="form-control rounded" placeholder="Write something here..." style="border:none;"> -->
+                      <span class="textarea" role="textbox" contenteditable id="postmessage"></span>
+                   </div>
+                   <hr>
+                   <button type="submit" class="btn btn-primary d-block mt-3 mb-3 circle" id="newpost" onclick="postMessage()">Send</button>
+                </div>
+             </div>
            </div>
          </div>
          <div class="col-sm-12 row" id="posts">
