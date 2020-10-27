@@ -79,7 +79,7 @@
 
                      </li>
                      <li class="nav-item <?php if($_GET["p"] == 4) echo "active"; ?>">
-                        <a href="exhibition.php" class="" >Ehxibition</a>
+                        <a href="exhibition.php" class="" >Exhibition</a>
                      </li>
                     <li class="nav-item <?php if($_GET["p"] == 5) echo "active"; ?>">
                         <a href="contact.php?p=5">Contact</a>
