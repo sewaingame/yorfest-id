@@ -861,6 +861,7 @@
                </div><!-- col end-->
 			    <div class="col-lg-12">
                   <div class="sponsors-logo text-center">
+				  
                      <img src="images/sponsors/sponsor-4.png" alt=""></a>
 					 <img src="images/sponsors/sponsor-5.png" alt=""></a>
                      <img src="images/sponsors/sponsor-6.png" alt=""></a>
