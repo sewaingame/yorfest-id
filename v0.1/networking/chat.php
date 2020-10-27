@@ -11,11 +11,11 @@
                         </div>
                         <div class="chat-caption">
                            <h5 class="mb-0" id="chat_username">Bni Jordan</h5>
-                           <p class="m-0" id="chat_company">Web Designer</p>
+                           <p class="m-0" id="chat_company" style="color:grey; font-size:15px;">Web Designer</p>
                         </div>
                         <button type="submit" class="close-btn-res p-3"><i class="ri-close-fill"></i></button>
                      </div>
-                     
+
                      <div class="chat-searchbar mt-4">
                         <div class="form-group chat-search-data m-0">
                            <input type="text" class="form-control round" id="chat-search" placeholder="Search">

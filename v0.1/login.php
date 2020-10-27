@@ -98,12 +98,11 @@
          </div>
       </section>
 
-      <div id="loading" style="display:none;">
-        <img id="loading-image" src="css/ajax-loader.gif" alt="Loading..." />
-      </div>
+
+      <div class="loading" style="display:none">Loading&#8230;</div>
       <!-- banner end-->
       <!-- footer start-->
-      
+
       <!-- Javascript Files
          ================================================== -->
       <!-- initialize jQuery Library -->

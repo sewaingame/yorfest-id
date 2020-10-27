@@ -286,6 +286,91 @@
 
     echo json_encode($response, JSON_PRETTY_PRINT);
   }
+  else if($cmd == "nd")
+  {
+    $data['api_key'] = $_POST['api_key'];
+    $data['id'] = $_POST['id'];
+    $data['action'] = $_POST['action'];
+    $data['url'] = $_POST['url'];
 
+    $response = insertNotification($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "gn")
+  {
+    $data['api_key'] = $_POST['api_key'];
+
+    $response = getNotification($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "an")
+  {
+    $data['api_key'] = $_POST['api_key'];
+
+    $response = getChatAndNotification($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "uu")
+  {
+    $data['api_key'] = $_POST['api_key'];
+    $data['name'] = $_POST['name'];
+    $data['phone'] = $_POST['phone'];
+    $data['birth'] = $_POST['birth'];
+    $data['company'] = $_POST['company'];
+
+    $response = updateUserProfile($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "upp")
+  {
+    $data['api_key'] = $_POST['api_key'];
+
+    if(isset($_FILES["profilepicture"]))
+    {
+      $target_file = "profilepictures/" . $_POST["email"] . "." . strtolower(pathinfo($_FILES["profilepicture"]["name"],PATHINFO_EXTENSION));
+
+      if (file_exists($target_file))
+      {
+         unlink($target_file);
+      }
+
+
+      if (move_uploaded_file($_FILES["profilepicture"]["tmp_name"], '../' . $target_file))
+      {
+        $data["photourl"] = $target_file;
+      }
+    }
+
+    $response = updateUserProfilePicture($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
+  else if($cmd == "ubc")
+  {
+    $data['api_key'] = $_POST['api_key'];
+
+    if(isset($_FILES["businesscard"]))
+    {
+      $target_file = "businesscard/" . $_POST["email"] . "." . strtolower(pathinfo($_FILES["businesscard"]["name"],PATHINFO_EXTENSION));
+
+      if (file_exists($target_file))
+      {
+         unlink($target_file);
+      }
+
+      if (move_uploaded_file($_FILES["businesscard"]["tmp_name"], '../'. $target_file))
+      {
+        $data["cardurl"] = $target_file;
+      }
+    }
+
+    $response = updateUserBusinessCard($data);
+
+    echo json_encode($response, JSON_PRETTY_PRINT);
+  }
 
 ?>

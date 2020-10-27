@@ -90,7 +90,7 @@
                              <label id="v-company" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Company is not valid. Minimum 3 character</label>
                           </div>
                         </div>
-						
+
                         <div class="col-lg-6 row">
 							<div class="col-12 text-left">
                              <label for="interest" style="color:#000000;  font-size:14px;">Interest</label>
@@ -106,12 +106,12 @@
                               <label id="v-interest" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Minimum 4 character</label>
                               <label id="v-interest-2" for="name" style="color:#FF6C6C; font-size:12px; display:none;">You must select one of the option.</label>
                           </div>
-                          <div class="col-12 text-left">
+                          <div class="col-12 text-left" style="display:none;">
                              <label for="conference" style="color:#000000; padding-top:20px; font-size:14px;">Join Conferece As</label>
                              <select class="form-control form-control-email" id="f-conference">
                                 <option value="-1">Select One</option>
-                                <option value="0">Participant</option>
-                                <option value="1">Visitor</option>
+                                <option value="0">Participant/Peserta</option>
+                                <option value="1">Visitor/Penonton</option>
                               </select>
                               <label id="v-conference" for="name" style="color:#FF6C6C; font-size:12px; display:none;">Select one of the options.</label>
                           </div>
@@ -147,11 +147,9 @@
          </div>
       </section>
 
-      <div id="loading" style="display:none;">
-        <img id="loading-image" src="css/ajax-loader.gif" alt="Loading..." />
-      </div>
+      <div class="loading" style="display:none">Loading&#8230;</div>
       <!-- banner end-->
-     
+
       <!-- Javascript Files
          ================================================== -->
       <!-- initialize jQuery Library -->

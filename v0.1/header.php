@@ -28,14 +28,14 @@
 
                </li>
                <li class="nav-item <?php if($_GET["p"] == 4) echo "active"; ?>">
-                  <a href="#" class="" >Ehxibition</a>
+                  <a href="exhibition.php" class="" >Ehxibition</a>
                </li>
               <li class="nav-item <?php if($_GET["p"] == 5) echo "active"; ?>">
                   <a href="contact.php?p=5">Contact</a>
                </li>
                <li class="nav-item dropdown header-ticket nav-item">
-      						<a href="#" class="ticket-btn btn" data-toggle="dropdown">
-                    <?php
+						   <a href="#" class="ticket-btn btn" data-toggle="dropdown" >
+                 <?php
                       $name = explode(" ", $_SESSION["name"]);
                       for ($i=0; $i < count($name); $i++)
                       {
@@ -45,13 +45,16 @@
                           echo ' ' . $name[$i][0];
                       }
                     ?>
-                     <i class="fa fa-angle-down"></i>
-                  </a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="networking/?p=2&c=1" class="icon icon-user">Profile</a></li>
-    						    <li><a href="logout.php" class="icon icon-exit">Logout</a></li>
-                  </ul>
-                </li>
+                  &nbsp;<n class="nav-notification-number-1">(2)</n>&nbsp;
+                   <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                   <li><a href="networking/?p=2&c=1"><i class="fa fa-user" aria-hidden="true"></i> Profile</a></li>
+                   <li><a href="networking/?p=2&c=2"><i class="fa fa-comment" aria-hidden="true"></i> Chat <n class="nav-notification-number-2">(2)</n></a></li>
+                   <li><a href="networking/?p=2&c=3"><i class="fa fa-bell" aria-hidden="true"></i> Notification <n class="nav-notification-number-3">(2)</n></a></li>
+		               <li><a href="logout.php"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+                </ul>
+              </li>
             </ul>
          </div>
       </nav>

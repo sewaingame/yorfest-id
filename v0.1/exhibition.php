@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   <!-- Basic Page Needs ================================================== -->
+    <!-- Basic Page Needs ================================================== -->
    <meta charset="utf-8">
 
    <!-- Mobile Specific Metas ================================================== -->
@@ -17,8 +17,7 @@
    <link rel="shortcut icon" type="image/x-icon" href="images/logo_tab.png">
 
 
-
-   <!-- CSS
+      <!-- CSS
          ================================================== -->
    <!-- Bootstrap -->
    <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -49,102 +48,25 @@
 
 </head>
 
-
-
 <body>
-<div class="body-inner">
-<?php
-  include "checksession.php";
-?>
-
-
-<header id="header" class="header header-transparent">
-   <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-         <!-- logo-->
-         <a class="navbar-brand" href="home.php?p=1">
-            <img src="images/logos/logo.png" alt="">
-         </a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><i class="icon icon-menu"></i></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item">
-                  <a href="home.php?p=1" >Home</a>
-                 </li>
-               <li class="nav-item">
-                  <a href="networking/?p=2&c=0" >Networking </a>
-               </li>
-               <li class="nav-item ">
-                  <a href="conference.php?p=3"> Conference </a>
-
-               </li>
-               <li class="nav-item">
-                  <a href="#" class="" >Ehxibition</a>
-               </li>
-              <li class="nav-item ">
-                  <a href="contact.php?p=5">Contact</a>
-               </li>
-               <li class="header-ticket nav-item">
-                  <a class="ticket-btn btn" href="logout.php">
-                    <i class="fas fa-sign-out-alt"></i>
-                    <?php
-                      $name = explode(" ", $_SESSION["name"]);
-                      for ($i=0; $i < count($name); $i++)
-                      {
-                        if($i==0)
-                          echo $name[$i];
-                        else
-                          echo ' ' . $name[$i][0];
-                      }
-                    ?>
-                  </a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-   </div><!-- container end-->
-</header>
-
-
-		<!-- ts intro start -->
-		<section class="ts-about-intro section-bg">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-lg-12 col-md-8 col-sm-12 mx-auto">
-						<div class="post">
-						<div class="about-video">
-						<div class="text-center">
-					<h2>WEBINAR 28 OKTOBER 2020 </h2>
-					<ol class="breadcrumb">
-											</ol>
-				</div>
-							<img class="img-fluid" src="images/blog/blog-details2.jpg" alt="">
-							<a href="https://www.youtube.com/watch?v=Bey4XXJAqS8" class="video-btn"><i class="icon icon-play"></i></a>
-						</div><!-- entro video end-->
-
-					</div><!-- col end--><br>
-					<br>
-						<div class="col-lg-8 col-md-12 ">
-                        <a href="#" class="btn">Join in Zoom App</a>
-                     </div>
-
-						<div class="border-shap left"></div>
-
-				</div>
+   <div class="body-inner">
+      <!-- Header start -->
+      <?php include 'header.php'; ?>
+      <!--/ Header end -->
 
 
 
-				<!-- row end-->
-			</div><!-- container end-->
+
+      <!-- ts intro start -->
+
+
+      <section class="ts-contact-form" style="background-image: url(./images/bg/yorfest_bg2.jpg); height:75vh;">
+         <iframe src="../virtual_event/index.htm" style="position:absolute; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden;"></iframe>
+
 		</section>
-		<!-- ts intro end-->
 
+      <!-- ts footer area start-->
 
-			 <!--ts footer start-->
          <footer class="ts-footer" >
             <div class="container">
                <div class="row">
@@ -179,15 +101,14 @@
             </div>
          </footer>
          <!-- footer end-->
-         <div class="BackTo">
-            <a href="#" class="fa fa-angle-up" aria-hidden="true"></a>
-         </div>
-
-      </div>
-      <!-- ts footer area end-->
 
 
+                  <div class="BackTo">
+                              <a href="#" class="fa fa-angle-up" aria-hidden="true"></a>
+                          </div>
 
+		</div>
+		<!-- ts footer area end-->
 
 
 
@@ -209,15 +130,17 @@
       <script src="js/owl.carousel.min.js"></script>
       <!-- Waypoints -->
       <script src="js/wow.min.js"></script>
-
       <!-- isotop -->
       <script src="js/isotope.pkgd.min.js"></script>
 
       <!-- Template custom -->
       <script src="js/main.js"></script>
-
+      <script src="js/crypto-js.min.js"></script>
+      <script src="app/tools.js"></script>
+      <script src="js/checknotification.js"></script>
+      <?php include "chat.php"; ?>
    </div>
-	<!-- Body inner end -->
+   <!-- Body inner end -->
 </body>
 
 </html>
