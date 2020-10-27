@@ -87,7 +87,9 @@
                 $url .= '&apiKey=' . $_GET['apiKey'];
               ?>
                <iframe id="meeting" class="img-fluid" src="<?php echo $url; ?>" style="width:100%; height:60vh; border-radius:10px; background:#000;"></iframe>
-					</div><!-- col end-->
+
+               <a href="#" class="btn" target="_blank" id="zoomapp">Join in Zoom App</a>
+          </div><!-- col end-->
 				</div><!-- row end-->
 			</div><!-- container end-->
 		</section>

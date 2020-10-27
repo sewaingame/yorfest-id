@@ -5,6 +5,8 @@ $( document ).ready(function() {
   $('#meetingname').html(params.get('meetingname'));
   $('#daytitle').html(params.get('day') + ', ' + params.get('date') + '&nbsp&nbsp' + params.get('time') + '-' +  params.get('endTime'));
 
+  $("#zoomapp").attr("href", "https://us02web.zoom.us/j/" + params.get('mn') + "?pwd=" + params.get('pass'));
+
   if(params.get('started')=='false')
   {
     var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
