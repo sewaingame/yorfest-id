@@ -166,7 +166,7 @@
                         <!--schedule-listing end -->
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 10.30 - 10.40 WIB</span>
+                              <span> 10.30 - 10.45 WIB</span>
 							  Opening
                            </div>
                            <div class="schedule-slot-info">
@@ -186,26 +186,7 @@
                            </div><!-- Slot info end -->
                         </div>
                         <!--schedule-listing end -->
-
-                        <div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 10.40 - 10.45 WIB</span>
-                              Opening
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Video Highlight
-                                    <strong>@ All the Participant</strong>
-                                 </h3>
-                                 <p> </p>
-									 </a>
-                              </div>
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+                        
                         <!--schedule-listing end -->
 						 <div class="schedule-listing">
                            <div class="schedule-slot-time">
@@ -214,7 +195,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+                                               <img class="schedule-slot-speakers" src="images/speakers/AngelineTheo.jpg" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title">Boja Farm
@@ -233,7 +214,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+                                               <img class="schedule-slot-speakers" src="images/speakers/speaker2.jpg" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title">Tari Dana
@@ -247,7 +228,7 @@
                         </div>
 						 <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 11.15 - 11.30 WIB</span>
+                              <span> 11.15 - 12.15 WIB</span>
                               Young Farmer
                            </div>
                            <div class="schedule-slot-info">
@@ -264,45 +245,8 @@
                               <!--Info content end -->
                            </div><!-- Slot info end -->
                         </div>
-						<div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 11.30 - 12.15 WIB</span>
-                              Young Farmer
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Q & A
-                                    <strong>@ Moderator (mc)</strong>
-                                 </h3>
-                                 <p>  </p>
-									 </a>
-                              </div>
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
-						<div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 12.15 - 13.15 WIB</span>
-                              Break
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title"> Lunch
-                                    <strong></strong>
-                                 </h3>
-                                 <p> </p>
-									 </a>
-                              </div>
-							  
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+						
+						
 						<div class="schedule-listing">
                            <div class="schedule-slot-time">
                               <span> 13.15 - 13.30 WIB</span>
@@ -310,7 +254,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+                                               <img class="schedule-slot-speakers" src="images/speakers/suradi.png" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title"> The Learning farm
@@ -365,7 +309,7 @@
                         </div>
 						<div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 14.00 - 14.15 WIB</span>
+                              <span> 14.00 - 14.45 WIB</span>
                               Eco-System
                            </div>
                            <div class="schedule-slot-info">
@@ -383,26 +327,7 @@
                               <!--Info content end -->
                            </div><!-- Slot info end -->
                         </div>
-						<div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 14.15 - 14.45 WIB</span>
-                              Eco-System
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title"> Q & A
-                                    <strong> @ Moderator (MC)</strong>
-                                 </h3>
-                                 <p> </p>
-									 </a>
-                              </div>
-							  
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+						
 						<div class="schedule-listing">
                            <div class="schedule-slot-time">
                               <span> 14.45 - 15.00 WIB</span>
@@ -410,7 +335,7 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+                                               <img class="schedule-slot-speakers" src="images/speakers/kasan.jpg" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title">Dirjen Pengembangan Ekspor Nasional, Kementrian Perdagangan
@@ -465,7 +390,7 @@
                         </div>
 						<div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 15.30 - 15.45 WIB</span>
+                              <span> 15.30 - 16.30 WIB</span>
                               Commerce
                            </div>
                            <div class="schedule-slot-info">
@@ -483,29 +408,10 @@
                               <!--Info content end -->
                            </div><!-- Slot info end -->
                         </div>
+						
 						<div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 15.45 - 16.30 WIB</span>
-                              Commerce
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title"> Q & A
-                                    <strong> @ Moderator (MC)</strong>
-                                 </h3>
-                                 <p> </p>
-									 </a>
-                              </div>
-							  
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
-						<div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 16.30 - 16.45 WIB</span>
+                              <span> 16.30 - 17.00 WIB</span>
                               Agrowisata
                            </div>
                            <div class="schedule-slot-info">
@@ -523,46 +429,8 @@
                               <!--Info content end -->
                            </div><!-- Slot info end -->
                         </div>
-						<div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 16.45 - 17.00 WIB</span>
-                              Agrowisata
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title"> Q & A
-                                    <strong> @ Moderator (MC)</strong>
-                                 </h3>
-                                 <p> </p>
-									 </a>
-                              </div>
-							  
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
-						<div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 17.00 WIB</span>
-                              
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title"> Closing
-                                    <strong> @ MC</strong>
-                                 </h3>
-                                 <p> </p>
-									 </a>
-                              </div>
-							  
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+						
+						
                         <div class="schedule-listing-btn">
                            <a href="#" class="btn">JOIN NOW</a>
                         </div>
@@ -570,7 +438,7 @@
                      <div role="tabpanel" class="tab-pane" id="date2">
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 10.00 - 10.10 WIB</span>
+                              <span> 10.00 - 10.15 WIB</span>
                               Opening
                            </div>
                            <div class="schedule-slot-info">
@@ -588,25 +456,7 @@
                            </div><!-- Slot info end -->
                         </div>
                         <!--schedule-listing end -->
-                        <div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 10.10 - 10.15 WIB</span>
-                              Opening
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                                              <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title"> Video Highlight
-                                    <strong>@ All Participant</strong>
-                                 </h3>
-                                 <p> </p>
-									</a>
-                              </div>
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+                        
                         <!--schedule-listing end -->
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
@@ -861,25 +711,7 @@
                               <!--Info content end -->
                            </div><!-- Slot info end -->
                         </div>
-						<div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 17.30 WIB</span>
-                              
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title"> Closing
-                                    <strong> @ MC</strong>
-                                 </h3>
-                                 <p></p>
-									</a>
-                              </div>
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+						
                         <!--schedule-listing end -->
                         <div class="schedule-listing-btn">
                            <a href="#" class="btn">JOIN NOW</a>
