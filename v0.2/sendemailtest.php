@@ -1,11 +1,11 @@
 <?php
   include 'version.php';
 
-  $sender = "noreply@yorfest.id";
+  $sender = "noreply@hut56partaigolkar.id";
   $sendername = "Perayaan HUT 56 Partai Golkar";
   $password = 'chelsea2018';
   $subject = '[VERIFIKASI EMAIL] Perayaan HUT 56 Partai Golkar';
-  $smtpaddress = 'jupiter.webmail.co.id';//'mail.hut56partaigolkar.id';//'';
+  $smtpaddress = 'flash.webmail.co.id';//'mail.hut56partaigolkar.id';//'';
   $smtpport = 587;
   $smtpsecure = 'ssl';
   $attachment = [];
