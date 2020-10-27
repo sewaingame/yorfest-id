@@ -100,9 +100,7 @@
                </div><!-- col end-->
             </div><!-- row end-->
 
-
-
-            <div class="row">
+			 <div class="row">
                <div class="col-lg-12">
 			    <div class="tab-content schedule-tabs">
 				      <div role="tabpanel" class="tab-pane active" id="date1">
@@ -113,10 +111,10 @@
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                  <img class="schedule-slot-speakers" src="images/speakers/speaker1.jpg" alt="">
+                                                  <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi
+                                 <h3 class="schedule-slot-title">Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi 
                                     <strong>@ Budi Arie Setyadi </strong>
                                  </h3>
                                  <p>Bisnis Pertanian Organik adalah Bisnis Masa Depan</p>
@@ -128,18 +126,18 @@
                         <!--schedule-listing end -->
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 10.15 - 10.30 WIB</span>
+                              <span> 10.15 - 10.20 WIB</span>
                               Opening
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker2.jpg" alt="">
+                                 <img class="schedule-slot-speakers" src="images/speakers/JokoWidodo.jpg" alt="">
 
                               <div class="schedule-slot-info-content">
                                  <h3 class="schedule-slot-title">Sambutan dari Presiden Republik Indonesia
                                     <strong>@ IR. H. Joko Widodo</strong>
                                  </h3>
-                                 <p>Ekonomi Meroket 2016 </p>
+                                 <p> </p>
 									</a>
                               </div>
                               <!--Info content end -->
@@ -148,38 +146,40 @@
                         <!--schedule-listing end -->
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 11.30 - 12.30 PM</span>
-                              Conference
+                              <span> 10.20 - 10.30 WIB</span>
+                              Opening
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                          <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt="">
+                                                          <img class="schedule-slot-speakers" src="images/speakers/Moeldoko.jpg" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Cultures of Creativity
-                                    <strong>@ Johnsson Agaton</strong>
+                                 <h3 class="schedule-slot-title">Sambutan Dari Ketua Umum HKTI (Himpunan Kerukunan Tani Indonesia)
+                                    <strong>@ Moeldoko</strong>
                                  </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
+                                 <p>Regenarasi Petani </p>
 									</a>
                               </div>
                               <!--Info content end -->
                            </div><!-- Slot info end -->
                         </div>
                         <!--schedule-listing end -->
-                        <div class="schedule-listing launce">
+                        <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 12.30 - 01.30 PM</span>
+                              <span> 10.30 - 10.40 WIB</span>
+							  Opening
                            </div>
                            <div class="schedule-slot-info">
+								<a href="#">
+                                                          <img class="schedule-slot-speakers" src="images/speakers/azwaranas.jpg" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Lunch Break
-                                    <strong>@ Rebecca Henrikon</strong>
+                                 <h3 class="schedule-slot-title">Bupati Banyuwangi
+                                    <strong>@ Azwar Anas</strong>
                                  </h3>
-                                 <a href="#">
-                                                          <img  src="images/schedule_lunch.png" alt="">
+								 <p> Muda Kaya, Indonesia Jaya<p>
+                                 <!--<a href="#">
+                                                          <img  src="images/schedule_lunch.png" alt="">-->
                                      </a>
                               </div>
                               <!--Info content end -->
@@ -189,47 +189,399 @@
 
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 01.30 - 02.30 PM</span>
-                              Workshop
+                              <span> 10.40 - 10.45 WIB</span>
+                              Opening
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                               <img class="schedule-slot-speakers" src="images/speakers/speaker4.jpg" alt="">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Human Centered Design
-                                    <strong>@ Agaton Johnsson</strong>
+                                 <h3 class="schedule-slot-title">Video Highlight
+                                    <strong>@ All the Participant</strong>
                                  </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
+                                 <p> </p>
 									 </a>
                               </div>
                               <!--Info content end -->
                            </div><!-- Slot info end -->
                         </div>
                         <!--schedule-listing end -->
+						 <div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 10.45 - 11.00 WIB</span>
+                              Young Farmer
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title">Boja Farm
+                                    <strong>@ Angeline Theo</strong>
+                                 </h3>
+                                 <p> Kebun Organik Terpadu </p>
+									 </a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						 <div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 11.00 - 11.15 WIB</span>
+                              Young Farmer
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title">Tari Dana
+                                    <strong>@ Avana Green</strong>
+                                 </h3>
+                                 <p> Premakulture Untuk Generasi Muda </p>
+									 </a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						 <div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 11.15 - 11.30 WIB</span>
+                              Young Farmer
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/andhikaMahardika.jpg" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title">Agra Daya
+                                    <strong>@ Andhika Mahardika</strong>
+                                 </h3>
+                                 <p> Sustainable Herbs dan Spices </p>
+									 </a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 11.30 - 12.15 WIB</span>
+                              Young Farmer
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title">Q & A
+                                    <strong>@ Moderator (mc)</strong>
+                                 </h3>
+                                 <p>  </p>
+									 </a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 12.15 - 13.15 WIB</span>
+                              Break
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Lunch
+                                    <strong></strong>
+                                 </h3>
+                                 <p> </p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 13.15 - 13.30 WIB</span>
+                              Eco-System
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> The Learning farm
+                                    <strong> @ Suradi</strong>
+                                 </h3>
+                                 <p> Membangun Sekolah Pertanian,</p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 13.30 - 13.45 WIB</span>
+                              Eco-System
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/RakaBagus.jpg" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Ladang Lima
+                                    <strong> @ Raka Bagus</strong>
+                                 </h3>
+                                 <p> Singkong Untuk Kesehatan</p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 13.45 - 14.00 WIB</span>
+                              Eco-System
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/PutriArifFebrila.jpg" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Bulk Source
+                                    <strong> @ Putri Arif Febrila</strong>
+                                 </h3>
+                                 <p> Konsep Belanja Yang Inovatif</p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 14.00 - 14.15 WIB</span>
+                              Eco-System
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/ChristopherMSatriandaru.jpg" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Cocona
+                                    <strong> @ Christopher M. Satriandaru</strong>
+                                 </h3>
+                                 <p> Sehat Dari Kelapa</p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 14.15 - 14.45 WIB</span>
+                              Eco-System
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Q & A
+                                    <strong> @ Moderator (MC)</strong>
+                                 </h3>
+                                 <p> </p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 14.45 - 15.00 WIB</span>
+                              
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title">Dirjen Pengembangan Ekspor Nasional, Kementrian Perdagangan
+                                    <strong> @ Kasan</strong>
+                                 </h3>
+                                 <p> Potensi Ekspor Produk Organik</p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 15.00 - 15.15 WIB</span>
+                              Commerce
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/IchwanJoesoef.jpg" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Indonesia Trade Promotion Center di Osaka
+                                    <strong> @ Ichwan Joesoef </strong>
+                                 </h3>
+                                 <p> Pasar Organik di Jepang</p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 15.15 - 15.30 WIB</span>
+                              Commerce
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/Margaret Agustina.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> JAGAPATI.COM
+                                    <strong> @ Margaret Agustina</strong>
+                                 </h3>
+                                 <p> Platform Oragnik</p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 15.30 - 15.45 WIB</span>
+                              Commerce
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/Dwianoraganingrum.jpg" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> IndoCon GmbH
+                                    <strong> @ Dwi Anoraganingrum</strong>
+                                 </h3>
+                                 <p> Pasar Oragnik di Eropa</p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 15.45 - 16.30 WIB</span>
+                              Commerce
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Q & A
+                                    <strong> @ Moderator (MC)</strong>
+                                 </h3>
+                                 <p> </p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 16.30 - 16.45 WIB</span>
+                              Agrowisata
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/Dedi Wahyu Hernanda - GENPI Nasional.jpg" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> GENPI Nasional
+                                    <strong> @ Dedi Wahyu Hernanda</strong>
+                                 </h3>
+                                 <p> Pentingnya Agrowisata</p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 16.45 - 17.00 WIB</span>
+                              Agrowisata
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Q & A
+                                    <strong> @ Moderator (MC)</strong>
+                                 </h3>
+                                 <p> </p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 17.00 WIB</span>
+                              
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                               <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Closing
+                                    <strong> @ MC</strong>
+                                 </h3>
+                                 <p> </p>
+									 </a>
+                              </div>
+							  
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
                         <div class="schedule-listing-btn">
-                           <a href="zoom.php?g=0" class="btn">JOIN NOW</a>
+                           <a href="#" class="btn">JOIN NOW</a>
                         </div>
                      </div>
                      <div role="tabpanel" class="tab-pane" id="date2">
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 02.30 - 03.30 PM</span>
-                              Workshop
+                              <span> 10.00 - 10.10 WIB</span>
+                              Opening
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                          <img class="schedule-slot-speakers" src="images/speakers/speaker5.jpg" alt="">
+                                                          <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Marketing Matters!
-                                    <strong>@ Johnsson Agaton</strong>
+                                 <h3 class="schedule-slot-title"> Opening Keynote Green Slank
+                                    <strong>@ Ivanka</strong>
                                  </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
+                                 <p> </p>
 									  </a>
                               </div>
                               <!--Info content end -->
@@ -238,20 +590,18 @@
                         <!--schedule-listing end -->
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 03.30 - 04.30 PM</span>
-                              Workshop
+                              <span> 10.10 - 10.15 WIB</span>
+                              Opening
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                              <img class="schedule-slot-speakers" src="images/speakers/speaker6.jpg" alt="">
+                                                              <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Reinventing Experiences
-                                    <strong>@ Fredric Martinsson</strong>
+                                 <h3 class="schedule-slot-title"> Video Highlight
+                                    <strong>@ All Participant</strong>
                                  </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
+                                 <p> </p>
 									</a>
                               </div>
                               <!--Info content end -->
@@ -260,20 +610,18 @@
                         <!--schedule-listing end -->
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 04.30 - 05.30 PM</span>
-                              Workshop
+                              <span> 10.15 - 11.00 WIB</span>
+                              Certification
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                                  <img class="schedule-slot-speakers" src="images/speakers/speaker7.jpg" alt="">
+                                                                  <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Cultures of Creativity
-                                    <strong>@ Hall  Building</strong>
+                                 <h3 class="schedule-slot-title">Bio Cert
+                                    <strong>@ Reza Purnomo</strong>
                                  </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
+                                 <p> Persyaratan Sertifikasi Organik</p>
 									</a>
                               </div>
                               <!--Info content end -->
@@ -282,17 +630,22 @@
                         <!--schedule-listing end -->
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 05.30 - 06.30 PM</span>
+                              <span> 11.00 - 11.30 WIB</span>
+							  Certification
                            </div>
                            <div class="schedule-slot-info">
+						    <a href="#">
+																	<img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Lunch Break
-                                    <strong>@ Agaton Johnsson</strong>
+                                 <h3 class="schedule-slot-title">Certifier
+                                    <strong>@ Fikri Sopyana Tsauri</strong>
                                  </h3>
-                                 <a href="#">
+								 <p> Peraturan Sertifikasi Standard Internasional</p>
+									</a>
+                                 <!--<a href="#">
                                                                   <img  src="images/schedule_lunch.png" alt="">
-                                                               </a>
+                                                               </a>-->
                               </div>
                               <!--Info content end -->
                            </div><!-- Slot info end -->
@@ -301,20 +654,227 @@
 
                         <div class="schedule-listing">
                            <div class="schedule-slot-time">
-                              <span> 06.30 - 07.30 PM</span>
-                              Workshop
+                              <span> 11.30 - 12.00 WIB</span>
+                              Certification
                            </div>
                            <div class="schedule-slot-info">
                               <a href="#">
-                                                       <img class="schedule-slot-speakers" src="images/speakers/speaker8.jpg" alt="">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
 
                               <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Human Centered Design
-                                    <strong>@ Henrikon Rebecca</strong>
+                                 <h3 class="schedule-slot-title"> Q & A
+                                    <strong>@ Moderator (MC)</strong>
                                  </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
+                                 <p> </p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 12.00 - 13.15 WIB</span>
+                              Break
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Lunch
+                                    <strong></strong>
+                                 </h3>
+                                 <p> </p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 13.15 - 13.30 WIB</span>
+                              Organic Support
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Keynote
+                                    <strong> @ Muslahudin Daud</strong>
+                                 </h3>
+                                 <p> Kenapa Mau Jadi Petani </p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 13.30 - 14.15 WIB</span>
+                              Organic Support
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Triasindo Royal Agro
+                                    <strong> @ Franciscus Richard</strong>
+                                 </h3>
+                                 <p> Penyuburan Tanah, </p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 14.15 - 15.00 WIB</span>
+                              Organic Support
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Pupuk Organik Gunung Salak
+                                    <strong> @ Junaedi Prasetiyo</strong>
+                                 </h3>
+                                 <p> Hama & Penyakit</p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 15.00 - 15.45 WIB</span>
+                              Organic Support
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Q & A
+                                    <strong> @ Moderator (MC)</strong>
+                                 </h3>
+                                 <p> </p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 15.45 - 16.00 WIB</span>
+                              Organic Community
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Komunitas Organik Indonesia
+                                    <strong> @ Christopher Emille Jayanata</strong>
+                                 </h3>
+                                 <p> Komunitas Organik Indonesia</p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 16.00 - 16.15 WIB</span>
+                              Organic Community
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Crowde Funds
+                                    <strong> @ Hemindra Primula</strong>
+                                 </h3>
+                                 <p> Smart Money untuk para petani</p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 16.15 - 16.30 WIB</span>
+                              Organic Community
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> SPIND.id
+                                    <strong> @ Anisa Paramita</strong>
+                                 </h3>
+                                 <p> Pengelolahan organik untuk kemasan</p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 16.30 - 16.45 WIB</span>
+                              Organic Community
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> LOJIN.CO.ID
+                                    <strong> @ Fendi Hartanto</strong>
+                                 </h3>
+                                 <p> Platform untuk Petani Fresh</p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 16.45 - 17.30 WIB</span>
+                              Organic Community
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Q & A
+                                    <strong> @ Moderator (MC)</strong>
+                                 </h3>
+                                 <p></p>
+									</a>
+                              </div>
+                              <!--Info content end -->
+                           </div><!-- Slot info end -->
+                        </div>
+						<div class="schedule-listing">
+                           <div class="schedule-slot-time">
+                              <span> 17.30 WIB</span>
+                              
+                           </div>
+                           <div class="schedule-slot-info">
+                              <a href="#">
+                                                       <img class="schedule-slot-speakers" src="images/speakers/LogoKemendesa.png" alt="">
+
+                              <div class="schedule-slot-info-content">
+                                 <h3 class="schedule-slot-title"> Closing
+                                    <strong> @ MC</strong>
+                                 </h3>
+                                 <p></p>
 									</a>
                               </div>
                               <!--Info content end -->
@@ -322,117 +882,25 @@
                         </div>
                         <!--schedule-listing end -->
                         <div class="schedule-listing-btn">
-                           <a href="zoom.php?g=1" class="btn">JOIN NOW</a>
+                           <a href="#" class="btn">JOIN NOW</a>
                         </div>
                      </div>
                      <div role="tabpanel" class="tab-pane" id="date3">
-                        <div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 07.30 - 11.30 PM</span>
-                              Workshop
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                                        <img class="schedule-slot-speakers" src="images/speakers/speaker1.jpg" alt="">
-                                                    </a>
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Marketing Matters!
-                                    <strong>@ Fredric Martinsson</strong>
-                                 </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
-                              </div>
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+                        
                         <!--schedule-listing end -->
-                        <div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 9.30 - 10.30 AM</span>
-                              Workshop
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                                            <img class="schedule-slot-speakers" src="images/speakers/speaker2.jpg" alt="">
-                                                        </a>
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Reinventing Experiences
-                                    <strong>@ Melisa Lundryn</strong>
-                                 </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
-                              </div>
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+                        
                         <!--schedule-listing end -->
-                        <div class="schedule-listing">
-                           <div class="schedule-slot-time">
-                              <span> 10.30 - 11.30 AM</span>
-                              Workshop
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                                                <img class="schedule-slot-speakers" src="images/speakers/speaker3.jpg" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Cultures of Creativity
-                                    <strong>@ Johnsson Agaton</strong>
-                                 </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
-									</a>
-                              </div>
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+                        
                         <!--schedule-listing end -->
-                        <div class="schedule-listing launce">
-                           <div class="schedule-slot-time">
-                              <span> 11.30 - 12.30 PM</span>
-                           </div>
-                           <div class="schedule-slot-info">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Lunch Break
-                                    <strong>@ Rebecca Henrikon</strong>
-                                 </h3>
-                                 <a href="#">
-                                                                <img  src="images/schedule_lunch.png" alt="">
-                                                             </a>
-                              </div>
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
-                        </div>
+                        
                         <!--schedule-listing end -->
 
-                        <div class="schedule-listing launce">
-                           <div class="schedule-slot-time">
-                              <span> 11.30 - 12.30 PM</span>
-                           </div>
-                           <div class="schedule-slot-info">
-                              <a href="#">
-                                 <img class="schedule-slot-speakers" src="images/speakers/speaker4.jpg" alt="">
-
-                              <div class="schedule-slot-info-content">
-                                 <h3 class="schedule-slot-title">Human Centered Design
-                                    <strong>@ Agaton Johnsson</strong>
-                                 </h3>
-                                 <p>How you transform your business as
-                                    technology, consumer, habits industry dynamics change? Find out from
-                                    those leading the charge. How you transform </p>
-									</a>
-                              </div>
-                              <!--Info content end -->
-                           </div><!-- Slot info end -->
+                        <!-- Slot info end -->
                         </div>
                         <!--schedule-listing end -->
-                        <div class="schedule-listing-btn">
+                        <!--<div class="schedule-listing-btn">
                            <a href="#" class="btn">More Details</a>
-                        </div>
+                        </div>-->
                      </div>
 
                   </div>
@@ -450,17 +918,17 @@
                      <div class="ts-footer-social text-center mb-30">
                         <ul>
                            <li>
-                  <a href="https://www.facebook.com/yorfestid/" target="blank"><i class="fa fa-facebook"></i></a>
-               </li>
-
-               <li>
-                  <a href="https://www.instagram.com/yorfestid/" target="blank"><i class="fa fa-instagram"></i></a>
-               </li>
-			   <li>
-                  <a href="https://www.youtube.com/channel/UC8Dfwmw3LznZ5mLIkyNDQHA" target="blank"><i class="fa fa-youtube"></i></a>
-               </li>
-
-
+                              <a href="#"><i class="fa fa-facebook"></i></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-twitter"></i></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-linkedin"></i></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa fa-instagram"></i></a>
+                           </li>
                         </ul>
                      </div>
                      <!-- footer social end-->
@@ -518,12 +986,6 @@
 
       <!-- Template custom -->
       <script src="js/main.js"></script>
-
-      <script src="js/crypto-js.min.js"></script>
-      <script src="app/tools.js"></script>
-      <script src="js/checknotification.js"></script>
-
-      <?php include "chat.php"; ?>
    </div>
    <!-- Body inner end -->
 </body>
