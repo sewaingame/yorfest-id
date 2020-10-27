@@ -219,7 +219,7 @@
                         </div>
                         <!--schedule-listing end -->
                         <div class="schedule-listing-btn">
-                           <a href="#" class="btn">JOIN NOW</a>
+                           <a href="zoom.php?g=0" class="btn">JOIN NOW</a>
                         </div>
                      </div>
                      <div role="tabpanel" class="tab-pane" id="date2">
@@ -331,7 +331,7 @@
                         </div>
                         <!--schedule-listing end -->
                         <div class="schedule-listing-btn">
-                           <a href="#" class="btn">JOIN NOW</a>
+                           <a href="zoom.php?g=1" class="btn">JOIN NOW</a>
                         </div>
                      </div>
                      <div role="tabpanel" class="tab-pane" id="date3">
