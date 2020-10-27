@@ -8,6 +8,27 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo_tab.png">
+       <!-- CSS
+          ================================================== -->
+       <!-- Bootstrap -->
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+       <!-- FontAwesome -->
+       <link rel="stylesheet" href="css/font-awesome.min.css">
+       <!-- Animation -->
+       <link rel="stylesheet" href="css/animate.css">
+       <!-- magnific -->
+       <link rel="stylesheet" href="css/magnific-popup.css">
+       <!-- carousel -->
+       <link rel="stylesheet" href="css/owl.carousel.min.css">
+       <!-- isotop -->
+       <link rel="stylesheet" href="css/isotop.css">
+       <!-- ico fonts -->
+       <link rel="stylesheet" href="css/xsIcon.css">
+       <!-- Template styles-->
+       <link rel="stylesheet" href="css/style.css">
+       <!-- Responsive styles-->
+       <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -15,7 +36,7 @@
   include 'checksession.php';
      ?>
 
-    <style>
+    <!-- <style>
         .sdk-select {
             height: 34px;
             border-radius: 4px;
@@ -154,7 +175,9 @@
     <script src="js/crypto-js.min.js"></script>
     <script src="app/tools.js"></script>
     <script src="js/tool.js"></script>
-    <script src="js/generatezoomlink.js"></script>
+    <script src="js/generatezoomlink.js"></script> -->
+
+    <div class="loading" style="display:none">Loading&#8230;</div>
 
 </body>
 

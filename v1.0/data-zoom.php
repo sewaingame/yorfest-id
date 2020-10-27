@@ -103,19 +103,23 @@
     $response["time"]=$hours . '<' . $time;
     if($hours < $time)
     {
-
         $response["data"] = $day[$i];
         break;
     }
   }
 
-  $endTime = explode(".", $response["data"]["endTime"]);
-  $time = $endTime[0] . $endTime[1];
-  $response["time"]=$hours . '<' . $time;
-  $response["data"]["isStarted"] = $hours < $time;
-
   if($response["data"]==[])
+  {
       $response["error"]=true;
+  }
+  else
+  {
+
+    $endTime = explode(".", $response["data"]["endTime"]);
+    $time = $endTime[0] . $endTime[1];
+    $response["time"]=$hours . '<' . $time;
+    $response["data"]["isStarted"] = $hours < $time;
+  }
 
   echo json_encode($response, JSON_PRETTY_PRINT);
 ?>
