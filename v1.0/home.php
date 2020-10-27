@@ -122,7 +122,7 @@
       </header>
       <!--/ Header end -->
       <!-- banner start-->
-      <video class="banner-item overlay" autoplay muted loop id="myVideo" style="position:fixed; left:0px; bottom:0px; width:100%;overflow: hidden;">
+      <video class="banner-item overlay" autoplay muted loop id="myVideo" style="position:fixed; left:0px; bottom:0px; width:100%;overflow: hidden; z-index:-9999999">
        <source src="images/video/Yorfestrender.mp4" type="video/mp4">
        Your browser does not support HTML5 video.
       </video>
@@ -719,7 +719,7 @@
       </section>
       <!-- ts speaker end-->
       <!-- ts experience start-->
-      <section class="ts-schedule">
+      <section class="ts-schedule" style="background:#fff;">
          <div class="container">
          <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -880,7 +880,7 @@
       </section>
       <!-- ts sponsors end-->
       <!--ts footer start-->
-      <footer class="ts-footer" >
+      <footer class="ts-footer" style="background:#fff;">
       <div class="container">
       <div class="row">
       <div class="col-lg-8 mx-auto">
@@ -898,7 +898,7 @@
       </ul>
       </div>
       <!-- footer social end-->
-      <div class="footer-menu text-center mb-25">
+      <div class="footer-menu text-center mb-25" style="background:#fff;">
       <ul>
       <li><a href="#">Contact</a></li>
       </ul>
