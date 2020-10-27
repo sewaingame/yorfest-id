@@ -232,7 +232,7 @@
                         <p>
                            Fitur ini menjadi media komunikasi antara pembicara, peserta dan peminat untuk bertemu & berkenalan dengan sesama pegiat organik. Bangun jaringan anda dengan  bergabung di Organic Networking Space.
                         </p>
-                        <a href="#" class="btn">JOIN NETWORKING</a>
+                        <a href="networking/?p=2&c=0" class="btn">JOIN NETWORKING</a>
                      </div>
                   </div>
                </div>
