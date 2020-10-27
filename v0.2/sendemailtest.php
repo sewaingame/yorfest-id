@@ -58,10 +58,10 @@ use \PHPMailer\PHPMailer\PHPMailer;
 use \PHPMailer\PHPMailer\SMTP;
 use \PHPMailer\PHPMailer\Exception;
 
-require dirname(__FILE__) . '/' . $version . '/PHPMailer/src/PHPMailer.php';
-require dirname(__FILE__) . '/' . $version . '/PHPMailer/src/Exception.php';
-require dirname(__FILE__) . '/' . $version . '/PHPMailer/src/SMTP.php';
-require dirname(__FILE__) . '/' . $version . '/PHPMailer/src/OAuth.php';
+require dirname(__FILE__) . '/PHPMailer/src/PHPMailer.php';
+require dirname(__FILE__) . '/PHPMailer/src/Exception.php';
+require dirname(__FILE__) . '/PHPMailer/src/SMTP.php';
+require dirname(__FILE__) . '/PHPMailer/src/OAuth.php';
 
 $data['nama'] = $_GET['nama'];
 $data['email'] = $_GET['email'];
