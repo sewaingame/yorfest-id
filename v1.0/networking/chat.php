@@ -75,7 +75,7 @@
                                           <div class="col-2 col-md-2 title">Email:</div>
                                           <div class="col-10 col-md-10 text-right chat_detail_email">072 143 9920</div>
                                        </div>
-                                       <hr>
+                                       <hr style="display:none;">
                                        <div class="row" style="display:none;">
                                           <div class="col-2 col-md-2 title">Birth:</div>
                                           <div class="col-10 col-md-10 text-right chat_detail_birth">July 12, 1989</div>
