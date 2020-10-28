@@ -19,7 +19,7 @@
     [{
       "name" : "Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi",
       "time" : "09.57",
-      "endTime" : "10.20"
+      "endTime" : "10.15"
     },{
       "name" : "Sambutan dari Presiden Republik Indonesia",
       "time" : "10.15",
@@ -54,7 +54,7 @@
       "endTime" : "13.45"
     },{
       "name" : "Bulk Source",
-      "time" : "13.30",
+      "time" : "13.45",
       "endTime" : "14.00"
     },{
       "name" : "Cocona",
