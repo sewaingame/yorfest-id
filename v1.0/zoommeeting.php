@@ -95,10 +95,6 @@
 		</section>
 		<!-- ts intro end-->
 
-			<!-- footer start-->
-    <?php include 'footer.php';  ?>
-		<!-- ts footer area end-->
-
 
       <!-- Javascript Files
             ================================================== -->
