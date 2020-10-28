@@ -3,13 +3,13 @@
   $zoom = '[
     {
       "meetingid" : "84212961118",
-      "password" : "YORFest2",
+      "password" : "YORFest20",
       "pwd": "b1ZDWVBlK1JjZElKbEdZaHRJOE5wdz09",
       "day" : "Wednesday",
       "date" : "28-10-2020"
     },{
       "meetingid" : "84212961118",
-      "password" : "YORFest2",
+      "password" : "YORFest20",
       "pwd": "b1ZDWVBlK1JjZElKbEdZaHRJOE5wdz09",
       "day" : "Wednesday",
       "date" : "28-10-2020"
