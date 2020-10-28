@@ -3,13 +3,13 @@
   $zoom = '[
     {
       "meetingid" : "84212961118",
-      "password" : "YORFest2",
+      "password" : "YORFest20",
       "pwd": "b1ZDWVBlK1JjZElKbEdZaHRJOE5wdz09",
       "day" : "Wednesday",
       "date" : "28-10-2020"
     },{
       "meetingid" : "84212961118",
-      "password" : "YORFest2",
+      "password" : "YORFest20",
       "pwd": "b1ZDWVBlK1JjZElKbEdZaHRJOE5wdz09",
       "day" : "Wednesday",
       "date" : "28-10-2020"
@@ -17,68 +17,8 @@
 
   $rd = '[
     [{
-      "name" : "Keynote by Wakil Menteri Desa, Pembangunan Daerah Tertinggal & Transmigrasi",
+      "name" : "Young Organic Fest Virtual Conference",
       "time" : "09.57",
-      "endTime" : "10.20"
-    },{
-      "name" : "Sambutan dari Presiden Republik Indonesia",
-      "time" : "10.15",
-      "endTime" : "10.20"
-    },{
-      "name" : "Sambutan Dari Ketua Umum HKTI (Himpunan Kerukunan Tani Indonesia) ",
-      "time" : "10.20",
-      "endTime" : "10.30"
-    },{
-      "name" : "Bupati Banyuwangi",
-      "time" : "10.30",
-      "endTime" : "10.45"
-    },{
-      "name" : "Boja Farm",
-      "time" : "10.45",
-      "endTime" : "11.00"
-    },{
-      "name" : "Tari Dana",
-      "time" : "11.00",
-      "endTime" : "11.15"
-    },{
-      "name" : "Agra Daya",
-      "time" : "11.15",
-      "endTime" : "12.15"
-    },{
-      "name" : "The Learning farm",
-      "time" : "13.15",
-      "endTime" : "13.30"
-    },{
-      "name" : "Ladang Lima",
-      "time" : "13.30",
-      "endTime" : "13.45"
-    },{
-      "name" : "Bulk Source",
-      "time" : "13.30",
-      "endTime" : "14.00"
-    },{
-      "name" : "Cocona",
-      "time" : "14.00",
-      "endTime" : "14.45"
-    },{
-      "name" : "Dirjen Pengembangan Ekspor Nasional, Kementrian Perdagangan",
-      "time" : "14.45",
-      "endTime" : "15.00"
-    },{
-      "name" : "Indonesia Trade Promotion Center di Osaka",
-      "time" : "15.00",
-      "endTime" : "15.15"
-    },{
-      "name" : "JAGAPATI.COM",
-      "time" : "15.15",
-      "endTime" : "15.30"
-    },{
-      "name" : "IndoCon GmbH",
-      "time" : "15.30",
-      "endTime" : "16.30"
-    },{
-      "name" : "GENPI Nasional",
-      "time" : "16.30",
       "endTime" : "17.00"
     }],
 
