@@ -69,8 +69,9 @@
          </div>
       </section>
       <!-- banner end-->
+	  
       <!--count down start-->
-      <section class="ts-count-down">
+      <!--<section class="ts-count-down">
          <div class="container">
             <div class="row">
                <div class="col-lg-10 mx-auto">
@@ -98,7 +99,7 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> -->
       <!-- ts intro start -->
       <section class="ts-event-outcome event-intro" style="background:#fff;">
          <div class="container">
