@@ -12,7 +12,7 @@
       "password" : "YORFest20",
       "pwd": "b1ZDWVBlK1JjZElKbEdZaHRJOE5wdz09",
       "day" : "Wednesday",
-      "date" : "28-10-2020"
+      "date" : "29-10-2020"
     }]';
 
   $rd = '[
@@ -21,64 +21,6 @@
       "time" : "09.57",
       "endTime" : "17.00"
     }],
-
-    [{
-      "name" : "Opening Keynote Green Slank",
-      "time" : "10.00",
-      "endTime" : "10.15"
-    },{
-      "name" : "Bio Cert",
-      "time" : "10.15",
-      "endTime" : "11.00"
-    },{
-      "name" : "Certifier",
-      "time" : "11.00",
-      "endTime" : "11.30"
-    },{
-      "name" : "Q & A",
-      "time" : "11.30",
-      "endTime" : "12.00"
-    },{
-      "name" : "Lunch",
-      "time" : "12.00",
-      "endTime" : "13.15"
-    },{
-      "name" : "Keynote",
-      "time" : "13.15",
-      "endTime" : "13.30"
-    },{
-      "name" : "Triasindo Royal Agro",
-      "time" : "13.30",
-      "endTime" : "14.15"
-    },{
-      "name" : "Pupuk Organik Gunung Salak",
-      "time" : "14.15",
-      "endTime" : "15.00"
-    },{
-      "name" : "Q & A",
-      "time" : "15.00",
-      "endTime" : "15.45"
-    },{
-      "name" : "Komunitas Organik Indonesia",
-      "time" : "15.45",
-      "endTime" : "16.00"
-    },{
-      "name" : "Crowde Funds",
-      "time" : "16.00",
-      "endTime" : "16.15"
-    },{
-      "name" : "SPIND.id",
-      "time" : "16.15",
-      "endTime" : "16.30"
-    },{
-      "name" : "LOJIN.CO.ID",
-      "time" : "16.30",
-      "endTime" : "16.45"
-    },{
-      "name" : "Q & A",
-      "time" : "16.45",
-      "endTime" : "17.30"
-    }]
     ]';
 
   date_default_timezone_set("Asia/Jakarta");
