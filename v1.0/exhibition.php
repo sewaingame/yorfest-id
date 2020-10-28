@@ -62,38 +62,7 @@
 
 		</section>
 
-      <!-- ts footer area start-->
-
-         <footer class="ts-footer" >
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-8 mx-auto">
-                     <div class="ts-footer-social text-center mb-30">
-                        <ul>
-                           <li>
-                              <a href="#"><i class="fa fa-facebook"></i></a>
-                           </li>
-                           <li>
-                              <a href="#"><i class="fa fa-twitter"></i></a>
-                           </li>
-                           <li>
-                              <a href="#"><i class="fa fa-linkedin"></i></a>
-                           </li>
-                           <li>
-                              <a href="#"><i class="fa fa-instagram"></i></a>
-                           </li>
-                        </ul>
-                     </div>
-                    
-         <!-- footer end-->
-
-
-                  <div class="BackTo">
-                              <a href="#" class="fa fa-angle-up" aria-hidden="true"></a>
-                          </div>
-
-		</div>
-		<!-- ts footer area end-->
+     
 
 
 

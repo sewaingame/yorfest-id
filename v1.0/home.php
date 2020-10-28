@@ -232,7 +232,7 @@
                         <p>
                            Fitur ini menjadi media komunikasi antara pembicara, peserta dan peminat untuk bertemu & berkenalan dengan sesama pegiat organik. Bangun jaringan anda dengan  bergabung di Organic Networking Space.
                         </p>
-                        <a href="#" class="btn">JOIN NETWORKING</a>
+                        <a href="networking/?p=2&c=0" class="btn">JOIN NETWORKING</a>
                      </div>
                   </div>
                </div>
@@ -298,7 +298,7 @@
                                        </p>
                                        <h4>28 Oktober 2020</h4>
                                        <span>
-                                       10.20 - 10.40 WIB
+                                       10.30 - 10.45 WIB
                                        </span>
                                     </div>
                                  </div>
@@ -354,7 +354,7 @@
                                        </p>
                                        <h4>28 Oktober 2020</h4>
                                        <span>
-                                       11.15 - 11.30 WIB
+                                       11.00 - 11.15 WIB
                                        </span>
                                     </div>
                                  </div>
@@ -389,7 +389,7 @@
                      <div class="row">
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-img">
-                              <img src="images/speakers/speaker2.jpg" alt="">
+                              <img src="images/speakers/speaker3.jpg" alt="">
                            </div>
                         </div>
                         <!-- col end-->
@@ -410,7 +410,7 @@
                                        </p>
                                        <h4>28 Oktober 2020</h4>
                                        <span>
-                                       15.30 - 15.45 WIB
+                                       15.15 - 15.30 WIB
                                        </span>
                                     </div>
                                  </div>
@@ -462,11 +462,11 @@
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="speaker-session-info">
-                                       <p>Closing Sessions
+                                       <p>Opening Sessions
                                        </p>
                                        <h4>28 Oktober 2020</h4>
                                        <span>
-                                       16.45 - 17.00 WIB
+                                       10.20 - 10.30 WIB
                                        </span>
                                     </div>
                                  </div>
@@ -522,7 +522,7 @@
                                        </p>
                                        <h4>29 Oktober 2020</h4>
                                        <span>
-                                       10.00 - 10.10 WIB
+                                       10.00 - 10.15 WIB
                                        </span>
                                     </div>
                                  </div>
@@ -557,7 +557,7 @@
                      <div class="row">
                         <div class="col-lg-6">
                            <div class="ts-speaker-popup-img">
-                              <img src="images/speakers/speaker1.jpg" alt="">
+                              <img src="images/speakers/speaker6.jpg" alt="">
                            </div>
                         </div>
                         <!-- col end-->
@@ -690,7 +690,7 @@
                                        </p>
                                        <h4>29 Oktober 2020</h4>
                                        <span>
-                                       16.00 - 16.30 WIB
+                                       16.15 - 16.30 WIB
                                        </span>
                                     </div>
                                  </div>
