@@ -2,13 +2,17 @@
 <html lang="en">
    <!-- index-515:19-->
    <head>
-      <!-- Basic Page Needs ================================================== -->
+       <!-- Basic Page Needs ================================================== -->
       <meta charset="utf-8">
       <!-- Mobile Specific Metas ================================================== -->
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+      <meta name ="description" content="Young organic festival 2020">
+      <meta name ="og;description" content="Young organic festival 2020">
+      <meta name ="og;url" content="https;//yorfest.id/">
       <!-- Site Title -->
-      <title>Exhibz - Conference &amp; Event HTML Template</title>
+      <title>YORFEST - 2020 &amp; YOUNG ORGANIC FESTIVAL 2020 </title>
+      <link rel="shortcut icon" type="image/x-icon" href="images/logo_tab.png">
       <!-- CSS
          ================================================== -->
       <!-- Bootstrap -->
