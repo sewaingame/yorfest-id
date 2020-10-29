@@ -26,7 +26,7 @@
       "name" : "Young Organic Fest Virtual Conference",
       "time" : "09.57",
       "endTime" : "17.00"
-    }],
+    }]
     ]';
 
   date_default_timezone_set("Asia/Jakarta");
