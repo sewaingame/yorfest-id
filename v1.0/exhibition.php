@@ -50,10 +50,7 @@
 
 <body>
    <div class="body-inner">
-    
-<?php
-  include "checksession.php";
-?>
+
       <!-- ts intro start -->
 
 
