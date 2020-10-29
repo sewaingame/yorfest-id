@@ -50,7 +50,7 @@
                <div class="text-center">
                   <h2>Schedule </h2>
                   <ol class="breadcrumb">
-                     <a href="zoom.php?g=0" class="btn">JOIN NOW</a>
+                     <a href="zoom.php?g=1" class="btn">JOIN NOW</a>
                   </ol>
                </div>
             </div>
