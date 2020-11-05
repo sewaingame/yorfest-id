@@ -1,6 +1,6 @@
 <?php
-  $domain = 'yorfest.id';
-  $sender = "noreply@yorfest.id";
+  $domain = 'iogconvention.com';
+  $sender = "noreply@iogconvention.com";
   $sendername = "YORFest 2020";
   $password = 'chelsea2018';
   $subject = '[VERIFIKASI EMAIL] YORFest 2020';
