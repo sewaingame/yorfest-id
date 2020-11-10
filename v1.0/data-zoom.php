@@ -4,7 +4,7 @@
     {
       "meetingid" : "77981566770",
       "password" : "8YF36d",
-      "pwd": "b1ZDWVBlK1JjZElKbEdZaHRJOE5wdz09",
+      "pwd": "ZS9lMkVvWTZBMk50Qk5IZ01QdVJ6QT09",
       "day" : "Tuesday",
       "date" : "10-11-2020"
     },{
