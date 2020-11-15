@@ -2,17 +2,17 @@
 
   $zoom = '[
     {
-      "meetingid" : "84212961118",
-      "password" : "YORFest20",
-      "pwd": "b1ZDWVBlK1JjZElKbEdZaHRJOE5wdz09",
-      "day" : "Wednesday",
-      "date" : "28-10-2020"
+      "meetingid" : "77981566770",
+      "password" : "8YF36d",
+      "pwd": "ZS9lMkVvWTZBMk50Qk5IZ01QdVJ6QT09",
+      "day" : "Tuesday",
+      "date" : "10-11-2020"
     },{
-      "meetingid" : "84212961118",
-      "password" : "YORFest20",
-      "pwd": "b1ZDWVBlK1JjZElKbEdZaHRJOE5wdz09",
-      "day" : "Wednesday",
-      "date" : "29-10-2020"
+      "meetingid" : "77981566770",
+      "password" : "8YF36d",
+      "day" : "Tuesday",
+      "pwd": "ZS9lMkVvWTZBMk50Qk5IZ01QdVJ6QT09",
+      "date" : "10-11-2020"
     }]';
 
   $rd = '[
