@@ -1,8 +1,8 @@
 <?php
-  $domain = 'iogconvention.com';
-  $sender = "noreply@iogconvention.com";
+  $domain = 'iogconvention2020.com';
+  $sender = "noreply@iogconvention2020.com";
   $sendername = "YORFest 2020";
-  $password = 'chelsea2018';
+  $password = 'chelsea2020';
   $subject = '[VERIFIKASI EMAIL] YORFest 2020';
   $subjectReset = '[RESET PASSWORD] YORFest 2020';
   $smtpaddress = 'jupiter.webmail.co.id';
