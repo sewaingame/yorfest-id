@@ -1,0 +1,4 @@
+<br />
+<b>Warning</b>:  filesize(): stat failed for ../../images/card.png in <b>D:\XAMPP\htdocs\yorfest2020\v1.0\networking\downloadfile.php</b> on line <b>5</b><br />
+<br />
+<b>Warning</b>:  readfile(../../images/card.png): Failed to open stream: No such file or directory in <b>D:\XAMPP\htdocs\yorfest2020\v1.0\networking\downloadfile.php</b> on line <b>6</b><br />
